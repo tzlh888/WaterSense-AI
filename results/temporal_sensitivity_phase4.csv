@@ -1,0 +1,2 @@
+model,candidate_id,feature_set,train_period,test_period,train_rows,test_rows,mae,rmse,r2
+Random Forest,rf_leaf2,D_extended_plus_temporal,1990-2018,2019-2024,132766,18265,0.6570153486941331,0.9215946031657326,0.6749499296516432

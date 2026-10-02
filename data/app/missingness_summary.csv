@@ -1,0 +1,11 @@
+feature,measurement,missing_count,missing_percent
+dissolved_oxygen_mg_l,Dissolved oxygen,0,0.0
+bod_mg_l,BOD,5218,3.4549198508915384
+ammonia_n_mg_l,Ammonia as N,755,0.4998973720626891
+nitrite_n_mg_l,Nitrite as N,9805,6.492044679569095
+nitrate_n_mg_l,Nitrate as N,10380,6.872761221206243
+soluble_reactive_phosphorus_mg_l,Soluble reactive phosphorus,7459,4.9387211896895336
+ph,pH,1893,1.2533850666419477
+alkalinity_mg_l,Alkalinity,32803,21.719382113605818
+conductivity_us_cm,Conductivity,39345,26.05094318384967
+suspended_solids_mg_l,Suspended solids,38943,25.784772662565963

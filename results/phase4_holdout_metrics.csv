@@ -1,0 +1,2 @@
+model,candidate_id,feature_set,validation,train_rows,test_rows,train_stations,test_stations,station_overlap,mae,rmse,r2
+Random Forest,rf_leaf2,D_extended_plus_temporal,sealed_station_grouped_holdout,119690,31341,672,168,0,0.8311906043664727,1.291061082666924,0.5390543500024132

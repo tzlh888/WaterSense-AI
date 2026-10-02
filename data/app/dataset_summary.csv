@@ -1,0 +1,9 @@
+metric,value
+modelling_observations,151031
+eligible_stations,840
+first_sample,1990-01-02
+last_sample,2024-12-11
+training_observations,119690
+training_stations,672
+test_observations,31341
+test_stations,168
