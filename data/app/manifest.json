@@ -1,0 +1,11 @@
+{
+  "generator": "scripts/build_app_artifacts.py",
+  "source": "data/processed/water_quality_modeling.csv",
+  "source_sha256": "5685c2c352b1cc9502cd664736d85295580127016fb60bdca45c082c5d031761",
+  "source_rows": 151031,
+  "training_rows": 119690,
+  "test_rows": 31341,
+  "explorer_sample_rows": 14757,
+  "holdout_prediction_sample_rows": 5000,
+  "sampling_random_state": 42
+}

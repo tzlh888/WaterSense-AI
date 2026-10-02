@@ -1,0 +1,19 @@
+{
+  "random_state": 42,
+  "grouped_holdout": {
+    "train_rows": 119690,
+    "test_rows": 31341,
+    "train_stations": 672,
+    "test_stations": 168,
+    "station_overlap": []
+  },
+  "temporal_sensitivity": {
+    "train_period": "1990-2018",
+    "test_period": "2019-2024",
+    "train_rows": 132766,
+    "test_rows": 18265
+  },
+  "best_baseline_by_grouped_holdout_mae": "Random Forest",
+  "low_do_boundary_mg_l": 8.1,
+  "high_do_boundary_mg_l": 12.3
+}

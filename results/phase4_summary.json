@@ -1,0 +1,161 @@
+{
+  "sealed_holdout": {
+    "train_rows": 119690,
+    "test_rows": 31341,
+    "train_stations": 672,
+    "test_stations": 168,
+    "station_overlap": 0
+  },
+  "feature_comparison_model": "HistGradientBoosting",
+  "selected_model": "Random Forest",
+  "selected_candidate_id": "rf_leaf2",
+  "selected_parameters": {
+    "max_depth": null,
+    "max_features": 0.8,
+    "min_samples_leaf": 2,
+    "n_estimators": 150
+  },
+  "selected_feature_set": "D_extended_plus_temporal",
+  "selected_features": [
+    "bod_mg_l",
+    "ammonia_n_mg_l",
+    "nitrite_n_mg_l",
+    "nitrate_n_mg_l",
+    "soluble_reactive_phosphorus_mg_l",
+    "ph",
+    "bod_is_below_limit",
+    "bod_is_above_limit",
+    "ammonia_is_below_limit",
+    "ammonia_is_above_limit",
+    "nitrite_is_below_limit",
+    "nitrite_is_above_limit",
+    "nitrate_is_below_limit",
+    "nitrate_is_above_limit",
+    "phosphorus_is_below_limit",
+    "phosphorus_is_above_limit",
+    "alkalinity_mg_l",
+    "conductivity_us_cm",
+    "suspended_solids_mg_l",
+    "alkalinity_is_below_limit",
+    "alkalinity_is_above_limit",
+    "suspended_solids_is_below_limit",
+    "suspended_solids_is_above_limit",
+    "day_of_year_sin",
+    "day_of_year_cos"
+  ],
+  "selection_cv": {
+    "cv_mae_mean": 0.8797652491225746,
+    "cv_mae_std": 0.03533050969138161,
+    "cv_rmse_mean": 1.3924172926298484,
+    "cv_r2_mean": 0.5097140192642579
+  },
+  "holdout_metrics": {
+    "mae": 0.8311906043664727,
+    "rmse": 1.291061082666924,
+    "r2": 0.5390543500024132
+  },
+  "phase3_random_forest_mae": 1.1813334268768254,
+  "absolute_mae_improvement": 0.35014282251035267,
+  "percentage_mae_improvement": 29.63962709800314,
+  "lowest_10_percent": {
+    "rows": 3308.0,
+    "minimum_actual_do_mg_l": 0.5,
+    "maximum_actual_do_mg_l": 8.1,
+    "mae_mg_l": 1.8120613995740378,
+    "rmse_mg_l": 2.2176335639614324,
+    "mean_residual_mg_l": -1.6842119774877717,
+    "median_residual_mg_l": -1.554498244348244,
+    "percent_overpredicted": 89.96372430471584,
+    "percent_underpredicted": 10.036275695284159
+  },
+  "highest_10_percent": {
+    "rows": 3540.0,
+    "minimum_actual_do_mg_l": 12.3,
+    "maximum_actual_do_mg_l": 32.5,
+    "mae_mg_l": 1.3963101995778358,
+    "rmse_mg_l": 2.3052474955936373,
+    "mean_residual_mg_l": 1.3580530859471636,
+    "median_residual_mg_l": 0.9502842592592593,
+    "percent_overpredicted": 5.169491525423728,
+    "percent_underpredicted": 94.83050847457626
+  },
+  "temporal_sensitivity": {
+    "mae": 0.6570153486941331,
+    "rmse": 0.9215946031657326,
+    "r2": 0.6749499296516432
+  },
+  "top_permutation_features": [
+    {
+      "input_feature": "day_of_year_cos",
+      "mae_increase_mean": 0.44659771323823527,
+      "mae_increase_std": 0.0031101801745170563
+    },
+    {
+      "input_feature": "ph",
+      "mae_increase_mean": 0.32226809873716894,
+      "mae_increase_std": 0.0038452097618765124
+    },
+    {
+      "input_feature": "day_of_year_sin",
+      "mae_increase_mean": 0.2913561027843828,
+      "mae_increase_std": 0.001757079060567831
+    },
+    {
+      "input_feature": "alkalinity_mg_l",
+      "mae_increase_mean": 0.14964565355652737,
+      "mae_increase_std": 0.0024086901048186015
+    },
+    {
+      "input_feature": "nitrate_n_mg_l",
+      "mae_increase_mean": 0.08282875469282662,
+      "mae_increase_std": 0.0020056468098787967
+    },
+    {
+      "input_feature": "nitrite_n_mg_l",
+      "mae_increase_mean": 0.07984531862042724,
+      "mae_increase_std": 0.0009901627563406715
+    },
+    {
+      "input_feature": "conductivity_us_cm",
+      "mae_increase_mean": 0.07979117814958492,
+      "mae_increase_std": 0.0019559074778519128
+    },
+    {
+      "input_feature": "ammonia_n_mg_l",
+      "mae_increase_mean": 0.05282585667057567,
+      "mae_increase_std": 0.0008664157838835496
+    },
+    {
+      "input_feature": "soluble_reactive_phosphorus_mg_l",
+      "mae_increase_mean": 0.04994404144558251,
+      "mae_increase_std": 0.0003917184684886535
+    },
+    {
+      "input_feature": "bod_mg_l",
+      "mae_increase_mean": 0.02525306665524398,
+      "mae_increase_std": 0.0006073608445610464
+    }
+  ],
+  "error_percentiles": [
+    {
+      "scope": "all_group_cv_validation_rows",
+      "percentile": 0.5,
+      "absolute_error_mg_l": 0.5922186507936482
+    },
+    {
+      "scope": "all_group_cv_validation_rows",
+      "percentile": 0.75,
+      "absolute_error_mg_l": 1.1173809523809495
+    },
+    {
+      "scope": "all_group_cv_validation_rows",
+      "percentile": 0.9,
+      "absolute_error_mg_l": 1.9083904761904753
+    },
+    {
+      "scope": "all_group_cv_validation_rows",
+      "percentile": 0.95,
+      "absolute_error_mg_l": 2.6224692857142875
+    }
+  ]
+}
