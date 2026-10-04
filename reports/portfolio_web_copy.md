@@ -1,5 +1,7 @@
 # WaterSense AI — Portfolio Website Copy
 
+Historical Phase 4/7 copy. For the completed spatial/temporal study and current application wording, use [application materials](../docs/application_materials.md) and the [research report](../research_outputs/reports/RESEARCH_RESULTS.md). The earlier results below are preserved as development history.
+
 ## Project title
 
 WaterSense AI
@@ -26,7 +28,7 @@ Random Forest holdout MAE: 0.831 mg/L on 168 stations absent from training, with
 
 ## Main challenge
 
-Repeated station measurements, censoring and missingness made ordinary random-row validation scientifically weak and potentially optimistic.
+Repeated station measurements, censoring and missingness required an explicit validation question. Random rows test familiar-site interpolation rather than unseen-station transfer; the later measured comparison did not show lower random-split MAE.
 
 ## Main insight
 

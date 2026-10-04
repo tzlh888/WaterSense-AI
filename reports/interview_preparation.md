@@ -1,5 +1,7 @@
 # WaterSense AI — Interview Preparation
 
+Historical Phase 3/4 preparation, retained to document earlier work. For the completed temporal/spatiotemporal and calibrated prediction-interval study, use the [current application materials and 12 interview frameworks](../docs/application_materials.md). Statements about uncompleted uncertainty work below describe that earlier phase.
+
 ## Dataset
 
 ### 1. Why did you choose this dataset?

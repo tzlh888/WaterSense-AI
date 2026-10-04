@@ -1,0 +1,2 @@
+strategy,sample_count,mae,rmse,r2,bias,mean_actual,mean_predicted,median_absolute_error,p90_absolute_error,p95_absolute_error,train_rows,test_rows,train_stations,test_stations,station_overlap
+2019–2021 calibration (not final test),8589,0.6380676801961639,0.8815519162104709,0.6826498597604895,-0.021010083181889218,10.558539993014321,10.579550076196211,0.4787809523809514,1.3507556613756628,1.7406504761904773,132766,8589,832,508,506

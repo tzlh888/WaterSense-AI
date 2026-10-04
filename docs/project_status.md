@@ -1,7 +1,8 @@
 # Project status
 
-**Current phase:** Phase 7 — public-release and deployment preparation  
-**Scientific objective:** Estimate contemporaneously measured dissolved oxygen from physicochemical river-monitoring variables at previously unseen monitoring stations.
+**Current phase:** Research development complete — final communication and application packaging.
+
+**Scientific objective:** Evaluate spatial and temporal generalization in dissolved-oxygen prediction, including where aggregate errors conceal poor reliability.
 
 ## Completed
 
@@ -12,6 +13,9 @@
 - training-only missing-value imputation
 - station-grouped holdout validation
 - five-fold station-grouped cross-validation
+- random-row, temporal and spatiotemporal comparison with fixed model settings
+- separately calibrated residual prediction intervals and subgroup empirical coverage
+- reproducible research runner, saved predictions, distribution-shift analysis and checksum verification
 - baseline regression modelling
 - scientifically bounded feature-set refinement
 - modest Random Forest and HistGradientBoosting comparison/tuning
@@ -28,24 +32,26 @@
 ## Not completed
 
 - production deployment
-- public GitHub repository and live URL
+- a verified public live demo URL (none is claimed in the README)
 - regulatory or operational validation
 - causal modelling
-- formal prediction-interval or uncertainty modelling
+- prospective or externally validated prediction-interval guarantees
 - external geographic validation
 - future river-condition forecasting
 
 ## Verified current result
 
-The selected extended-plus-temporal Random Forest achieved training-only group-CV MAE **0.880 ± 0.035 mg/L** and final untouched 168-station holdout MAE **0.831 mg/L**, RMSE **1.291 mg/L** and R² **0.539**.
+The full-feature Random Forest achieved station-grouped five-fold CV MAE **0.8798 ± 0.0353 mg/L** (fold SD). The unseen-station holdout has MAE **0.8312 mg/L**, RMSE **1.2911 mg/L** and R² **0.5391**. This is now a previously inspected retrospective holdout, not a fresh external test.
 
-Lowest-decile observations remain difficult: MAE is **1.812 mg/L** and **89.964%** are overpredicted. The model is an educational research prototype, not a water-safety or regulatory system.
+The completed [research report](../research_outputs/reports/RESEARCH_RESULTS.md) compares random, unseen-station, temporal and spatiotemporal settings. Spatiotemporal MAE is **0.6918 mg/L**, but all **14** observations below 4 mg/L were overpredicted, with MAE **4.7678 mg/L**. This small subgroup is a warning signal, not evidence of universal systematic bias. Separate research prediction intervals also had poorer low-DO coverage; none is attached to the deployed estimator.
+
+Historical Phase 4 lowest-decile observations remain difficult: MAE is **1.812 mg/L** and **89.964%** are overpredicted. This decile is distinct from the research DO <4 mg/L subgroup. The model is an educational research prototype, not a water-safety or regulatory system.
 
 ## Potential future work
 
 - add water temperature if a scientifically compatible dataset can be linked
 - integrate flow measurements and other physical context
-- test external-region generalisation with a new untouched dataset
+- test external-region generalization with a new untouched dataset
 - investigate models or objectives designed for extreme DO behaviour
-- develop formal, justified uncertainty estimates
+- investigate calibration under station/time dependence and rare low-DO conditions
 - assess external validation and formal uncertainty before considering any operational use

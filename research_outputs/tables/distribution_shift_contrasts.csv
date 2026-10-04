@@ -1,0 +1,13 @@
+comparison,feature,standardized_mean_difference
+group,day_of_year_cos,0.0009808396960971745
+temporal,day_of_year_cos,-0.00646292063269151
+group,ph,0.007823170907476053
+temporal,ph,-0.05767341677375877
+group,day_of_year_sin,0.0010657514718765597
+temporal,day_of_year_sin,0.03827863054153722
+group,alkalinity_mg_l,0.007428234348548617
+temporal,alkalinity_mg_l,-0.014586021901833935
+group,nitrate_n_mg_l,-0.004611841943490606
+temporal,nitrate_n_mg_l,-0.17291804961381016
+group,nitrite_n_mg_l,0.00494528207011192
+temporal,nitrite_n_mg_l,-0.24827070287452757
