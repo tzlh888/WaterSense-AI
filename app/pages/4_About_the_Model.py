@@ -22,6 +22,21 @@ render_page_intro(
 )
 render_disclaimer()
 
+st.header("Research question and evaluation scope")
+st.write(
+    "How well can machine-learning models predict dissolved oxygen and generalize across unseen monitoring stations and future time periods? "
+    "The Model Performance page compares random rows, station groups, and training through 2018 with "
+    "2019–2021 calibration and 2022–2024 testing, plus a spatiotemporal holdout trained through 2021 "
+    "and tested on 2022–2024 observations at entirely excluded stations. It also reports ablation, error analysis, prediction "
+    "interval coverage, and distribution shift. The deployed estimator retains the verified Phase 4 artifact."
+)
+st.warning(
+    "Predictions do not directly measure dissolved oxygen and must not replace field or laboratory measurements. "
+    "Validation metrics apply to specific evaluation designs, not universal performance. Unseen stations, later "
+    "years and unusual chemistry may be less reliable; environmental relationships can change over time. "
+    "The data are observational and predictive importance is not evidence of causation."
+)
+
 left, right = st.columns(2)
 with left:
     st.header("Dataset")
@@ -67,10 +82,13 @@ st.write(
 st.header("Limitations")
 limitations = st.columns(3)
 limitations[0].markdown("**Missing physical context**\n\nNo water temperature or flow measurements are available.")
-limitations[1].markdown("**Bounded generalisation**\n\nThe evidence covers Northern Ireland rivers and contemporaneous estimation only.")
+limitations[1].markdown("**Bounded generalization**\n\nThe evidence covers Northern Ireland rivers and contemporaneous estimation only.")
 limitations[2].markdown("**Extreme-value weakness**\n\nLow and high observed DO values are often predicted closer to the middle.")
 st.markdown(
-    "The model has no causal, regulatory, safety, medical, public-health or future-forecasting validation. Empirical error percentiles are not formal prediction intervals."
+    "The model has no causal, regulatory, safety, medical, public-health or future-forecasting validation. "
+    "Later-year testing still uses contemporaneous chemistry. The research study evaluates separate calibrated "
+    "residual intervals; the estimator's historical error percentiles remain descriptive summaries. "
+    "Missing temperature, flow and catchment context may limit performance."
 )
 
 st.header("How the Project Evolved")

@@ -31,3 +31,7 @@ Thumbs.db
 *.tmp
 *.swp
 *~
+
+# Partial and smoke research runs; full research_outputs are public evidence.
+research_runs/
+docs/application_materials.md

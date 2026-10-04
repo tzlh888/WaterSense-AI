@@ -1,0 +1,14 @@
+| comparison | feature | standardized_mean_difference |
+| --- | --- | --- |
+| group | day_of_year_cos | 0.0010 |
+| temporal | day_of_year_cos | -0.0065 |
+| group | ph | 0.0078 |
+| temporal | ph | -0.0577 |
+| group | day_of_year_sin | 0.0011 |
+| temporal | day_of_year_sin | 0.0383 |
+| group | alkalinity_mg_l | 0.0074 |
+| temporal | alkalinity_mg_l | -0.0146 |
+| group | nitrate_n_mg_l | -0.0046 |
+| temporal | nitrate_n_mg_l | -0.1729 |
+| group | nitrite_n_mg_l | 0.0049 |
+| temporal | nitrite_n_mg_l | -0.2483 |

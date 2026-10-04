@@ -11,7 +11,7 @@ configure_page("Home")
 render_page_intro(
     "Educational environmental machine learning",
     "WaterSense AI",
-    "Machine-learning analysis of long-term river-monitoring data. WaterSense AI explores whether models can estimate dissolved oxygen from physicochemical measurements collected by monitoring programmes.",
+    "Evaluating Spatial and Temporal Generalization in Machine-Learning-Based Dissolved Oxygen Prediction",
 )
 render_disclaimer()
 
@@ -31,10 +31,14 @@ left, right = st.columns([1.45, 1])
 with left:
     st.header("Research Question")
     st.markdown(
-        "> Can machine-learning models estimate contemporaneously measured dissolved oxygen from physicochemical river-monitoring variables at previously unseen monitoring stations?"
+        "> How well can machine-learning models predict dissolved oxygen and generalize across unseen monitoring stations and future time periods?"
     )
     st.write(
-        "The final model is a Random Forest selected through five-fold station-grouped cross-validation. The final test set contains 31,341 observations from 168 monitoring stations that never appeared in training."
+        "This reproducible machine-learning study evaluates random rows, unseen monitoring stations, "
+        "future years and future years at unseen stations using a fixed Random Forest. "
+        "Its secondary question is where predictions fail even when average errors appear acceptable. "
+        "Model Performance contains the new results and limitations. The interactive estimator retains the "
+        "Phase 4 model selected by grouped cross-validation and evaluated on 168 held-out stations."
     )
 with right:
     st.markdown(
@@ -61,7 +65,7 @@ with col1:
     )
 with col2:
     st.warning(
-        "The model is less accurate at unusually low and high dissolved-oxygen values. It does not determine safety, predict future conditions, or establish causes."
+        "Observed prediction errors are larger at unusually low and high dissolved-oxygen values. The model does not determine safety, forecast unknown future conditions, or establish causes."
     )
 
 scope = st.columns(2)

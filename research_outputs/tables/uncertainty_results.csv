@@ -1,0 +1,3 @@
+experiment,target_coverage,empirical_coverage,mean_interval_width,radius,calibration_rows,calibration_stations,test_rows,test_stations,point_mae
+Station calibration,0.9,0.9172330174531763,4.016565079365082,2.0082825396825417,22855,135,31341,168,0.8419138837912211
+Temporal calibration,0.9,0.8930343116990492,2.7018042328042373,1.3509021164021187,8589,508,9676,508,0.672983988298161

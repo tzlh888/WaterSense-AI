@@ -15,6 +15,7 @@ if str(APP_DIR) not in sys.path:
 
 from utils.app_helpers import configure_page, render_disclaimer, render_page_intro
 from utils.data_loader import load_app_table, load_result_table
+from utils.research_view import render_research_results
 
 
 configure_page("Model Performance")
@@ -24,6 +25,10 @@ render_page_intro(
     "From baseline models to grouped validation, feature refinement and the final error analysis.",
 )
 render_disclaimer()
+
+render_research_results()
+st.divider()
+st.header("Historical Phase 3/4 model development")
 
 st.header("1. Baseline models")
 st.write(

@@ -1,0 +1,7 @@
+variable,spearman_r_with_mae,eligible_stations
+sample_count,0.22147567861203382,159
+unusual_feature_fraction,0.21533443921417442,159
+missing_feature_fraction,-0.09907615696834086,159
+extreme_do_fraction,-0.2494980721517381,159
+recent_fraction,-0.27857372686180254,159
+largest_year_fraction,-0.12312090196430488,159

@@ -101,7 +101,7 @@ This estimates a contemporaneous measurement, not future oxygen, and does not cl
 - Qualifier columns contain `<` and occasional `>` markers. These are censored measurements, not ordinary missing values. The service notes a half-value rule for Water Framework Directive calculations, but that rule must not be adopted automatically for a different ML objective.
 - Only 14,675 rows are complete across all 13 chemistry results.
 - Sampling intensity varies across stations and years; observations are not independent random draws.
-- A random row split could put the same station and nearby dates into both training and test sets, overstating generalisation.
+- A random row split can put the same station and nearby dates into both training and test sets, testing familiar-site interpolation rather than transfer to unseen stations. The completed research comparison did not show lower random-split MAE; overlap alone does not establish optimism in the measured scores.
 - `X`/`Easting` and `Y`/`Northing` are duplicate fields; `Depth` is constant; `OBJECTID` is only an identifier.
 - Several maxima are far above the corresponding 99th percentile and require record-level investigation, not automatic deletion.
 - Temperature, turbidity and TDS are not included.
