@@ -2,13 +2,13 @@
 
 **Evaluating Spatial and Temporal Generalization in Machine-Learning-Based Dissolved Oxygen Prediction**
 
-WaterSense AI is a reproducible machine-learning study of dissolved oxygen (DO) prediction from routine river-water chemistry. It compares random, spatial, temporal and combined spatial-temporal evaluation, then investigates feature contributions, uncertainty and prediction failures. A Streamlit deployment makes the completed research and its limitations accessible.
+WaterSense AI is a reproducible machine-learning study of dissolved oxygen (DO) prediction from routine river-water chemistry. It tests whether conclusions survive station, time and river-basin separation, repeated spatiotemporal splits, alternative feature sets and fixed model families. A Streamlit deployment makes the completed research and its limitations accessible.
 
-**Research snapshot:** 151,031 modelling observations · 840 monitoring stations · 1990–2024 · station-grouped 5-fold CV · four holdout settings · fixed-seed, checksum-verified outputs.
+**Research snapshot:** 151,031 modelling observations · 840 monitoring stations · 1990–2024 · station-grouped 5-fold CV · exactly 10 predefined spatiotemporal splits · checksum-verified v1.0 and v2.0 outputs.
 
-**Key takeaway:** average errors below 1 mg/L concealed substantially poorer reliability on rare low-oxygen observations.
+**Key takeaway:** repeated spatiotemporal MAE was **0.6793 ± 0.0353 mg/L**, but rare observations below 4 mg/L had per-split MAE of **2.8846–4.7678 mg/L** and were overpredicted in almost every case.
 
-[Full research report](research_outputs/reports/RESEARCH_RESULTS.md) · [Experiment protocol](docs/research_protocol.md) · [Application materials](docs/application_materials.md)
+[v2.0 robustness report](research_outputs_v2/reports/RESEARCH_RESULTS_V2.md) · [v1.0 report](research_outputs/reports/RESEARCH_RESULTS.md) · [Experiment protocol](docs/research_protocol.md)
 
 ## Research Question
 
@@ -28,7 +28,7 @@ NIEA/DAERA **River Water Quality Monitoring 1990–2024 — All Parameters**, pu
 | Modelling dates | 1990-01-02 to 2024-12-11 |
 | Target | Original measured dissolved oxygen, mg/L |
 
-The target is renamed from `DO_mg_l_` to `dissolved_oxygen_mg_l`; missing or qualified targets are excluded. Inputs include pH, nutrients, oxygen-demand measures, solids, alkalinity and conductivity, alongside censor flags and cyclical sampling-date features. No Safe/Unsafe labels are created.
+The target is measured `DO_mg_l_`, renamed to `dissolved_oxygen_mg_l`; missing or qualified targets are excluded. Inputs cover routine chemistry, censor flags and cyclical sampling-date features. No Safe/Unsafe labels are created.
 
 Contains public sector information licensed under the [UK Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). See [source, download, provenance and cleaning details](docs/dataset.md). Raw/full processed data remain ignored; public derived artifacts retain source attribution.
 
@@ -43,59 +43,49 @@ Each split answers a different generalization question; its metrics are not inte
 | Future Years | Later observations, often at previously observed stations | 132,766 / 9,676 | 832 / 508 | 500 |
 | Spatiotemporal Holdout | Later observations at stations completely excluded from training | 120,955 / 1,828 | 733 / 101 | 0 |
 
-**Future Years:** train on 1990–2018, reserve 8,589 observations from 2019–2021 for calibration, and test on 2022–2024. There is no refit on calibration rows.
+Future Years trains on 1990–2018, reserves 2019–2021 for interval calibration and tests on 2022–2024. Spatiotemporal holdout trains on 1990–2021 and tests on 2022–2024 at continuing stations completely excluded from training; seed 42 is the v1.0 partition.
 
-**Spatiotemporal Holdout:** train on 1990–2021 and test on 2022–2024, with strict date separation and no station overlap. Seed 42 selects 101 of **502 continuing stations eligible for holdout selection** (20%, rounded up). The training set includes the other 401 continuing stations **plus 332 historical-only stations**, giving **733 training stations**. The 502 eligible stations are not the entire training population. All selected stations' historical records are excluded; six future-only stations are outside this continuing-station design. No intervals are calibrated for this point-only experiment.
+All settings reuse the fixed Random Forest and fit preprocessing only on training data. The [protocol](docs/research_protocol.md) documents settings, exclusions and split memberships.
 
-All settings reuse the fixed Random Forest: 150 trees, minimum leaf size 2, `max_features=0.8`, seed 42 and 25 inputs. Imputation and scaling are fitted only on each training partition. The [protocol](docs/research_protocol.md) documents exclusions and split memberships.
+v2.0 repeats the spatiotemporal design for the 10 predefined seeds `11, 23, 42, 57, 71, 89, 101, 123, 149, 173`; no seed is selected as best. It also uses existing `PrimaryBasin` metadata for one stricter hydrological split: 48 training and 12 test basins, with zero basin or station overlap. Six modelling stations without basin metadata are excluded from that analysis.
 
-Chemistry is measured at prediction time: these are contemporaneous estimates in later periods, not forecasts with unknown future inputs. Station separation is not geographic-distance or catchment separation. Previously selected all-year model settings and already-inspected historical holdouts make this a retrospective comparison, not fresh prospective validation.
+Chemistry is measured at prediction time, so these are contemporaneous estimates rather than forecasts with unknown future inputs. Model and feature choices were selected retrospectively from earlier grouped experiments; v2.0 is a robustness analysis, not fresh prospective validation.
 
-## Main Results
+## v2.0 Repeated Spatiotemporal Results
 
-Verified values from [validation_comparison.csv](research_outputs/tables/validation_comparison.csv):
+Each split trains on 1990–2021 and tests on 2022–2024 at 101 stations entirely absent from training. Summary values describe 10 splits, not confidence intervals.
 
-| Strategy | MAE (mg/L) | RMSE (mg/L) | R² |
-|---|---:|---:|---:|
-| Random Rows | 0.8410 | 1.3285 | 0.5363 |
-| Unseen Stations | 0.8312 | 1.2911 | 0.5391 |
-| Future Years | 0.6730 | 0.9557 | 0.6646 |
-| Spatiotemporal Holdout | 0.6918 | 1.0241 | 0.6429 |
+| Metric | Mean | SD | Median | IQR | Min | Max |
+|---|---:|---:|---:|---:|---:|---:|
+| MAE (mg/L) | 0.6793 | 0.0353 | 0.6763 | 0.0469 | 0.6297 | 0.7388 |
+| RMSE (mg/L) | 0.9560 | 0.0680 | 0.9490 | 0.1102 | 0.8475 | 1.0581 |
+| R² | 0.6558 | 0.0182 | 0.6544 | 0.0113 | 0.6312 | 0.6903 |
 
-**Station-grouped 5-fold CV MAE: 0.8798 ± 0.0353 mg/L.** The ± value is fold standard deviation, not a confidence interval.
+Seed 42 exactly reproduces the v1.0 spatiotemporal MAE of 0.6918 mg/L. The river-basin holdout was harder: MAE 1.0792 mg/L, RMSE 1.8031 mg/L and R² 0.4122. Its test population differs, so this is descriptive evidence rather than a causal estimate of the effect of basin separation.
 
-Performance varied with evaluation design and test-set composition. Random splitting did **not** yield lower MAE: grouped minus random MAE was −0.0098 mg/L. Temporal and spatiotemporal results do not prove superior or universal generalization; training horizons, station composition and target distributions differ.
-
-![Four-strategy validation comparison](research_outputs/figures/validation_strategy_comparison.png)
-
-*The same fixed model settings evaluated on four different populations; differences are descriptive, not causal effects of split choice.*
+![Spatiotemporal MAE across ten predefined seeds](research_outputs_v2/figures/spatiotemporal_mae_across_seeds.png)
 
 ## Key Finding — Low-Oxygen Reliability
 
 Overall MAE below 1 mg/L did not imply uniform reliability across conditions.
 
-In the **spatiotemporal test set, all 14 observations below 4 mg/L were overpredicted**, with **MAE 4.7678 mg/L**, compared with **0.5509 mg/L** for 1,445 observations at 8–<12 mg/L. Because the low-DO subgroup was small, this is a **warning signal, not evidence of a universal systematic bias**.
+Across the 10 spatiotemporal splits, the below-4 mg/L subgroup contained only **3–21 observations per split**. Its per-split MAE was **2.8846–4.7678 mg/L** (mean 3.8616), and **9 of 10 splits overpredicted every low-DO observation**; the remaining split overpredicted 90.9%. This is a persistent warning signal, not proof of universal systematic bias, because subgroup counts are small and observations repeat across splits.
 
-The model performed substantially worse on rare low-oxygen observations than on the dominant mid-range observations in this test. This illustrates why aggregate metrics alone are insufficient for evaluating environmental prediction systems. The ranges are descriptive concentrations, not regulatory or safety categories.
-
-![Station-held-out error by DO range](research_outputs/figures/error_by_do_range.png)
-
-*Separate unseen-station evidence: MAE below 4 mg/L was 3.1387 mg/L across 167 observations. This figure is not the 14-observation spatiotemporal subgroup.*
+All five fixed model families also showed large low-DO errors where subgroup size was sufficient. The concentration ranges are descriptive, not regulatory or safety categories.
 
 ## Feature Ablation
 
-Core chemistry supplies a predictive baseline. Adding date-derived features improved grouped-CV MAE more than adding censor/missingness indicators; the full configuration ranked best.
+Core chemistry supplies a predictive baseline. Adding date-derived features produced the largest observed gain; missingness and censoring indicators added smaller gains, and the full existing feature set ranked best.
 
 | Feature set | Group-CV MAE ± fold SD (mg/L) |
 |---|---:|
-| Core chemistry | 1.2097 ± 0.0379 |
-| Core + indicators | 1.1969 ± 0.0368 |
-| Core + date | 0.9502 ± 0.0384 |
+| Core | 1.2097 ± 0.0379 |
+| Core + Date | 0.9502 ± 0.0384 |
+| Core + Date + Missingness | 0.9462 ± 0.0393 |
+| Core + Date + Missingness + Censoring | 0.9405 ± 0.0378 |
 | Full | 0.8798 ± 0.0353 |
 
-![Feature ablation](research_outputs/figures/feature_ablation.png)
-
-*All configurations use the same grouped folds and holdout. Small differences are not established improvements; the indicator comparison bundles censor and missingness flags, and the four configurations are not a complete factorial design.*
+The five cumulative configurations use identical grouped folds and fixed Random Forest settings. This is a predictive comparison, not a full factorial or causal analysis. Full results are in the [v2.0 report](research_outputs_v2/reports/RESEARCH_RESULTS_V2.md).
 
 ## Uncertainty / Reliability
 
@@ -105,43 +95,36 @@ Separate calibration residuals define approximate **90% prediction intervals**:
 |---|---:|---:|---:|---:|
 | Reserved training stations | 91.72% | 25.75% | 167 | 4.017 mg/L |
 | 2019–2021 → 2022–2024 | 89.30% | 18.57% | 70 | 2.702 mg/L |
+| Repeated spatiotemporal, mean across splits | 95.13% | 8.27% | 3–21 per split | 3.810 mg/L |
 
-Aggregate coverage was near the nominal level, but much worse for low-DO observations. These are prediction intervals for model outcomes, **not measurement confidence intervals**. Clustered observations and distribution shift challenge calibration assumptions; coverage is not guaranteed at individual stations or target extremes.
-
-Intervals belong to separately fitted research models, not the deployed estimator. They do not replace direct DO measurement. Exact values are in the [uncertainty table](research_outputs/tables/uncertainty_results.csv) and [report](research_outputs/reports/RESEARCH_RESULTS.md).
+Aggregate coverage was near or above nominal, but much worse for low-DO observations. These are empirical prediction intervals for separately fitted research models, not measurement confidence intervals or guarantees. Spatial and temporal shift may violate exchangeability assumptions.
 
 ## Feature Importance
 
-The existing permutation analysis ranks cyclical day-of-year cosine, pH, day-of-year sine, alkalinity, nitrate and nitrite highest. It measures held-out MAE changes when feature information is disrupted; correlated inputs may substitute for one another.
+Across the five station-grouped folds, permutation importance ranked cyclical day-of-year cosine first in every fold, followed by pH, day-of-year sine and alkalinity. Mean pairwise Spearman rank correlation was **0.9485** (range 0.9236–0.9742), although lower-ranked features varied more. The analysis separates within-fold permutation randomness from across-fold variation.
 
-**Predictive importance reflects association, not causation.** See the [saved importance results](research_outputs/tables/feature_importance.csv) and descriptive distribution-shift summaries in the report.
+**Predictive importance reflects association, not causation.** Correlated inputs may substitute for one another. See the [v2.0 importance table](research_outputs_v2/tables/importance_stability.csv).
 
-## Error Analysis
+## Fixed Model-Family Check
 
-The report examines residuals, target-range errors, station variation and yearly variation. Station rankings require at least 20 test observations, but this does not guarantee precise estimates. Metrics are observation-weighted, so frequently sampled stations contribute more.
-
-![Predicted versus actual DO](research_outputs/figures/predicted_vs_actual.png)
-
-*An 8,000-observation display sample from the unseen-station test; the diagonal indicates exact agreement. Published metrics use every test observation. Compression of extremes motivates subgroup analysis.*
+Under station-grouped CV, mean MAE was 1.4305 for Dummy, 1.0375 for Ridge, 0.8798 for Random Forest, 0.8551 for Extra Trees and 0.9416 mg/L for HistGradientBoosting. The nonlinear models also performed similarly on the temporal and seed-42 spatiotemporal checks. This supports the broad validation conclusions but does not justify replacing the deployed estimator; no tuning or production-model selection was performed.
 
 ## Limitations
 
 - Observational data and predictive importance do not establish causation.
-- Geographic evidence is limited to the Northern Ireland monitoring network; nearby stations can remain related.
+- Geographic evidence is limited to the Northern Ireland monitoring network. `PrimaryBasin` separation is stricter than station separation, but it is still one deterministic basin split rather than external-region validation.
 - Water temperature, flow/discharge and catchment characteristics are absent from the current predictors.
-- Low-oxygen observations are rare; the spatiotemporal low-DO finding contains only 14 observations.
+- Low-oxygen observations are rare: repeated spatiotemporal splits contain only 3–21 below-4 mg/L observations each, and repeated test observations are not independent.
 - Test composition, unequal sampling and training horizons affect aggregate metrics.
 - Historical monitoring practice and environmental relationships may change over time.
 - Prediction-interval calibration is distribution-dependent; overall coverage hides subgroup weaknesses.
-- One spatiotemporal holdout is less stable than repeated resampling, and continuing-station eligibility creates selection effects.
+- Continuing-station eligibility creates selection effects; repeated splits quantify partition sensitivity but do not create ten independent datasets.
 - Prior all-year model selection and repeated inspection limit prospective interpretation.
 - Predictions and intervals do not replace field measurements or laboratory analysis.
 
 ## Interactive Demo
 
-The Streamlit application provides an interactive interface for exploring the data, model behavior, validation results and individual predictions. Deployment supports the research; it is not the core scientific contribution.
-
-The estimator retains `models/phase4_selected_model.joblib` and the verified `data/app/` contract. See [deployment instructions](docs/deployment.md) and the [application data contract](docs/application_data_contract.md). No public demo URL is claimed.
+The existing Streamlit application explores the data, model behavior, v1.0 validation and individual predictions. v2.0 does not change the app or the deployed estimator. See [deployment instructions](docs/deployment.md).
 
 ## Reproducibility
 
@@ -157,15 +140,15 @@ git lfs pull
 Run the completed workflows into new output directories:
 
 ```bash
+python scripts/run_research_v2.py --output research_outputs_v2
 python scripts/run_research_experiments.py --experiment all --output research_runs/reproduction
-python scripts/run_research_experiments.py --experiment spatiotemporal --output research_runs/spatiotemporal-reproduction
 python -m unittest discover -s tests -v
 streamlit run app/app.py
 ```
 
-The standalone spatiotemporal command reuses checksum-verified baseline outputs and fits only its evaluation model. These are reproduction instructions; no models were retrained for this communication pass. Use a different empty output directory on repeated runs.
+The v2 command refuses to overwrite a non-empty output directory; use a different empty directory for a repeat run. It verifies v1.0 checksums before and after execution, reuses the existing data preparation and split logic, and does not change the production model.
 
-Fixed seeds, configuration, source hashes, package versions, split memberships, machine-readable tables and compressed predictions are recorded in the [manifest](research_outputs/manifest.json). Original data, models and historical results are protected by checksums. Partial/smoke runs stay under ignored `research_runs/`; smoke results are not scientific evidence.
+Fixed seeds, settings, source/data/output hashes and package versions are recorded in the [v2.0 manifest](research_outputs_v2/manifests/v2_manifest.json). Original data, models and v1.0 results are protected by checksums. Partial runs belong under ignored `research_runs/`.
 
 ## Repository Structure
 
@@ -173,16 +156,15 @@ Fixed seeds, configuration, source hashes, package versions, split memberships, 
 src/                Preprocessing, modelling, evaluation and research reporting
 scripts/            Reproducible experiment entry points
 research_outputs/   Verified tables, figures, predictions, reports and manifest
+research_outputs_v2/ Scoped v2.0 robustness tables, figures, predictions and manifest
 app/                Streamlit research interface and saved-model estimator
 docs/               Dataset, protocol, limitations and application materials
 tests/              Pipeline, application and research-contract tests
 models/             Saved historical/deployed models (Git LFS where configured)
 ```
 
-Historical [Phase 4 methodology](docs/model_refinement.md), [original report](reports/WaterSense_AI_Report.md) and [notebooks](notebooks/03_model_training.ipynb) remain development records. Current evidence is in the generated research report; [project status](docs/project_status.md) distinguishes completed work from future work.
+Historical reports and notebooks remain development records; current robustness evidence is in the v2.0 report.
 
-## Future Work and Transparency
-
-Potential extensions include external-region validation, repeated spatiotemporal resampling, time-respecting model selection and compatible temperature/flow data. None is claimed as completed here.
+## Transparency
 
 WaterSense AI is an educational research prototype. AI-assisted implementation and the author's research direction are documented in the project records. Application materials should describe contributions and learning honestly, without implying regulatory readiness or independent implementation where assistance was used.

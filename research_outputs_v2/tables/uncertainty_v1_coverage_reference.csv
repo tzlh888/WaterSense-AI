@@ -1,0 +1,9 @@
+regime,do_range,sample_count,empirical_coverage
+Station calibration,<4,167,0.2574850299401197
+Station calibration,4–<8,2694,0.5991091314031181
+Station calibration,8–<12,23357,0.9656205848353812
+Station calibration,≥12,5123,0.8854186999804802
+Temporal calibration,<4,70,0.1857142857142857
+Temporal calibration,4–<8,624,0.4615384615384615
+Temporal calibration,8–<12,7708,0.9365594187856772
+Temporal calibration,≥12,1274,0.8799058084772371

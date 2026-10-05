@@ -1,0 +1,835 @@
+station_code,primary_basin,partition
+UKGBNIF10014,Foyle (with Deele),train
+UKGBNIF10015,Burn Dennet,train
+UKGBNIF10019,Burn Dennet,train
+UKGBNIF10020,Burn Dennet,train
+UKGBNIF10022,Burn Dennet,train
+UKGBNIF10023,Burn Dennet,train
+UKGBNIF10024,Burn Dennet,train
+UKGBNIF10026,Mourne,train
+UKGBNIF10028,Mourne,train
+UKGBNIF10029,Mourne,train
+UKGBNIF10030,Mourne,train
+UKGBNIF10035,Derg,train
+UKGBNIF10002,Foyle (with Deele),train
+UKGBNIF10003,Foyle (with Deele),train
+UKGBNIF10004,Foyle (with Deele),train
+UKGBNIF10005,Foyle (with Deele),train
+UKGBNIF10006,Foyle (with Deele),train
+UKGBNIF10007,Foyle (with Deele),train
+UKGBNIF10008,Burnfoot,train
+UKGBNIF10009,Foyle (with Deele),train
+UKGBNIF10010,Foyle (with Deele),train
+UKGBNIF10011,Foyle (with Deele),train
+UKGBNIF10012,Foyle (with Deele),train
+UKGBNIF10013,Foyle (with Deele),train
+UKGBNIF10021,Burn Dennet,train
+UKGBNIF10033,Derg,train
+UKGBNIF10038,Derg,train
+UKGBNIF10042,Derg,train
+UKGBNIF10043,Derg,train
+UKGBNIF10044,Derg,train
+UKGBNIF10045,Derg,train
+UKGBNIF10046,Derg,train
+UKGBNIF10047,Derg,train
+UKGBNIF10048,Derg,train
+UKGBNIF10049,Derg,train
+UKGBNIF10056,Owenkillew,train
+UKGBNIF10058,Owenkillew,train
+UKGBNIF10061,Owenkillew,train
+UKGBNIF10039,Derg,train
+UKGBNIF10040,Derg,train
+UKGBNIF10041,Derg,train
+UKGBNIF10050,Mourne/Strule,train
+UKGBNIF10051,Owenkillew,train
+UKGBNIF10052,Owenkillew,train
+UKGBNIF10053,Owenkillew,train
+UKGBNIF10054,Owenkillew,train
+UKGBNIF10055,Owenkillew,train
+UKGBNIF10057,Owenkillew,train
+UKGBNIF10059,Owenkillew,train
+UKGBNIF10060,Owenkillew,train
+UKGBNIF10069,Owenkillew,train
+UKGBNIF10072,Owenkillew,train
+UKGBNIF10073,Owenkillew,train
+UKGBNIF10074,Owenkillew,train
+UKGBNIF10075,Owenkillew,train
+UKGBNIF10076,Owenkillew,train
+UKGBNIF10077,Owenkillew,train
+UKGBNIF10078,Owenkillew,train
+UKGBNIF10079,Owenkillew,train
+UKGBNIF10080,Owenkillew,train
+UKGBNIF10081,Owenkillew,train
+UKGBNIF10083,Owenkillew,train
+UKGBNIF10085,Strule,test
+UKGBNIF10086,Strule,test
+UKGBNIF10063,Owenkillew,train
+UKGBNIF10064,Owenkillew,train
+UKGBNIF10066,Owenkillew,train
+UKGBNIF10067,Owenkillew,train
+UKGBNIF10068,Owenkillew,train
+UKGBNIF10070,Owenkillew,train
+UKGBNIF10082,Owenkillew,train
+UKGBNIF10084,Strule,test
+UKGBNIF10087,Strule,test
+UKGBNIF10088,Strule,test
+UKGBNIF10089,Strule,test
+UKGBNIF10090,Fairy Water,train
+UKGBNIF10091,Fairy Water,train
+UKGBNIF10092,Fairy Water,train
+UKGBNIF10097,Fairy Water,train
+UKGBNIF10099,Fairy Water,train
+UKGBNIF10101,Fairy Water,train
+UKGBNIF10102,Fairy Water,train
+UKGBNIF10103,Fairy Water,train
+UKGBNIF10104,Camowen,test
+UKGBNIF10106,Camowen,test
+UKGBNIF10107,Camowen,test
+UKGBNIF10108,Camowen,test
+UKGBNIF10109,Camowen,test
+UKGBNIF10110,Camowen,test
+UKGBNIF10111,Camowen,test
+UKGBNIF10093,Fairy Water,train
+UKGBNIF10098,Fairy Water,train
+UKGBNIF10100,Fairy Water,train
+UKGBNIF10114,Camowen,test
+UKGBNIF10115,Camowen,test
+UKGBNIF10118,Drumragh,train
+UKGBNIF10120,Drumragh,train
+UKGBNIF10121,Drumragh,train
+UKGBNIF10127,Drumragh,train
+UKGBNIF10128,Drumragh,train
+UKGBNIF10129,Drumragh,train
+UKGBNIF10130,Drumragh,train
+UKGBNIF10131,Drumragh,train
+UKGBNIF10133,Drumragh,train
+UKGBNIF10134,Drumragh,train
+UKGBNIF10135,Drumragh,train
+UKGBNIF10136,Drumragh,train
+UKGBNIF10137,Drumragh,train
+UKGBNIF10138,Faughan,train
+UKGBNIF10112,Camowen,test
+UKGBNIF10113,Camowen,test
+UKGBNIF10119,Drumragh,train
+UKGBNIF10125,Drumragh,train
+UKGBNIF10126,Drumragh,train
+UKGBNIF10132,Drumragh,train
+UKGBNIF10140,Faughan,train
+UKGBNIF10143,Faughan,train
+UKGBNIF10145,Faughan,train
+UKGBNIF10148,Faughan,train
+UKGBNIF10151,Faughan,train
+UKGBNIF10152,Faughan,train
+UKGBNIF10155,Faughan,train
+UKGBNIF10157,Faughan,train
+UKGBNIF10158,Faughan,train
+UKGBNIF10160,Roe,train
+UKGBNIF10161,Roe,train
+UKGBNIF10163,Roe,train
+UKGBNIF10169,Roe,train
+UKGBNIF10170,Roe,train
+UKGBNIF10139,Faughan,train
+UKGBNIF10141,Faughan,train
+UKGBNIF10144,Faughan,train
+UKGBNIF10146,Faughan,train
+UKGBNIF10147,Faughan,train
+UKGBNIF10153,Faughan,train
+UKGBNIF10154,Faughan,train
+UKGBNIF10156,Faughan,train
+UKGBNIF10159,Roe,train
+UKGBNIF10162,Roe,train
+UKGBNIF10164,Roe,train
+UKGBNIF10166,Roe,train
+UKGBNIF10168,Roe,train
+UKGBNIF10171,Roe,train
+UKGBNIF10172,Roe,train
+UKGBNIF10175,Roe,train
+UKGBNIF10176,Roe,train
+UKGBNIF10177,Roe,train
+UKGBNIF10178,Roe,train
+UKGBNIF10179,Roe,train
+UKGBNIF10180,Lough Foyle (South),train
+UKGBNIF10181,Lough Foyle (South),train
+UKGBNIF10182,Lough Foyle (South),train
+UKGBNIF10183,Lough Foyle (South),train
+UKGBNIF10187,Main,train
+UKGBNIF10188,Main,train
+UKGBNIF10173,Roe,train
+UKGBNIF10174,Roe,train
+UKGBNIF10186,Main,train
+UKGBNIF10189,Main,train
+UKGBNIF10190,Main,train
+UKGBNIF10191,Main,train
+UKGBNIF10192,Main,train
+UKGBNIF10193,Main,train
+UKGBNIF10194,Main,train
+UKGBNIF10195,Main,train
+UKGBNIF10197,Main,train
+UKGBNIF10198,Main,train
+UKGBNIF10202,Main,train
+UKGBNIF10204,Main,train
+UKGBNIF10207,Main,train
+UKGBNIF10208,Main,train
+UKGBNIF10209,Main,train
+UKGBNIF10210,Main,train
+UKGBNIF10212,Main,train
+UKGBNIF10213,Main,train
+UKGBNIF10214,Main,train
+UKGBNIF10215,Main,train
+UKGBNIF10200,Main,train
+UKGBNIF10201,Main,train
+UKGBNIF10203,Main,train
+UKGBNIF10211,Main,train
+UKGBNIF10216,Main,train
+UKGBNIF10217,Main,train
+UKGBNIF10220,Main,train
+UKGBNIF10222,Six Mile Water,train
+UKGBNIF10223,Six Mile Water,train
+UKGBNIF10224,Six Mile Water,train
+UKGBNIF10227,Six Mile Water,train
+UKGBNIF10230,Six Mile Water,train
+UKGBNIF10231,Six Mile Water,train
+UKGBNIF10233,Six Mile Water,train
+UKGBNIF10234,Six Mile Water,train
+UKGBNIF10235,Six Mile Water,train
+UKGBNIF10236,Six Mile Water,train
+UKGBNIF10238,Six Mile Water,train
+UKGBNIF10218,Main,train
+UKGBNIF10219,Main,train
+UKGBNIF10226,Six Mile Water,train
+UKGBNIF10228,Six Mile Water,train
+UKGBNIF10229,Six Mile Water,train
+UKGBNIF10237,Six Mile Water,train
+UKGBNIF10239,Six Mile Water,train
+UKGBNIF10240,Six Mile Water,train
+UKGBNIF10241,Six Mile Water,train
+UKGBNIF10242,Six Mile Water,train
+UKGBNIF10244,Crumlin,train
+UKGBNIF10245,Crumlin,train
+UKGBNIF10246,Glenavy,train
+UKGBNIF10247,Glenavy,train
+UKGBNIF10248,Glenavy,train
+UKGBNIF10249,Glenavy,train
+UKGBNIF10250,Upper Bann,test
+UKGBNIF10251,Upper Bann,test
+UKGBNIF10252,Upper Bann,test
+UKGBNIF10256,Upper Bann,test
+UKGBNIF10260,Upper Bann,test
+UKGBNIF10261,Upper Bann,test
+UKGBNIF10262,Upper Bann,test
+UKGBNIF10254,Upper Bann,test
+UKGBNIF10265,Upper Bann,test
+UKGBNIF10269,Upper Bann,test
+UKGBNIF10270,Upper Bann,test
+UKGBNIF10271,Upper Bann,test
+UKGBNIF10273,Upper Bann,test
+UKGBNIF10277,Upper Bann,test
+UKGBNIF10278,Upper Bann,test
+UKGBNIF10280,Upper Bann,test
+UKGBNIF10283,Upper Bann,test
+UKGBNIF10286,Upper Bann,test
+UKGBNIF10292,Upper Bann,test
+UKGBNIF10264,Upper Bann,test
+UKGBNIF10268,Upper Bann,test
+UKGBNIF10272,Upper Bann,test
+UKGBNIF10274,Upper Bann,test
+UKGBNIF10275,Upper Bann,test
+UKGBNIF10276,Upper Bann,test
+UKGBNIF10279,Upper Bann,test
+UKGBNIF10282,Upper Bann,test
+UKGBNIF10287,Upper Bann,test
+UKGBNIF10295,Upper Bann,test
+UKGBNIF10300,Upper Bann,test
+UKGBNIF10303,Blackwater,test
+UKGBNIF10304,Blackwater,test
+UKGBNIF10307,Blackwater,test
+UKGBNIF10309,Blackwater,test
+UKGBNIF10311,Blackwater,test
+UKGBNIF10312,Blackwater,test
+UKGBNIF10314,Blackwater,test
+UKGBNIF10315,Blackwater,test
+UKGBNIF10316,Blackwater,test
+UKGBNIF10317,Blackwater,test
+UKGBNIF10318,Blackwater,test
+UKGBNIF10319,Blackwater,test
+UKGBNIF10320,Blackwater,test
+UKGBNIF10321,Blackwater,test
+UKGBNIF10323,Blackwater,test
+UKGBNIF10293,Upper Bann,test
+UKGBNIF10294,Upper Bann,test
+UKGBNIF10296,Upper Bann,test
+UKGBNIF10297,Upper Bann,test
+UKGBNIF10298,Upper Bann,test
+UKGBNIF10299,Upper Bann,test
+UKGBNIF10313,Blackwater,test
+UKGBNIF10328,Blackwater,test
+UKGBNIF10329,Blackwater,test
+UKGBNIF10330,Blackwater,test
+UKGBNIF10331,Blackwater,test
+UKGBNIF10332,Blackwater,test
+UKGBNIF10333,Blackwater,test
+UKGBNIF10335,Blackwater,test
+UKGBNIF10336,Blackwater,test
+UKGBNIF10339,Blackwater,test
+UKGBNIF10341,Blackwater,test
+UKGBNIF10342,Blackwater,test
+UKGBNIF10343,Blackwater,test
+UKGBNIF10325,Blackwater,test
+UKGBNIF10326,Blackwater,test
+UKGBNIF10327,Blackwater,test
+UKGBNIF10334,Blackwater,test
+UKGBNIF10337,Blackwater,test
+UKGBNIF10338,Blackwater,test
+UKGBNIF10340,Blackwater,test
+UKGBNIF10345,Blackwater,test
+UKGBNIF10346,Blackwater,test
+UKGBNIF10347,Blackwater,test
+UKGBNIF10348,Blackwater,test
+UKGBNIF10349,Blackwater,test
+UKGBNIF10350,Ballinderry,train
+UKGBNIF10351,Ballinderry,train
+UKGBNIF10352,Ballinderry,train
+UKGBNIF10353,Ballinderry,train
+UKGBNIF10355,Ballinderry,train
+UKGBNIF10356,Ballinderry,train
+UKGBNIF10357,Ballinderry,train
+UKGBNIF10358,Ballinderry,train
+UKGBNIF10359,Ballinderry,train
+UKGBNIF10360,Ballinderry,train
+UKGBNIF10361,Ballinderry,train
+UKGBNIF10344,Blackwater,test
+UKGBNIF10362,Ballinderry,train
+UKGBNIF10363,Ballinderry,train
+UKGBNIF10364,Ballinderry,train
+UKGBNIF10366,Ballinderry,train
+UKGBNIF10367,Ballinderry,train
+UKGBNIF10368,Ballinderry,train
+UKGBNIF10369,Ballinderry,train
+UKGBNIF10370,Moyola,train
+UKGBNIF10373,Moyola,train
+UKGBNIF10374,Moyola,train
+UKGBNIF10375,Moyola,train
+UKGBNIF10376,Moyola,train
+UKGBNIF10377,Moyola,train
+UKGBNIF10378,Moyola,train
+UKGBNIF10379,Moyola,train
+UKGBNIF10380,Moyola,train
+UKGBNIF10365,Ballinderry,train
+UKGBNIF10382,Moyola,train
+UKGBNIF10383,Moyola,train
+UKGBNIF10384,Moyola,train
+UKGBNIF10385,Lough Neagh & Peripherals,test
+UKGBNIF10386,Lough Neagh & Peripherals,test
+UKGBNIF10387,Lough Neagh & Peripherals,test
+UKGBNIF10393,Lough Neagh & Peripherals,test
+UKGBNIF10396,Lough Neagh & Peripherals,test
+UKGBNIF10397,Lough Neagh & Peripherals,test
+UKGBNIF10404,Lower Bann,train
+UKGBNIF10406,Lower Bann,train
+UKGBNIF10407,Lower Bann,train
+UKGBNIF10409,Lower Bann,train
+UKGBNIF10411,Lower Bann,train
+UKGBNIF10412,Lower Bann,train
+UKGBNIF10381,Moyola,train
+UKGBNIF10395,Lough Neagh & Peripherals,test
+UKGBNIF10398,Lough Neagh & Peripherals,test
+UKGBNIF10399,Lough Neagh & Peripherals,test
+UKGBNIF10401,Lough Neagh & Peripherals,test
+UKGBNIF10402,Lough Neagh & Peripherals,test
+UKGBNIF10405,Lower Bann,train
+UKGBNIF10414,Lower Bann,train
+UKGBNIF10416,Lower Bann,train
+UKGBNIF10417,Lower Bann,train
+UKGBNIF10419,Lower Bann,train
+UKGBNIF10420,Lower Bann,train
+UKGBNIF10421,Lower Bann,train
+UKGBNIF10427,Lower Bann,train
+UKGBNIF10429,Lower Bann,train
+UKGBNIF10430,Lower Bann,train
+UKGBNIF10431,Lower Bann,train
+UKGBNIF10432,Lower Bann,train
+UKGBNIF10433,Lower Bann,train
+UKGBNIF10434,Lower Bann,train
+UKGBNIF10436,Lower Bann,train
+UKGBNIF10413,Lower Bann,train
+UKGBNIF10415,Lower Bann,train
+UKGBNIF10418,Lower Bann,train
+UKGBNIF10423,Lower Bann,train
+UKGBNIF10425,Lower Bann,train
+UKGBNIF10435,Lower Bann,train
+UKGBNIF10437,Lower Bann,train
+UKGBNIF10438,Lower Bann,train
+UKGBNIF10440,Crumlin,train
+UKGBNIF10441,Crumlin,train
+UKGBNIF10442,Bush,train
+UKGBNIF10443,Bush,train
+UKGBNIF10444,Bush,train
+UKGBNIF10447,Bush,train
+UKGBNIF10448,Bush,train
+UKGBNIF10449,Bush,train
+UKGBNIF10451,Bush,train
+UKGBNIF10453,Bush,train
+UKGBNIF10454,Bush,train
+UKGBNIF10455,Bush,train
+UKGBNIF10456,Bush,train
+UKGBNIF10439,Crumlin,train
+UKGBNIF10450,Bush,train
+UKGBNIF10452,Bush,train
+UKGBNIF10457,Glendun,train
+UKGBNIF10458,North East Coast,test
+UKGBNIF10463,North East Coast,test
+UKGBNIF10464,Glendun,train
+UKGBNIF10465,Glendun,train
+UKGBNIF10466,North Coast,test
+UKGBNIF10467,North Coast,test
+UKGBNIF10469,Glenarrif,train
+UKGBNIF10470,Glenarm,train
+UKGBNIF10472,North Coast,test
+UKGBNIF10473,North Coast,test
+UKGBNIF10474,North Coast,test
+UKGBNIF10475,Glendun,train
+UKGBNIF10476,North East Coast,test
+UKGBNIF10477,Glenarrif,train
+UKGBNIF10478,Glencloy,train
+UKGBNIF10462,North East Coast,test
+UKGBNIF10468,North Coast,test
+UKGBNIF10471,Glendun,train
+UKGBNIF10479,Glenarm,train
+UKGBNIF10484,Lagan,test
+UKGBNIF10486,Lagan,test
+UKGBNIF10487,Lagan,test
+UKGBNIF10488,Lagan,test
+UKGBNIF10494,Lagan,test
+UKGBNIF10511,Lagan,test
+UKGBNIF10512,Lagan,test
+UKGBNIF10513,Lagan,test
+UKGBNIF10517,Lagan,test
+UKGBNIF10518,Lagan,test
+UKGBNIF10483,Lagan,test
+UKGBNIF10490,Lagan,test
+UKGBNIF10491,Lagan,test
+UKGBNIF10493,Lagan,test
+UKGBNIF10496,Lagan,test
+UKGBNIF10499,Lagan,test
+UKGBNIF10500,Lagan,test
+UKGBNIF10501,Lagan,test
+UKGBNIF10502,Lagan,test
+UKGBNIF10503,Lagan,test
+UKGBNIF10509,Lagan,test
+UKGBNIF10515,Lagan,test
+UKGBNIF10516,Lagan,test
+UKGBNIF10519,Lagan,test
+UKGBNIF10522,Lagan,test
+UKGBNIF10523,Lagan,test
+UKGBNIF10526,Lagan,test
+UKGBNIF10527,Lagan,test
+UKGBNIF10529,Lagan,test
+UKGBNIF10530,Lagan,test
+UKGBNIF10531,Lagan,test
+UKGBNIF10532,Lagan,test
+UKGBNIF10533,Quoile,test
+UKGBNIF10534,Quoile,test
+UKGBNIF10537,Quoile,test
+UKGBNIF10539,Quoile,test
+UKGBNIF10520,Lagan,test
+UKGBNIF10521,Lagan,test
+UKGBNIF10524,Lagan,test
+UKGBNIF10525,Lagan,test
+UKGBNIF10528,Lagan,test
+UKGBNIF10541,Quoile,test
+UKGBNIF10542,Quoile,test
+UKGBNIF10545,Quoile,test
+UKGBNIF10546,Quoile,test
+UKGBNIF10548,Blackwater (Ards),train
+UKGBNIF10549,Comber,train
+UKGBNIF10550,Comber,train
+UKGBNIF10555,Larne,train
+UKGBNIF10556,Larne,train
+UKGBNIF10557,Belfast Lough (North),train
+UKGBNIF10559,Belfast Lough (North),train
+UKGBNIF10543,Quoile,test
+UKGBNIF10544,Quoile,test
+UKGBNIF10551,Larne,train
+UKGBNIF10552,Larne,train
+UKGBNIF10553,Larne,train
+UKGBNIF10554,Larne,train
+UKGBNIF10558,Belfast Lough (North),train
+UKGBNIF10560,Belfast Lough (North),train
+UKGBNIF10571,N Down & Ards Peninsula,train
+UKGBNIF10572,N Down & Ards Peninsula,train
+UKGBNIF10574,N Down & Ards Peninsula,train
+UKGBNIF10575,N Down & Ards Peninsula,train
+UKGBNIF10576,N Down & Ards Peninsula,train
+UKGBNIF10577,N Down & Ards Peninsula,train
+UKGBNIF10579,Lagan,test
+UKGBNIF10602,SE Down Streams,train
+UKGBNIF10603,SE Down Streams,train
+UKGBNIF10604,SE Down Streams,train
+UKGBNIF10605,SE Down Streams,train
+UKGBNIF10561,Lagan,test
+UKGBNIF10564,Lagan,test
+UKGBNIF10565,Lagan,test
+UKGBNIF10566,Lagan,test
+UKGBNIF10567,Lagan,test
+UKGBNIF10568,Lagan,test
+UKGBNIF10569,Lagan,test
+UKGBNIF10580,Lagan,test
+UKGBNIF10581,Lagan,test
+UKGBNIF10582,Lagan,test
+UKGBNIF10583,Lagan,test
+UKGBNIF10585,Lagan,test
+UKGBNIF10586,Lagan,test
+UKGBNIF10588,Lagan,test
+UKGBNIF10590,Lagan,test
+UKGBNIF10591,Lagan,test
+UKGBNIF10593,Lagan,test
+UKGBNIF10594,Lagan,test
+UKGBNIF10595,Lagan,test
+UKGBNIF10600,Lagan,test
+UKGBNIF10606,SE Down Streams,train
+UKGBNIF10607,SE Down Streams,train
+UKGBNIF10608,SE Down Streams,train
+UKGBNIF10609,SE Down Streams,train
+UKGBNIF10610,Newry,train
+UKGBNIF10615,Newry,train
+UKGBNIF10617,Newry,train
+UKGBNIF10622,Newry,train
+UKGBNIF10625,Newry,train
+UKGBNIF10626,Newry,train
+UKGBNIF10611,Newry,train
+UKGBNIF10619,Newry,train
+UKGBNIF10620,Newry,train
+UKGBNIF10621,Newry,train
+UKGBNIF10623,Newry,train
+UKGBNIF10624,Newry,train
+UKGBNIF10628,Kilkeel & Mourne Streams,train
+UKGBNIF10629,Kilkeel & Mourne Streams,train
+UKGBNIF10630,Kilkeel & Mourne Streams,train
+UKGBNIF10631,Kilkeel & Mourne Streams,train
+UKGBNIF10633,Kilkeel & Mourne Streams,train
+UKGBNIF10635,Kilkeel & Mourne Streams,train
+UKGBNIF10636,Kilkeel & Mourne Streams,train
+UKGBNIF10639,Kilkeel & Mourne Streams,train
+UKGBNIF10640,Kilkeel & Mourne Streams,train
+UKGBNIF10641,Kilkeel & Mourne Streams,train
+UKGBNIF10642,Kilkeel & Mourne Streams,train
+UKGBNIF10643,Kilkeel & Mourne Streams,train
+UKGBNIF10644,Kilkeel & Mourne Streams,train
+UKGBNIF10646,Kilkeel & Mourne Streams,train
+UKGBNIF10647,Kilkeel & Mourne Streams,train
+UKGBNIF10649,Flurry,train
+UKGBNIF10651,Castletown,test
+UKGBNIF10652,Castletown,test
+UKGBNIF10632,Kilkeel & Mourne Streams,train
+UKGBNIF10648,Flurry,train
+UKGBNIF10650,Castletown,test
+UKGBNIF10653,Fane,train
+UKGBNIF10654,Roogagh,test
+UKGBNIF10655,Bradoge,train
+UKGBNIF10661,Lower Erne,train
+UKGBNIF10663,Lower Erne,train
+UKGBNIF10664,Lower Erne,train
+UKGBNIF10665,Lower Erne,train
+UKGBNIF10666,Lower Erne,train
+UKGBNIF10667,Lower Erne,train
+UKGBNIF10656,Bradoge,train
+UKGBNIF10660,Lower Erne,train
+UKGBNIF10662,Lower Erne,train
+UKGBNIF10668,Lower Erne,train
+UKGBNIF10669,Upper Erne,train
+UKGBNIF10670,Upper Erne,train
+UKGBNIF10672,Upper Erne,train
+UKGBNIF10675,Upper Erne,train
+UKGBNIF10677,Upper Erne,train
+UKGBNIF10679,Termon,train
+UKGBNIF10681,Bannagh,train
+UKGBNIF10684,Kesh,train
+UKGBNIF10671,Upper Erne,train
+UKGBNIF10673,Upper Erne,train
+UKGBNIF10674,Upper Erne,train
+UKGBNIF10676,Upper Erne,train
+UKGBNIF10678,Termon,train
+UKGBNIF10680,Bannagh,train
+UKGBNIF10682,Bannagh,train
+UKGBNIF10683,Bannagh,train
+UKGBNIF10685,Kesh,train
+UKGBNIF10688,Kesh,train
+UKGBNIF10690,Kesh,train
+UKGBNIF10691,Kesh,train
+UKGBNIF10693,Kesh,train
+UKGBNIF10694,Ballinamallard,train
+UKGBNIF10696,Ballinamallard,train
+UKGBNIF10697,Ballinamallard,train
+UKGBNIF10700,Ballinamallard,train
+UKGBNIF10701,Ballinamallard,train
+UKGBNIF10702,Ballinamallard,train
+UKGBNIF10703,Ballinamallard,train
+UKGBNIF10686,Kesh,train
+UKGBNIF10687,Kesh,train
+UKGBNIF10689,Kesh,train
+UKGBNIF10692,Kesh,train
+UKGBNIF10698,Ballinamallard,train
+UKGBNIF10699,Ballinamallard,train
+UKGBNIF10704,Ballinamallard,train
+UKGBNIF10705,Colebrooke,train
+UKGBNIF10706,Colebrooke,train
+UKGBNIF10707,Colebrooke,train
+UKGBNIF10708,Colebrooke,train
+UKGBNIF10710,Colebrooke,train
+UKGBNIF10711,Colebrooke,train
+UKGBNIF10712,Colebrooke,train
+UKGBNIF10714,Colebrooke,train
+UKGBNIF10715,Colebrooke,train
+UKGBNIF10717,Colebrooke,train
+UKGBNIF10718,Colebrooke,train
+UKGBNIF10720,Colebrooke,train
+UKGBNIF10721,Colebrooke,train
+UKGBNIF10722,Colebrooke,train
+UKGBNIF10709,Colebrooke,train
+UKGBNIF10716,Colebrooke,train
+UKGBNIF10719,Colebrooke,train
+UKGBNIF10726,Finn (Fermanagh),train
+UKGBNIF10727,Finn (Fermanagh),train
+UKGBNIF10728,Finn (Fermanagh),train
+UKGBNIF10731,Finn (Fermanagh),train
+UKGBNIF10734,Woodford,train
+UKGBNIF10735,Swanlinbar,train
+UKGBNIF10736,Arney,test
+UKGBNIF10737,Arney,test
+UKGBNIF10729,Finn (Fermanagh),train
+UKGBNIF10730,Finn (Fermanagh),train
+UKGBNIF10733,Finn (Fermanagh),train
+UKGBNIF10738,Arney,test
+UKGBNIF10739,Arney,test
+UKGBNIF10740,Arney,test
+UKGBNIF10741,Arney,test
+UKGBNIF10743,Arney,test
+UKGBNIF10744,Arney,test
+UKGBNIF10746,Sillees,train
+UKGBNIF10748,Sillees,train
+UKGBNIF10750,Sillees,train
+UKGBNIF10751,Sillees,train
+UKGBNIF10752,Sillees,train
+UKGBNIF10754,Swanlinbar,train
+UKGBNIF10756,Arney,test
+UKGBNIF10757,Arney,test
+UKGBNIF10742,Arney,test
+UKGBNIF10745,Arney,test
+UKGBNIF10747,Sillees,train
+UKGBNIF10749,Sillees,train
+UKGBNIF10763,Burnfoot,train
+UKGBNIF10764,Burnfoot,train
+UKGBNIF10765,Burnfoot,train
+UKGBNIF10896,Blackwater,test
+UKGBNIF10898,Lower Bann,train
+UKGBNIF10899,County,train
+UKGBNIF10900,Fane,train
+UKGBNIF10901,Upper Erne,train
+UKGBNIF10902,Upper Erne,train
+UKGBNIF10903,Woodford,train
+UKGBNIF10904,Ballinderry,train
+UKGBNIF10905,Ballinderry,train
+UKGBNIF10910,Blackwater,test
+UKGBNIF10912,Roe,train
+UKGBNIF10913,Lower Bann,train
+UKGBNIF10914,Lower Bann,train
+UKGBNIF10915,Lower Bann,train
+UKGBNIF10758,Arney,test
+UKGBNIF10766,Burnfoot,train
+UKGBNIF10767,Burnfoot,train
+UKGBNIF10822,N Down & Ards Peninsula,train
+UKGBNIF10864,Owenkillew,train
+UKGBNIF10867,Lough Foyle (South),train
+UKGBNIF10868,Lough Foyle (South),train
+UKGBNIF10871,Lagan,test
+UKGBNIF10906,Sillees,train
+UKGBNIF10907,Arney,test
+UKGBNIF10908,Arney,test
+UKGBNIF10909,Lough Foyle (South),train
+UKGBNIF10911,Fairy Water,train
+UKGBNIF10916,Lower Bann,train
+UKGBNIF10918,Castletown,test
+UKGBNIF10919,Upper Erne,train
+UKGBNIF10922,Colebrooke,train
+UKGBNIF10924,Lower Bann,train
+UKGBNIF10925,Flurry,train
+UKGBNIF10927,Moyola,train
+UKGBNIF10928,Upper Bann,test
+UKGBNIF10929,Belfast Lough (North),train
+UKGBNIF10930,Lower Erne,train
+UKGBNIF10931,Kilkeel & Mourne Streams,train
+UKGBNIF10932,Upper Bann,test
+UKGBNIF10933,Glenavy,train
+UKGBNIF10934,Fane,train
+UKGBNIF10936,Upper Bann,test
+UKGBNIF10937,Lough Neagh & Peripherals,test
+UKGBNIF10938,Owenkillew,train
+UKGBNIF10948,Faughan,train
+UKGBNIF10950,Faughan,train
+UKGBNIF10951,Drumragh,train
+UKGBNIF10917,Castletown,test
+UKGBNIF10920,Colebrooke,train
+UKGBNIF10926,Lower Erne,train
+UKGBNIF10935,SE Down Streams,train
+UKGBNIF10949,Roe,train
+UKGBNIF10955,Arney,test
+UKGBNIF10956,Arney,test
+UKGBNIF10977,Flurry,train
+UKGBNIF10978,Ballinderry,train
+UKGBNIF10979,Derg,train
+UKGBNIF10980,Drumragh,train
+UKGBNIF10981,Kilkeel & Mourne Streams,train
+UKGBNIF10982,North East Coast,test
+UKGBNIF10998,Lower Erne,train
+UKGBNIF10999,Lower Erne,train
+UKGBNIF11001,Lower Erne,train
+UKGBNIF11004,Upper Bann,test
+UKGBNIF11006,Fane,train
+UKGBNIF11007,Flurry,train
+UKGBNIF11009,Upper Bann,test
+UKGBNIF11010,Moyola,train
+UKGBNIF11011,Kilkeel & Mourne Streams,train
+UKGBNIF11012,Belfast Lough (North),train
+UKGBNIF11144,Upper Erne,train
+UKGBNIF11172,SE Down Streams,train
+UKGBNIF11179,SE Down Streams,train
+UKGBNIF11181,Ballinderry,train
+UKGBNIF11204,Newry,train
+UKGBNIF11208,Roe,train
+UKGBNIF11209,Lower Bann,train
+UKGBNIF11210,Lower Bann,train
+UKGBNIF11211,North East Coast,test
+UKGBNIF11212,Bush & North Coast,train
+UKGBNIF11213,N Down & Ards Peninsula,train
+UKGBNIF11214,SE Down Streams,train
+UKGBNIF11216,SE Down Streams,train
+UKGBNIF11217,SE Down Streams,train
+UKGBNIF10952,Drumragh,train
+UKGBNIF10953,Sillees,train
+UKGBNIF10954,Lower Erne,train
+UKGBNIF10958,Owenkillew,train
+UKGBNIF10959,Burn Dennet,train
+UKGBNIF10960,Drumragh,train
+UKGBNIF10961,Castletown,test
+UKGBNIF10968,County,train
+UKGBNIF10969,Owenkillew,train
+UKGBNIF10970,Sillees,train
+UKGBNIF10971,Lower Erne,train
+UKGBNIF10972,Owenkillew,train
+UKGBNIF10973,Burn Dennet,train
+UKGBNIF10974,Drumragh,train
+UKGBNIF10975,Castletown,test
+UKGBNIF10976,County,train
+UKGBNIF10983,Finn (Fermanagh),train
+UKGBNIF10984,Quoile,test
+UKGBNIF10985,Blackwater,test
+UKGBNIF10986,Finn (Fermanagh),train
+UKGBNIF10987,Quoile,test
+UKGBNIF10988,Blackwater,test
+UKGBNIF10989,Blackwater,test
+UKGBNIF10990,Finn (Fermanagh),train
+UKGBNIF10991,Blackwater,test
+UKGBNIF11021,SE Down Streams,train
+UKGBNIF11022,Bush & North Coast,train
+UKGBNIF11023,Arney,test
+UKGBNIF11024,Lough Neagh & Peripherals,test
+UKGBNIF11025,Blackwater,test
+UKGBNIF11068,Sillees,train
+UKGBNIF11090,Roogagh,test
+UKGBNIF11093,Roogagh,test
+UKGBNIF11101,Colebrooke,train
+UKGBNIF11108,Blackwater (Ards),train
+UKGBNIF11145,Ballinamallard,train
+UKGBNIF11146,Finn (Fermanagh),train
+UKGBNIF11215,N Down & Ards Peninsula,train
+UKGBNIF11253,Blackwater,test
+UKGBNIF11254,N Down & Ards Peninsula,train
+UKGBNIF11255,Kilkeel & Mourne Streams,train
+UKGBNIF11257,Lower Erne,train
+UKGBNIF11259,Camowen,test
+UKGBNIF11260,Derg,train
+UKGBNIF11287,Lagan,test
+UKGBNIF11289,Moyola,train
+UKGBNIF11290,Lower Erne,train
+UKGBNIF11291,Lower Bann,train
+UKGBNIF11292,Moyola,train
+UKGBNIF11293,Lough Neagh & Peripherals,test
+UKGBNIF11294,Lough Neagh & Peripherals,test
+UKGBNIF11295,Blackwater,test
+UKGBNIF11296,Blackwater,test
+UKGBNIF11297,Upper Bann,test
+UKGBNIF11298,Lagan,test
+UKGBNIF11299,Swanlinbar,train
+UKGBNIF11300,Upper Erne,train
+UKGBNIF11301,Ballinderry,train
+UKGBNIF11302,Lower Bann,train
+UKGBNIF11303,Main,train
+UKGBNIF11304,Main,train
+UKGBNIF11305,Lower Bann,train
+UKGBNIF11306,Lough Neagh & Peripherals,test
+UKGBNIF11307,Newry,train
+UKGBNIF11308,Lower Bann,train
+UKGBNIF11309,Bush,train
+UKGBNIF11310,Glenarm,train
+UKGBNIF11311,Moyola,train
+UKGBNIF11312,Faughan,train
+UKGBNIF11313,Burn Dennet,train
+UKGBNIF11314,Owenkillew,train
+UKGBNIF11315,Owenkillew,train
+UKGBNIF11316,Colebrooke,train
+UKGBNIF11317,Derg,train
+UKGBNIF11318,Termon,train
+UKGBNIF11319,Termon,train
+UKGBNIF11320,Drumragh,train
+UKGBNIF11322,Blackwater,test
+UKGBNIF11323,Lough Neagh & Peripherals,test
+UKGBNIF11324,Newry,train
+UKGBNIF11326,Blackwater,test
+UKGBNIF11218,Kilkeel & Mourne Streams,train
+UKGBNIF11258,Six Mile Water,train
+UKGBNIF11288,Lagan,test
+UKGBNIF11327,Upper Bann,test
+UKGBNIF11328,Upper Bann,test
+UKGBNIF11329,Upper Erne,train
+UKGBNIF11330,Colebrooke,train
+UKGBNIF11331,Lagan,test
+UKGBNIF11332,Lower Bann,train
+UKGBNIF11333,Lower Bann,train
+UKGBNIF11421,Sillees,train
+UKGBNIF11437,Larne,train
+UKGBNIF11449,Lough Neagh & Peripherals,test
+UKGBNIF11450,Blackwater,test
+UKGBNIF11451,Ballinderry,train
+UKGBNIF11452,Main,train
+UKGBNIF11453,Bush,train
+UKGBNIF11456,Lower Bann,train
+UKGBNIF11466,Moyola,train
+UKGBNIF11468,Newry,train
+UKGBNIF11469,Upper Bann,test
+UKGBNIF11470,Upper Bann,test
+UKGBNIF11471,Upper Bann,test
+UKGBNIF11472,Main,train
+UKGBNIF11473,Upper Erne,train
+UKGBNIF11474,Lower Erne,train
+UKGBNIF11476,Blackwater,test
+UKGBNIF11477,Blackwater,test
+UKGBNIF11478,Blackwater,test
+UKGBNIF11479,Blackwater,test
+UKGBNIF11480,Six Mile Water,train
+UKGBNIF11482,Sillees,train
+UKGBNIF11483,Arney,test
+UKGBNIF11484,Lower Bann,train
+UKGBNIF11489,Lower Bann,train
+UKGBNIF11490,Arney,test
+UKGBNIF11491,Lower Erne,train
+UKGBNIF11498,Blackwater,test
+UKGBNIF11505,Bannagh,train
+UKGBNIF11508,Bradoge,train
+UKGBNIF11509,Lagan,test
+UKGBNIF11514,Blackwater,test
+UKGBNIF11417,Sillees,train
+UKGBNIF11420,Drumragh,train
+UKGBNIF11515,Derg,train
+UKGBNIF11516,Finn (Fermanagh),train
+UKGBNIF11519,Lough Neagh & Peripherals,test
+UKGBNIF11520,Main,train
