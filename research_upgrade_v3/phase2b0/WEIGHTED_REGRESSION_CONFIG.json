@@ -1,0 +1,139 @@
+{
+  "candidates": {
+    "ExtraTreesRegressor": {
+      "max_features": [
+        0.6,
+        0.8
+      ],
+      "min_samples_leaf": [
+        2,
+        5
+      ],
+      "n_estimators": [
+        150,
+        300
+      ],
+      "random_state": 20261012
+    },
+    "HistGradientBoostingRegressor": {
+      "l2_regularization": [
+        0,
+        1
+      ],
+      "learning_rate": [
+        0.03,
+        0.07
+      ],
+      "max_leaf_nodes": [
+        15,
+        31
+      ],
+      "min_samples_leaf": [
+        20,
+        50
+      ],
+      "random_state": 20261012
+    },
+    "RandomForestRegressor": {
+      "max_features": [
+        0.6,
+        0.8
+      ],
+      "min_samples_leaf": [
+        2,
+        5
+      ],
+      "n_estimators": [
+        150,
+        300
+      ],
+      "random_state": 20261012
+    }
+  },
+  "development_data": {
+    "legacy_test_prohibited_for_selection": true,
+    "partition": "historical grouped train only",
+    "processed_sha256": "5685c2c352b1cc9502cd664736d85295580127016fb60bdca45c082c5d031761",
+    "rows": 119690,
+    "stations": 672
+  },
+  "experiment": "Low-DO Weighted Regression",
+  "inner_selection": {
+    "qualification": [
+      "overall MAE <= 1.10 * same-fold unweighted anchor MAE",
+      "low-DO precision >= 0.30",
+      "at least one predicted low in every fold containing true low DO",
+      "no split, data-integrity, non-finite-prediction, or metric failure"
+    ],
+    "ranking": [
+      "highest mean low-DO recall",
+      "lowest mean low-DO MAE",
+      "lowest overall MAE",
+      "lower complexity",
+      "stable candidate ID"
+    ]
+  },
+  "metrics": {
+    "co_primary": [
+      "low_do_recall",
+      "low_do_mae_mg_l"
+    ],
+    "positive_class": "ground truth DO < 4 mg/L",
+    "predicted_positive": "predicted DO < 4 mg/L",
+    "secondary": [
+      "overall_mae_mg_l",
+      "overall_rmse_mg_l",
+      "overall_r2",
+      "low_do_rmse_mg_l",
+      "low_do_bias_prediction_minus_truth_mg_l",
+      "low_do_precision",
+      "low_do_f1",
+      "low_do_false_negative_rate"
+    ],
+    "undefined_rule": "precision/F1 missing when no predicted positives"
+  },
+  "nested_cv": {
+    "fold_support_criteria": {
+      "training_min_low_rows": 50,
+      "training_min_low_sites": 10,
+      "validation_max_single_site_low_share": 0.5,
+      "validation_min_low_rows": 10,
+      "validation_min_low_sites": 3
+    },
+    "group": "station_code",
+    "inner_folds": 4,
+    "outer_folds": 5,
+    "seed": 20261012,
+    "splitter": "StratifiedGroupKFold",
+    "stratification_label": "dissolved_oxygen_mg_l < 4"
+  },
+  "outer_evaluation": {
+    "aggregation": "concatenate outer out-of-fold predictions",
+    "rule": "one evaluation of inner-selected configuration per outer fold",
+    "uncertainty": {
+      "method": "paired whole-site percentile bootstrap",
+      "resamples": 2000,
+      "seed": 20261012
+    }
+  },
+  "sample_weight": {
+    "computed_from": "training-fold target only",
+    "multipliers": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "normalization": "divide by training-fold mean raw weight",
+    "raw_rule": "multiplier if training-fold target < 4 mg/L else 1",
+    "row_resampling_prohibited": true
+  },
+  "status": "frozen_not_executed",
+  "stopping": {
+    "extend_search_after_results": false,
+    "fixed_grid_only": true,
+    "legacy_test_may_not_change_selection": true,
+    "no_qualified_model_is_valid_outcome": true
+  },
+  "training_performed": false
+}

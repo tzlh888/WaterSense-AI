@@ -1,0 +1,147 @@
+{
+  "automated_tests": {
+    "command": "-m unittest tests.test_phase2b0_readiness tests.test_low_do_reliability -v",
+    "real_data_integration_test_executed": true,
+    "result": "passed",
+    "returncode": 0,
+    "summary": "Ran 19 tests in 1.639s",
+    "synthetic_fixtures_are_labelled_unit_tests_only": true
+  },
+  "cleaning_rules": [
+    "Excluded rows with missing dissolved-oxygen target.",
+    "Excluded rows with any dissolved-oxygen target qualifier.",
+    "Parsed sample date and derived sample year.",
+    "Derived month, season, and cyclical day-of-year context from sample date.",
+    "Renamed selected core chemistry columns for modelling.",
+    "Preserved predictor numeric values exactly as exported.",
+    "Added separate below-limit and above-limit flags for qualified predictors.",
+    "Retained predictor missing values for training-only median imputation."
+  ],
+  "files": {
+    "cleaning_audit": {
+      "expected_sha256": "da6a408003ad98a23887596eecfbc329fb3c370f936a2cb63237d3bc27b0174d",
+      "fresh_reconstruction_equal": true,
+      "observed_sha256": "da6a408003ad98a23887596eecfbc329fb3c370f936a2cb63237d3bc27b0174d",
+      "path": "data/processed/water_quality_modeling_audit.json"
+    },
+    "historical_membership": {
+      "expected_sha256": "b42814782f7290ab73faece96634c7a65448912ea40891f3c9a714b157594229",
+      "observed_sha256": "b42814782f7290ab73faece96634c7a65448912ea40891f3c9a714b157594229",
+      "path": "research_outputs/predictions/split_grouped.csv.gz"
+    },
+    "processed": {
+      "audit": {
+        "columns": 32,
+        "duplicate_station_date_rows": 0,
+        "exact_duplicate_rows": 0,
+        "low_do_definition": "dissolved_oxygen_mg_l < 4",
+        "low_do_rows": 925,
+        "low_do_sites": 146,
+        "rows": 151031,
+        "stations": 840,
+        "target": "dissolved_oxygen_mg_l",
+        "target_unit": "mg/L",
+        "unique_source_object_ids": 151031
+      },
+      "bytes": 23681804,
+      "expected_sha256": "5685c2c352b1cc9502cd664736d85295580127016fb60bdca45c082c5d031761",
+      "fresh_reconstruction_equal": true,
+      "observed_sha256": "5685c2c352b1cc9502cd664736d85295580127016fb60bdca45c082c5d031761",
+      "path": "data/processed/water_quality_modeling.csv"
+    },
+    "raw": {
+      "audit": {
+        "columns": 40,
+        "duplicate_station_date_time": 0,
+        "exact_duplicate_rows": 0,
+        "first_date": "1990-01-02",
+        "last_date": "2024-12-11",
+        "rows": 178680,
+        "stations": 1311,
+        "target": "DO_mg_l_",
+        "target_missing_rows": 27643,
+        "target_qualified_rows": 6,
+        "target_unit": "mg/L",
+        "unique_object_ids": 178680
+      },
+      "bytes": 31684434,
+      "expected_sha256": "a5ce02d9ab3703edc4279c8dc5f9d38a593b92c555945c5cdb2ab3ca55632632",
+      "observed_sha256": "a5ce02d9ab3703edc4279c8dc5f9d38a593b92c555945c5cdb2ab3ca55632632",
+      "path": "data/raw/niea_river_water_quality_1990_2024.csv"
+    }
+  },
+  "final_status": "READY",
+  "historical_cross_checks": {
+    "holdout_feature_target_values_match": true,
+    "holdout_rows_checked": 31341,
+    "training_reference_rows_checked": 119690,
+    "training_reference_values_and_order_match": true
+  },
+  "partition_audit": {
+    "development_low_do_fraction": 0.0063330269863814855,
+    "development_low_do_rows": 758,
+    "development_low_do_sites": 115,
+    "development_rows": 119690,
+    "development_stations": 672,
+    "development_unique_source_ids": 119690,
+    "legacy_test_rows": 31341,
+    "legacy_test_stations": 168,
+    "legacy_test_unique_source_ids": 31341,
+    "saved_membership_matches_seed42_group_split": true,
+    "station_overlap": 0
+  },
+  "phase2a_protection": {
+    "mismatches": [],
+    "run_manifest_sha256": "a2a14d27ed953f6c33c3b5c42f69e820f0a56bf41a100dac8e2eb3e4808e928e",
+    "verified_output_count": 22
+  },
+  "phase2b0_outputs_sha256": {
+    "DATA_RECOVERY_REPORT.md": "9ed2e1d158dd2f18e81fc98838b0af3a17e3d689bafd623477058205b5f7910c",
+    "DEVELOPMENT_PARTITION_AUDIT.md": "5a3ff97fac72ce3590269c7cb23a4af792432fb02deba24a262fd1b9df281398",
+    "NESTED_CV_FOLD_SUPPORT.csv": "d0e29ddeb6b77263fdafe4f5a654c550395e885170a79a4d563d0740c42d1379",
+    "NESTED_CV_READINESS_REPORT.md": "5aa21cde3bc153a710a0d1da6c43bc9071d2ab466765c8f8ab3c546603470d84",
+    "NESTED_CV_SITE_ASSIGNMENTS.csv": "0fa76b39cd3697aed2b615f5921a2cfa8dbaf0fdbd216393520c25c52bf58025",
+    "NESTED_CV_SPLIT_MANIFEST.json": "c8fdf4024e9f499e7781e0aac41fac1ca681847f752520fdfd7a0dc78cd217cb",
+    "PHASE2B0_FINAL_HANDOFF.md": "f30880a0057f743f7f0871d24e1724f7d620b72ba08b38107d344d089b58fc61",
+    "WEIGHTED_REGRESSION_CONFIG.json": "70b8e8dba893416b5a1122dd1c36b3ab6f3e0e128ee07a7d65e5cdb96063cbe4",
+    "WEIGHTED_REGRESSION_FROZEN_PROTOCOL.md": "1019adb4dbad6cc5431c05e288478a22127d75913584f6ef66ddf84be5934910"
+  },
+  "recovery_status": "exact_historical_recovery",
+  "retrieved_date": "2026-10-12",
+  "source": {
+    "arcgis_item_id": "a8f8de1ad58a4ee28340f23a9be4bdad",
+    "catalogue_url": "https://www.data.gov.uk/dataset/0840ab33-18ae-4670-8523-ac43105f5902/river-water-quality-monitoring-1990-to-2024-all-parameters",
+    "dataset": "River Water Quality Monitoring 1990 to 2024 - All Parameters",
+    "download_spatial_reference": 29902,
+    "download_url": "https://opendata.arcgis.com/api/v3/datasets/a8f8de1ad58a4ee28340f23a9be4bdad_0/downloads/data?format=csv&spatialRefId=29902",
+    "licence": "UK Open Government Licence v3.0",
+    "publisher": "OpenDataNI / NIEA Water Science and Evidence Unit",
+    "service_content_last_modified": "2026-06-23T11:13:39.402Z",
+    "service_url": "https://services-eu1.arcgis.com/kswen6BYexuc1SUk/arcgis/rest/services/River_Water_Quality_Monitoring_1990_to_2024_All_Parameters/FeatureServer/0"
+  },
+  "source_code_sha256": {
+    "scripts/recover_phase2b0_data.py": "1d26f2b0863e22dcdcea6ddf1a6136ffabd11a026717d8e441407cb90060e99e",
+    "scripts/run_phase2b0_readiness.py": "874570902df2f6bcbeb7412eb1597db0af828b1185bef9cc5cd54e0103a3ef0b",
+    "src/phase2b0_readiness.py": "d202fe8edb998bdd4d9e5e199170f0f4f74dccc41457b53cf2e9a56184c74951",
+    "src/preprocessing.py": "d9703777bab9d164e5f940da81f7c7be500a600f7df29264e7939119c89a0f96",
+    "tests/test_phase2b0_readiness.py": "f42dc6bea16dcd208f94857cd31e01ff65d2485907721d0ee5d97514bad8fbde"
+  },
+  "task_start_git_snapshot": {
+    "branch": "research-upgrade-v3",
+    "head": "3553b29ff104918b12da8c84d2c9a8c5ed032e18",
+    "status_summary": [
+      "?? research_upgrade_v3/",
+      "?? scripts/run_low_do_reliability.py",
+      "?? src/low_do_reliability.py",
+      "?? tests/test_low_do_reliability.py"
+    ],
+    "tracked_modifications": [],
+    "untracked_scope": [
+      "research_upgrade_v3/",
+      "scripts/run_low_do_reliability.py",
+      "src/low_do_reliability.py",
+      "tests/test_low_do_reliability.py"
+    ]
+  },
+  "training_performed": false
+}
