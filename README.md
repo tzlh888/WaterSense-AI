@@ -10,6 +10,14 @@ WaterSense AI is a reproducible machine-learning study of dissolved oxygen (DO) 
 
 [v2.0 robustness report](research_outputs_v2/reports/RESEARCH_RESULTS_V2.md) · [v1.0 report](research_outputs/reports/RESEARCH_RESULTS.md) · [Experiment protocol](docs/research_protocol.md)
 
+## Research Upgrade v3 — Development-Only Low-DO Result
+
+A frozen nested site-grouped CV procedure improved low-DO MAE from **3.3235 to 2.3613 mg/L** and recall from **0.1293 to 0.3641** on the 119,690-row development partition. The trade-off was material: overall MAE increased from **0.8797 to 0.9516 mg/L**, precision fell from **0.7903 to 0.5576**, and false positives increased from **26 to 219**. The formal result supports the complete selected procedure; same-architecture evidence for weighting itself is post hoc and exploratory.
+
+This is **not external confirmation**. No new independent confirmation set was available, substantial low-DO misses remain, and the historical deployed model was not replaced. The result does not establish operational water-quality warning reliability.
+
+[Final scientific report](research_upgrade_v3/final_closeout/FINAL_SCIENTIFIC_REPORT.md) · [One-page research summary](research_upgrade_v3/final_closeout/ONE_PAGE_RESEARCH_SUMMARY.md) · [Experiment 1 handoff](research_upgrade_v3/experiment1_weighted_regression/PHASE2B_EXPERIMENT1_FINAL_HANDOFF.md) · [Attribution audit](research_upgrade_v3/experiment1a_attribution/EXPERIMENT1A_ATTRIBUTION_REPORT.md) · [Reproducibility status](research_upgrade_v3/final_closeout/REPRODUCIBILITY_STATUS.md)
+
 ## Research Question
 
 > How well can machine-learning models predict dissolved oxygen and generalize across unseen monitoring stations and future time periods?
