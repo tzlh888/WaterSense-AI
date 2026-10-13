@@ -1,0 +1,38 @@
+{
+  "bootstrap_resamples": 2000,
+  "bootstrap_seed": 20261012,
+  "outputs": {
+    "EVIDENCE_MANIFEST.csv": "3feffc2352fcb157cd9d92d3d383e41c31f0db5651016f0a98fe15e0d7a03780",
+    "LEGACY_BENCHMARK_REGISTRY.md": "0c28d9dfa3a087f55b3717c1621823e99239a5641cece7c1a1ec4c6164c4ae8f",
+    "LOW_DO_CONCENTRATION_BINS.csv": "268598b70e1fd389b7c8097a6716826a38334f56fc9b7f6436411597d769f9bc",
+    "LOW_DO_EXTREME_CASES.csv": "bb1c61ff6b07f66eb3c5ac262c87eaa444e3e8bf219ef96e4021594b95bd833d",
+    "LOW_DO_FAILURE_ANALYSIS.md": "004d0de5c80c6e7dbfeb9f2cee50d7347fb029ee261536739c6d38c5977fc76f",
+    "LOW_DO_FALSE_NEGATIVES.csv": "f52298796e2caccf498f75d40c099ae35cb8735bb2057487c2a5c30715986c34",
+    "LOW_DO_FEATURE_ASSOCIATIONS.csv": "42158d1e081dd3ee576f24b64889c1f13f1b94af3834b7f7ca4dbcab78ad3b5f",
+    "LOW_DO_METRICS.csv": "2688fa824dba7d7f3c73a61b7d483435d05a99807bfb8fb5e0fccd9e92ccdd0f",
+    "LOW_DO_MISSINGNESS_ANALYSIS.csv": "865ff85d116984362846e3e4f935856dc7a76a526aa2a465b8a95834acc5c7da",
+    "LOW_DO_RELIABILITY_REPORT.md": "893e63721fd837aeb27f9c5505b19639a5f009b3c0f0fe010de1df5f97427a8c",
+    "LOW_DO_SITE_ANALYSIS.csv": "8d730bd2f9a217241d226fcc081fb96a56498711e27b9cd9641719fe9a856904",
+    "LOW_DO_UNCERTAINTY.csv": "a7587df1db721d9049d35542b10ad5b74ca6efd31b1248d4cff61f42832ea24b",
+    "LOW_DO_YEAR_ANALYSIS.csv": "e215f2af767eba0f1cda0bf73d66da2fe8506dd5edefbf8ab0f815f075e8fcdb",
+    "PHASE2A_IMPLEMENTATION_REPORT.md": "dc869f1f2285ffb69da3230c6b0d94706969222a1ade7a508c9ec9c0892aa170",
+    "PHASE2B_EXPERIMENT_PROTOCOL.md": "634fb845419aa27491568c1c013c638adfe1e5def9a33091e5f6d4820d3a7caf",
+    "PROTOCOL_FREEZE.md": "c72ecabda4c18b1a905aeda9da05ff33eca1dbf0c2866f7358619fd0d5d6770b",
+    "REPEATED_SPLIT_UNIQUE_OBSERVATIONS.csv": "d7e25cbe608aa9095acca200c5b41b504ca288a2b92da4112f8efed41917b735",
+    "RESEARCH_DECISION_LOG.md": "78db15c608abb483bddecfd32349a3270effb4dca7f8b8a6e2145079d19b5dbf",
+    "figures/LOW_DO_ACTUAL_VS_PREDICTED.png": "176513adf942a4e0790a33f00e5754d89ed984afa3a1c5c8a8d0521ae681c3d7",
+    "figures/LOW_DO_RESIDUAL_DISTRIBUTION.png": "80aad4185cce5bad079154f8a0ee035e9019f0189ec6825414ded39d9685da3c",
+    "figures/LOW_DO_SITE_CLUSTERED_UNCERTAINTY.png": "73c5b0a6e6e5d82814259e0f239b1237f70238b67d57faa0ba1fabb9a9da84d0",
+    "figures/LOW_DO_SITE_ERROR.png": "19f361ecc7ac30aff6a2d549418c8aec1e9bd017b4a17ad64a02e0132dc1bd33"
+  },
+  "prediction_sources": {
+    "repeated_spatiotemporal_appearances": "research_outputs_v2/predictions/repeated_spatiotemporal_predictions.csv.gz",
+    "spatial_basin_holdout": "research_outputs_v2/predictions/spatial_basin_predictions.csv.gz",
+    "spatiotemporal_seed_42": "research_outputs/predictions/spatiotemporal.csv.gz",
+    "station_grouped_holdout": "results/phase4_holdout_predictions.csv",
+    "temporal_2022_2024": "research_outputs/predictions/temporal.csv.gz"
+  },
+  "status": "complete",
+  "threshold_mg_l": 4.0,
+  "training_performed": false
+}
