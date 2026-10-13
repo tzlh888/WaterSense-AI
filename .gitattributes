@@ -1,3 +1,9 @@
 # The verified model exceeds GitHub's normal 100 MB object limit.
 # Git LFS is supported by Streamlit Community Cloud.
 models/phase4_selected_model.joblib filter=lfs diff=lfs merge=lfs -text
+
+# Preserve valid Markdown hard breaks and generated report bytes in frozen v3 evidence.
+research_upgrade_v3/LOW_DO_RELIABILITY_REPORT.md whitespace=-trailing-space
+research_upgrade_v3/PHASE2B_EXPERIMENT_PROTOCOL.md whitespace=-trailing-space
+research_upgrade_v3/PROTOCOL_FREEZE.md whitespace=-trailing-space
+scripts/run_low_do_reliability.py whitespace=-trailing-space
