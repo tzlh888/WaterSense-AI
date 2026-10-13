@@ -1,0 +1,43 @@
+{
+  "all_partitions_qualified": true,
+  "all_site_overlaps_zero": true,
+  "baseline_head": "3553b29ff104918b12da8c84d2c9a8c5ed032e18",
+  "created_date": "2026-10-12",
+  "criteria": {
+    "training_min_low_rows": 50,
+    "training_min_low_sites": 10,
+    "validation_max_single_site_low_share": 0.5,
+    "validation_min_low_rows": 10,
+    "validation_min_low_sites": 3
+  },
+  "development_low_do_fraction": 0.0063330269863814855,
+  "development_low_do_rows": 758,
+  "development_low_do_sites": 115,
+  "development_processed_sha256": "5685c2c352b1cc9502cd664736d85295580127016fb60bdca45c082c5d031761",
+  "development_rows": 119690,
+  "development_stations": 672,
+  "fold_support_path": "research_upgrade_v3/phase2b0/NESTED_CV_FOLD_SUPPORT.csv",
+  "fold_support_sha256": "d0e29ddeb6b77263fdafe4f5a654c550395e885170a79a4d563d0740c42d1379",
+  "group": "station_code",
+  "historical_membership_path": "research_outputs/predictions/split_grouped.csv.gz",
+  "historical_membership_sha256": "b42814782f7290ab73faece96634c7a65448912ea40891f3c9a714b157594229",
+  "inner_folds": 4,
+  "inner_row_assignments_canonical_sha256": "7a143df06162994efc65b0fb58770b21a2b49a6371a66ce46a592d7218dcb0b0",
+  "inner_seed_rule": "20261012 + outer_fold_number",
+  "low_do_threshold_mg_l": 4.0,
+  "outer_folds": 5,
+  "outer_row_assignments_canonical_sha256": "d18f55c62e6baab38223c804cc3dbcdf549837560f5984dccda6139d6599b1fd",
+  "outer_seed": 20261012,
+  "site_assignment_path": "research_upgrade_v3/phase2b0/NESTED_CV_SITE_ASSIGNMENTS.csv",
+  "site_assignments_canonical_sha256": "0fa76b39cd3697aed2b615f5921a2cfa8dbaf0fdbd216393520c25c52bf58025",
+  "site_assignments_file_sha256": "0fa76b39cd3697aed2b615f5921a2cfa8dbaf0fdbd216393520c25c52bf58025",
+  "software": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "python": "3.14.0",
+    "scikit_learn": "1.9.1"
+  },
+  "splitter": "sklearn.model_selection.StratifiedGroupKFold",
+  "status": "qualified",
+  "training_performed": false
+}

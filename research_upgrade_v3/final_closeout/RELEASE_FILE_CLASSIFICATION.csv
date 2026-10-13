@@ -1,0 +1,151 @@
+path,release_action,reason
+.gitignore,COMMIT,Ignore redundant research restart checkpoints
+.gitattributes,COMMIT,Preserve frozen artifact bytes while scoping whitespace checks
+README.md,COMMIT,Minimal scientific-results and limitations update
+research_upgrade_v3/EVIDENCE_MANIFEST.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/LEGACY_BENCHMARK_REGISTRY.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/LOW_DO_CONCENTRATION_BINS.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/LOW_DO_EXTREME_CASES.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/LOW_DO_FAILURE_ANALYSIS.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/LOW_DO_FALSE_NEGATIVES.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/LOW_DO_FEATURE_ASSOCIATIONS.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/LOW_DO_METRICS.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/LOW_DO_MISSINGNESS_ANALYSIS.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/LOW_DO_RELIABILITY_REPORT.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/LOW_DO_SITE_ANALYSIS.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/LOW_DO_UNCERTAINTY.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/LOW_DO_YEAR_ANALYSIS.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/PHASE2A_IMPLEMENTATION_REPORT.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/PHASE2B_EXPERIMENT_PROTOCOL.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/PROTOCOL_FREEZE.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/REPEATED_SPLIT_UNIQUE_OBSERVATIONS.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/RESEARCH_DECISION_LOG.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/RUN_MANIFEST.json,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_1/inner_1.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_1/inner_1.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_1/inner_2.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_1/inner_2.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_1/inner_3.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_1/inner_3.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_1/inner_4.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_1/inner_4.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_1/outer_metrics.csv,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_1/outer_predictions.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_1/outer_predictions.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_2/inner_1.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_2/inner_1.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_2/inner_2.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_2/inner_2.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_2/inner_3.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_2/inner_3.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_2/inner_4.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_2/inner_4.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_2/outer_metrics.csv,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_2/outer_predictions.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_2/outer_predictions.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_3/inner_1.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_3/inner_1.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_3/inner_2.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_3/inner_2.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_3/inner_3.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_3/inner_3.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_3/inner_4.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_3/inner_4.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_3/outer_metrics.csv,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_3/outer_predictions.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_3/outer_predictions.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_4/inner_1.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_4/inner_1.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_4/inner_2.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_4/inner_2.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_4/inner_3.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_4/inner_3.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_4/inner_4.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_4/inner_4.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_4/outer_metrics.csv,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_4/outer_predictions.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_4/outer_predictions.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_5/inner_1.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_5/inner_1.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_5/inner_2.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_5/inner_2.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_5/inner_3.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_5/inner_3.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_5/inner_4.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_5/inner_4.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_5/outer_metrics.csv,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_5/outer_predictions.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_5/outer_predictions.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/BASELINE_VS_WEIGHTED.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/experiment1_weighted_regression/EXPERIMENT1_CONFIG.json,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/experiment1_weighted_regression/EXPERIMENT1_REPRODUCIBILITY.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/experiment1_weighted_regression/EXPERIMENT1_RESEARCH_REPORT.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/experiment1_weighted_regression/EXPERIMENT1_RUN_MANIFEST.json,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/experiment1_weighted_regression/INNER_CV_FOLD_RESULTS.csv.gz,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/experiment1_weighted_regression/INNER_CV_SELECTION.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/experiment1_weighted_regression/LOW_DO_CLASSIFICATION.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/experiment1_weighted_regression/OUTER_CV_METRICS.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/experiment1_weighted_regression/OUTER_CV_PREDICTIONS.csv.gz,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/experiment1_weighted_regression/PHASE2B_EXPERIMENT1_FINAL_HANDOFF.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/experiment1_weighted_regression/PREDICTION_SHIFT_ANALYSIS.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/experiment1_weighted_regression/SITE_CLUSTERED_BOOTSTRAP_REPLICATES.csv.gz,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/experiment1_weighted_regression/SITE_CLUSTERED_UNCERTAINTY.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/experiment1_weighted_regression/SITE_ERROR_COMPARISON.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/experiment1_weighted_regression/figures/BASELINE_WEIGHTED_UNCERTAINTY.png,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/experiment1_weighted_regression/figures/LOW_DO_OUTER_PREDICTIONS.png,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/experiment1_weighted_regression/figures/SITE_LOW_DO_MAE_CHANGE.png,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/experiment1a_attribution/EXPERIMENT1A_ATTRIBUTION_REPORT.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/experiment1a_attribution/EXPERIMENT1A_FINAL_HANDOFF.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/experiment1a_attribution/EXPERIMENT1A_RUN_MANIFEST.json,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/experiment1a_attribution/FALSE_POSITIVE_DO_RANGE.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/experiment1a_attribution/FALSE_POSITIVE_SITE_DISTRIBUTION.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/experiment1a_attribution/INNER_WEIGHT_ATTRIBUTION_SUMMARY.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/experiment1a_attribution/INNER_WEIGHT_MATCHED_PAIRS.csv.gz,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/experiment1a_attribution/LOW_DO_RECALL_SITE_DISTRIBUTION.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/experiment1a_attribution/OUTER_CLASSIFICATION_TRANSITIONS.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/experiment1a_attribution/OUTER_ERROR_DECOMPOSITION.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/experiment1a_attribution/PREDICTION_SHIFT_QUANTILES.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/experiment1a_attribution/SELECTED_CONFIG_ATTRIBUTION.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/figures/LOW_DO_ACTUAL_VS_PREDICTED.png,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/figures/LOW_DO_RESIDUAL_DISTRIBUTION.png,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/figures/LOW_DO_SITE_CLUSTERED_UNCERTAINTY.png,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/figures/LOW_DO_SITE_ERROR.png,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/final_closeout/DEVELOPMENT_TOOL_AUDIT.md,COMMIT,Required public trace audit with a neutral repository-relative name
+research_upgrade_v3/final_closeout/EXCLUDED_FILE_MANIFEST.csv,COMMIT,Release exclusion allowlist
+research_upgrade_v3/final_closeout/FINAL_RELEASE_READINESS_REPORT.md,COMMIT,Release governance deliverable
+research_upgrade_v3/final_closeout/FINAL_STAGING_REVIEW.md,COMMIT,Final staging security and integrity audit
+research_upgrade_v3/final_closeout/FINAL_SCIENTIFIC_REPORT.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/final_closeout/HUMAN_REVIEW_CHECKLIST.md,COMMIT,Owner approval gates
+research_upgrade_v3/final_closeout/ONE_PAGE_RESEARCH_SUMMARY.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/final_closeout/PATH_SANITIZATION_CHANGES.csv,COMMIT,Recorded path cleanup actions
+research_upgrade_v3/final_closeout/PROPOSED_COMMIT_PLAN.md,COMMIT,Explicit three-group commit plan
+research_upgrade_v3/final_closeout/PUBLIC_PATH_AUDIT.md,COMMIT,Public path and link audit
+research_upgrade_v3/final_closeout/PUBLIC_RELEASE_AUDIT.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/final_closeout/RELEASE_FILE_CLASSIFICATION.csv,COMMIT,Release governance deliverable
+research_upgrade_v3/final_closeout/REPRODUCIBILITY_STATUS.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/final_closeout/RESEARCH_CONTRIBUTION_STATEMENT.md,HUMAN_REVIEW,Owner must confirm personal contribution claims before publication
+research_upgrade_v3/final_closeout/STAGED_FILE_MANIFEST.csv,COMMIT,Exact staged path and commit group manifest
+research_upgrade_v3/final_closeout/TECHNICAL_INTERVIEW_QA.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase2b0/DATA_PROVENANCE_MANIFEST.json,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase2b0/DATA_RECOVERY_REPORT.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase2b0/DEVELOPMENT_PARTITION_AUDIT.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase2b0/NESTED_CV_FOLD_SUPPORT.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase2b0/NESTED_CV_READINESS_REPORT.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase2b0/NESTED_CV_SITE_ASSIGNMENTS.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase2b0/NESTED_CV_SPLIT_MANIFEST.json,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase2b0/PHASE2B0_FINAL_HANDOFF.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase2b0/WEIGHTED_REGRESSION_CONFIG.json,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase2b0/WEIGHTED_REGRESSION_FROZEN_PROTOCOL.md,COMMIT,Public research code report test or compact reproducibility artifact
+scripts/recover_phase2b0_data.py,COMMIT,Public research code report test or compact reproducibility artifact
+scripts/run_experiment1_weighted_regression.py,COMMIT,Public research code report test or compact reproducibility artifact
+scripts/run_experiment1a_attribution.py,COMMIT,Public research code report test or compact reproducibility artifact
+scripts/run_low_do_reliability.py,COMMIT,Public research code report test or compact reproducibility artifact
+scripts/run_phase2b0_readiness.py,COMMIT,Public research code report test or compact reproducibility artifact
+src/experiment1a_attribution.py,COMMIT,Public research code report test or compact reproducibility artifact
+src/low_do_reliability.py,COMMIT,Public research code report test or compact reproducibility artifact
+src/phase2b0_readiness.py,COMMIT,Public research code report test or compact reproducibility artifact
+src/weighted_regression_experiment.py,COMMIT,Public research code report test or compact reproducibility artifact
+tests/test_experiment1a_attribution.py,COMMIT,Public research code report test or compact reproducibility artifact
+tests/test_low_do_reliability.py,COMMIT,Public research code report test or compact reproducibility artifact
+tests/test_phase2b0_readiness.py,COMMIT,Public research code report test or compact reproducibility artifact
+tests/test_weighted_regression_experiment.py,COMMIT,Public research code report test or compact reproducibility artifact

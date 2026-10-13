@@ -1,0 +1,65 @@
+path_or_pattern,exclusion_action,reason
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_1/inner_1.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_1/inner_1.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_1/inner_2.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_1/inner_2.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_1/inner_3.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_1/inner_3.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_1/inner_4.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_1/inner_4.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_1/outer_metrics.csv,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_1/outer_predictions.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_1/outer_predictions.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_2/inner_1.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_2/inner_1.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_2/inner_2.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_2/inner_2.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_2/inner_3.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_2/inner_3.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_2/inner_4.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_2/inner_4.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_2/outer_metrics.csv,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_2/outer_predictions.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_2/outer_predictions.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_3/inner_1.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_3/inner_1.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_3/inner_2.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_3/inner_2.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_3/inner_3.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_3/inner_3.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_3/inner_4.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_3/inner_4.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_3/outer_metrics.csv,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_3/outer_predictions.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_3/outer_predictions.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_4/inner_1.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_4/inner_1.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_4/inner_2.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_4/inner_2.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_4/inner_3.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_4/inner_3.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_4/inner_4.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_4/inner_4.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_4/outer_metrics.csv,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_4/outer_predictions.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_4/outer_predictions.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_5/inner_1.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_5/inner_1.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_5/inner_2.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_5/inner_2.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_5/inner_3.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_5/inner_3.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_5/inner_4.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_5/inner_4.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_5/outer_metrics.csv,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_5/outer_predictions.csv.gz,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/experiment1_weighted_regression/.checkpoints/outer_5/outer_predictions.json,KEEP_IGNORED,Redundant restart checkpoint retained locally and covered by release-prep backup
+research_upgrade_v3/final_closeout/RESEARCH_CONTRIBUTION_STATEMENT.md,HUMAN_REVIEW,Owner must confirm personal contribution claims before publication
+data/raw/*,KEEP_IGNORED,Source data are recovered from the licensed public source by script
+data/processed/*,KEEP_IGNORED,Large reconstructed modelling data remain outside ordinary Git
+research_runs/*,KEEP_IGNORED,Partial and smoke runs are not release evidence
+research_upgrade_v3/**/.checkpoints/*,KEEP_IGNORED,Restart state duplicates consolidated outputs
+.env*,CANNOT_PUBLIC,Credentials or local environment configuration must never be published
+.streamlit/secrets.toml,CANNOT_PUBLIC,Application secrets must never be published
+__pycache__/*,KEEP_IGNORED,Regenerable Python cache
+*.pyc,KEEP_IGNORED,Regenerable Python bytecode
