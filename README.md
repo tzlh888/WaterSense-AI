@@ -175,4 +175,4 @@ Historical reports and notebooks remain development records; current robustness 
 
 ## Transparency
 
-WaterSense AI is an educational research prototype. AI-assisted implementation and the author's research direction are documented in the project records. Application materials should describe contributions and learning honestly, without implying regulatory readiness or independent implementation where assistance was used.
+WaterSense AI is an educational machine learning research project investigating dissolved oxygen prediction and the reliability of low-oxygen detection. AI tools provided substantial assistance with implementation, testing, analysis, documentation, and release auditing. The reported improvements are supported by development-set nested cross-validation; independent external validation remains outstanding.
