@@ -1,6 +1,6 @@
 # WaterSense AI — Portfolio Website Copy
 
-Historical Phase 4/7 copy. For the completed spatial/temporal study and current application wording, use [application materials](../docs/application_materials.md) and the [research report](../research_outputs/reports/RESEARCH_RESULTS.md). The earlier results below are preserved as development history.
+Historical Phase 4/7 copy. For the current low-DO reliability conclusions and publication wording, use the [one-page research summary](../research_upgrade_v3/final_closeout/ONE_PAGE_RESEARCH_SUMMARY.md) and the [research report](../research_outputs/reports/RESEARCH_RESULTS.md). The earlier results below are preserved as development history.
 
 ## Project title
 

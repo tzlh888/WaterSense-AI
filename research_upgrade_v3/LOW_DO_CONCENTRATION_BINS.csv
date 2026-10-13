@@ -1,0 +1,5 @@
+ground_truth_do_bin,threshold_mg_l,positive_class,predicted_positive_rule,sample_count,unique_observation_count,station_count,overall_mae_mg_l,overall_rmse_mg_l,overall_r2,low_do_count,low_do_station_count,predicted_low_do_count,true_positive_count,false_positive_count,false_negative_count,true_negative_count,low_do_mae_mg_l,low_do_rmse_mg_l,low_do_bias_prediction_minus_truth_mg_l,low_do_recall,low_do_precision,low_do_f1,low_do_false_negative_rate,precision_defined,recall_defined,f1_defined
+<4,4,ground_truth_do < 4 mg/L,predicted_do < 4 mg/L,167,167,31,3.138650578,3.523222297,-16.38082823,167,31,14,14,0,153,0,3.138650578,3.523222297,3.119289566,0.08383233533,1,0.1546961326,0.9161676647,True,True,True
+4-<8,4,ground_truth_do < 4 mg/L,predicted_do < 4 mg/L,2694,2694,134,1.819238911,2.206583873,-4.400254912,0,0,4,0,4,0,2690,,,,,0,,,True,False,False
+8-<12,4,ground_truth_do < 4 mg/L,predicted_do < 4 mg/L,23357,23357,168,0.6303997818,0.8571597426,0.2946860829,0,0,1,0,1,0,23356,,,,,0,,,True,False,False
+>=12,4,ground_truth_do < 4 mg/L,predicted_do < 4 mg/L,5123,5123,164,1.151847112,1.970372243,-0.7725008157,0,0,1,0,1,0,5122,,,,,0,,,True,False,False

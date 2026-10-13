@@ -1,0 +1,3 @@
+entry_id,source_path,source_line,classification,original_target,resolution,current_target,exception_required,rationale
+WS-LINK-001,reports/interview_preparation.md,3,ACTIVE,../docs/application_materials.md,REPAIRED,../research_upgrade_v3/final_closeout/TECHNICAL_INTERVIEW_QA.md,no,The replacement is an existing final interview document and the surrounding wording now matches its scope.
+WS-LINK-002,reports/portfolio_web_copy.md,3,ACTIVE,../docs/application_materials.md,REPAIRED,../research_upgrade_v3/final_closeout/ONE_PAGE_RESEARCH_SUMMARY.md,no,The replacement is an existing current publication summary and the surrounding wording now matches its scope.

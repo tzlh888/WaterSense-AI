@@ -1,0 +1,8 @@
+actual_low_do,baseline_state,weighted_state,observation_count,station_count
+False,FP,FP,26,12
+False,TN,FP,193,76
+False,TN,TN,118713,672
+True,FN,FN,481,102
+True,FN,TP,179,50
+True,TP,FN,1,1
+True,TP,TP,97,18

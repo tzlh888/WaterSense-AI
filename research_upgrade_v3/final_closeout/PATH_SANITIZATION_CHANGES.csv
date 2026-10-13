@@ -1,0 +1,3 @@
+change_id,file,category,action,reference_updates,test_impact
+WS-001,research_upgrade_v3/final_closeout/PUBLIC_RELEASE_AUDIT.md,development_workspace_marker,Replaced a literal tool-workspace marker with a neutral public description,None,None
+WS-002,research_upgrade_v3/final_closeout/DEVELOPMENT_TOOL_AUDIT.md,public_filename,Renamed the generic release audit from AI_TOOL_TRACE_AUDIT.md,Updated staged manifest; release classification; public path audit,Documentation and path scan only
