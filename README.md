@@ -16,7 +16,13 @@ A frozen nested site-grouped CV procedure improved low-DO MAE from **3.3235 to 2
 
 This is **not external confirmation**. No new independent confirmation set was available, substantial low-DO misses remain, and the historical deployed model was not replaced. The result does not establish operational water-quality warning reliability.
 
-[Final scientific report](research_upgrade_v3/final_closeout/FINAL_SCIENTIFIC_REPORT.md) · [One-page research summary](research_upgrade_v3/final_closeout/ONE_PAGE_RESEARCH_SUMMARY.md) · [Experiment 1 handoff](research_upgrade_v3/experiment1_weighted_regression/PHASE2B_EXPERIMENT1_FINAL_HANDOFF.md) · [Attribution audit](research_upgrade_v3/experiment1a_attribution/EXPERIMENT1A_ATTRIBUTION_REPORT.md) · [Reproducibility status](research_upgrade_v3/final_closeout/REPRODUCIBILITY_STATUS.md)
+[Final scientific report](research_upgrade_v3/final_closeout/FINAL_SCIENTIFIC_REPORT.md) · **[W02 weight-grid erratum](research_upgrade_v3/final_closeout/W02_ERRATUM_2026-10-14.md)** · [One-page research summary](research_upgrade_v3/final_closeout/ONE_PAGE_RESEARCH_SUMMARY.md) · [Experiment 1 handoff](research_upgrade_v3/experiment1_weighted_regression/PHASE2B_EXPERIMENT1_FINAL_HANDOFF.md) · [Attribution audit](research_upgrade_v3/experiment1a_attribution/EXPERIMENT1A_ATTRIBUTION_REPORT.md) · [Reproducibility status](research_upgrade_v3/final_closeout/REPRODUCIBILITY_STATUS.md)
+
+## V4 release candidate — exploratory/development-only
+
+The V4 dedicated classifier is an **exploratory, development-only** analysis on the same 119,690 observations and five station-disjoint outer folds used by V3. It recorded TP 699, FP 9,517, TN 109,415 and FN 59 (recall 0.9222, precision 0.0684, F1 0.1274; low-DO prevalence 0.6333%). V3 and V4 use different objectives, decision functions, selection protocols and research timing, so they are **not directly comparable as a performance-improvement experiment**. There is no independent model confirmation, and the deployed model remains unchanged.
+
+[V4 scientific report](research_upgrade_v4_candidate/WATERSENSE_V4_SCIENTIFIC_REPORT.md) · [V4 admissions brief](research_upgrade_v4_candidate/WATERSENSE_ADMISSIONS_ONE_PAGE.md)
 
 ## Research Question
 
