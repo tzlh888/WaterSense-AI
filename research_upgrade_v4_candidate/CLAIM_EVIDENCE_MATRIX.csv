@@ -1,0 +1,12 @@
+claim_id,claim,evidence_class,primary_evidence,verification,status,scope_limit
+WS-C01,"151031 modelling rows and 840 stations",HISTORICAL,research_outputs/manifest.json,"manifest and tests",VERIFIED,"Northern Ireland observational records only"
+WS-C02,"v3 development population has 119690 rows and 672 stations",HISTORICAL,research_upgrade_v3/phase2b0/DATA_PROVENANCE_MANIFEST.json,"identity integration tests",VERIFIED,"development only"
+WS-C03,"formal W02 weights are 1 2 4 8",REPRODUCED,research_upgrade_v3/phase2b0/WEIGHTED_REGRESSION_CONFIG.json,"128 candidate arithmetic and decision log",VERIFIED,"v3 final-report text omitted weight 2"
+WS-C04,"v3 selected procedure improved low-DO MAE and recall",HISTORICAL,research_upgrade_v3/experiment1_weighted_regression/OUTER_CV_PREDICTIONS.csv.gz,"V4 exact recomputation",VERIFIED,"nested development CV not confirmation"
+WS-C05,"v3 selected procedure worsened overall MAE precision and false positives",HISTORICAL,research_upgrade_v3/experiment1_weighted_regression/OUTER_CV_PREDICTIONS.csv.gz,"V4 exact recomputation",VERIFIED,"must accompany improvement claim"
+WS-C06,"dedicated classifier recall is 0.9222 and precision is 0.0684",NEW_EXPERIMENT,research_upgrade_v4_candidate/WATERSENSE_EXPERIMENT_COMPARISON.csv,"five outer station-grouped folds",VERIFIED,"exploratory development-only"
+WS-C07,"dedicated classifier produced 9517 false positives and 59 false negatives",NEW_EXPERIMENT,research_upgrade_v4_candidate/WATERSENSE_EXPERIMENT_COMPARISON.csv,"confusion reconstruction test",VERIFIED,"threshold fixed at 0.5"
+WS-C08,"model preference changes across hypothetical FN FP costs",NEW_ANALYSIS,research_upgrade_v4_candidate/COST_SENSITIVITY.csv,"complete prespecified scenario grid",VERIFIED,"costs are hypothetical not regulatory"
+WS-C09,"current official export is not independent",NEW_AUDIT,research_upgrade_v4_candidate/WATERSENSE_EXTERNAL_VALIDATION.md,"current download and SHA256 byte comparison",VERIFIED,"does not exclude future new releases or other regions"
+WS-C10,"WaterSense has independent confirmation",INDEPENDENT_CONFIRMATION,research_upgrade_v4_candidate/WATERSENSE_EXTERNAL_VALIDATION.md,"independence gate",NOT_AVAILABLE,"no external metrics produced"
+WS-C11,"V4 did not modify the deployed model",NEW_AUDIT,research_upgrade_v4_candidate/BASELINE_INTEGRITY_MANIFEST.json,"pre/post Git and hash review",VERIFIED,"working tree has additive V4 files"
