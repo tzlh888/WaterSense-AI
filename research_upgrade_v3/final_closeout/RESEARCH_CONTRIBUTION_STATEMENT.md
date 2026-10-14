@@ -2,7 +2,7 @@
 
 ## Attribution rule
 
-Repository ownership, file presence, and GitHub account ownership do not prove that one person independently wrote every line or made every research decision. This statement separates artifact-verifiable project contents from biographical claims that require the project owner’s confirmation.
+The applicant has confirmed that they were the sole human project lead and that AI tools assisted throughout research and development. Repository ownership, file presence, and GitHub account ownership still do not prove that one person independently wrote every line or made every research decision. This statement separates artifact-verifiable project contents and confirmed project-level facts from task-level biographical claims that require further confirmation.
 
 ## Verifiable from repository evidence
 
@@ -18,7 +18,7 @@ The repository contains and can substantiate the following project-level contrib
 - automated tests for thresholding, false negatives, unique identity, fold isolation, deterministic hashes, invalid folds, saved prediction pairing, and bootstrap behavior;
 - preservation of historical results, failed experiments, decision rules, and legacy-benchmark status.
 
-These facts show what the project contains. They do not by themselves establish which individual designed, implemented, reviewed, or interpreted each item.
+These facts show what the project contains. The sole-human-lead confirmation does not by itself establish unaided authorship or which specific ideas, code, reviews, or interpretations originated with the applicant.
 
 ## Statements requiring the project owner’s confirmation
 
@@ -40,12 +40,10 @@ Before using a first-person contribution statement, the owner should explicitly 
 - Models: scikit-learn Random Forest, Extra Trees, HistGradientBoosting, Ridge, and dummy baselines; these are third-party implementations, not novel algorithms authored by the project.
 - No pretrained neural-network model is used in the WaterSense weighted-regression study.
 
-## AI-assisted development
+## Confirmed project-level attribution and AI assistance
 
-The existing README explicitly states that implementation was AI-assisted and that research direction was supplied by the author. The precise division of labor is not recoverable from the public files alone. A publication-ready disclosure should therefore name the tools used, describe the tasks they assisted with, and state that the owner reviewed code, tests, numerical outputs, and claims—only if the owner can truthfully confirm those actions.
+The applicant was the sole human project lead. AI tools provided assistance during research and development, including technical discussions, coding, experiment analysis, checking, and documentation. Specific task-level idea attribution and unaided implementation claims are not asserted without supporting evidence.
 
-## Safe first-person template, pending confirmation
+## Applicant confirmation status
 
-> I investigated low-dissolved-oxygen reliability in station-grouped river monitoring data. I [designed/reviewed—choose only what is accurate] the nested cross-validation and weighting protocol, [implemented/validated—choose only what is accurate] the analysis and tests, and interpreted both the improvement in low-DO recall and the accompanying increase in false positives and overall error. I used public NIEA/OpenDataNI data and standard open-source ML libraries. AI-assisted tools supported [list exact tasks], and I independently verified [list exact checks].
-
-Do not publish the template until every bracketed statement is replaced with a verified description.
+Project-level leadership and broad AI assistance are confirmed. Specific claims about who originated a method, personally wrote particular code, performed a particular check, or completed work without AI assistance remain pending unless supported by contemporaneous evidence and the applicant's explicit confirmation.

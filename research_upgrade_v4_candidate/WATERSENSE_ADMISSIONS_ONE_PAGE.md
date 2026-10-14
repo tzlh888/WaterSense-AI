@@ -12,6 +12,6 @@
 
 **Scientific Limitation.** Every V3/V4 comparison remains internal development evidence. No genuinely independent region or post-2024 period with compatible predictors was available, so external validation is not claimed.
 
-**AI Assistance Disclosure.** The applicant states that they were the sole human project lead and used substantial AI assistance for implementation, testing, analysis, and documentation. That statement is owner-supplied, not third-party certification. The applicant should personally confirm and be prepared to explain each decision and result.
+**AI Assistance Disclosure.** The applicant has confirmed that they were the sole human project lead. AI tools assisted during research and development, including technical discussions, coding, experiment analysis, checking, and documentation. This does not assert that every idea or line of code originated with the applicant, or that any task was completed without AI assistance; specific task-level attribution remains subject to evidence and final applicant review.
 
 **Current Research Status.** V4 Candidate: reproducible development analysis, external validation **NOT AVAILABLE**, deployed model unchanged, and conclusions deliberately limited.
