@@ -1,0 +1,34 @@
+{
+  "branch": "research-upgrade-v3",
+  "captured_at_utc": "2026-10-14T06:50:48.289718+00:00",
+  "current_export_matches_historical_raw": true,
+  "current_official_export_sha256": "a5ce02d9ab3703edc4279c8dc5f9d38a593b92c555945c5cdb2ab3ca55632632",
+  "data_access": {
+    "historical_model": true,
+    "processed": true,
+    "raw": true
+  },
+  "dependencies": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit_learn": "1.9.1"
+  },
+  "disk_available_bytes": 337667260416,
+  "head": "9672c80e786ca91f66407c1137b526813517ae2d",
+  "key_files": {
+    "README.md": "289f0605c4b5b5bf79ffc1cb200d593f7e0267a951d83518d5d002d9df297db8",
+    "data/processed/water_quality_modeling.csv": "5685c2c352b1cc9502cd664736d85295580127016fb60bdca45c082c5d031761",
+    "data/raw/niea_river_water_quality_1990_2024.csv": "a5ce02d9ab3703edc4279c8dc5f9d38a593b92c555945c5cdb2ab3ca55632632",
+    "models/phase4_selected_model.joblib": "7434cbd29bf6a1b2b624ef3283d073212a82ec72a839d7a050bb912b8506f44f",
+    "research_outputs/manifest.json": "f02cb666092234e253c9573e00815103916dd2683985ec89f8bd0785a9654406",
+    "research_upgrade_v3/experiment1_weighted_regression/EXPERIMENT1_CONFIG.json": "adc902b50c9d0f5b3a313c34059da3b2b2ea26d4c3a051aa34fa8ba24bbbd465",
+    "research_upgrade_v3/experiment1_weighted_regression/OUTER_CV_PREDICTIONS.csv.gz": "b779effb1bb1f2d8333d7818b606d566ee52af7a199c8368ec674e2404767697",
+    "research_upgrade_v3/final_closeout/FINAL_SCIENTIFIC_REPORT.md": "b2bfe3bd73bee485c07472cbbe371c8996a7ad975beaae621d19cd605f5256e0",
+    "research_upgrade_v3/phase2b0/WEIGHTED_REGRESSION_CONFIG.json": "70b8e8dba893416b5a1122dd1c36b3ab6f3e0e128ee07a7d65e5cdb96063cbe4"
+  },
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "preexisting_status": [
+    "?? research_upgrade_v3/final_closeout/RESEARCH_CONTRIBUTION_STATEMENT.md"
+  ],
+  "python": "3.14.0 (v3.14.0:ebf955df7a8, Oct  7 2025, 08:20:14) [Clang 16.0.0 (clang-1600.0.26.6)]"
+}
