@@ -18,7 +18,7 @@ The benefit was distributed rather than confined to one station: low-DO MAE impr
 
 ## Attribution and scientific interpretation
 
-The formal outer comparison changed both model configuration and sample weighting, so it cannot attribute the entire gain to weighting alone. A post hoc analysis of saved inner-fold results formed 640 exact weight-1 versus weight-8 HistGradientBoosting pairs with architecture, non-weight hyperparameters, folds, and preprocessing held constant. Every pair improved low-DO MAE and recall. This strongly supports weighting as a contributor, but remains exploratory because it was not an independently designed outer validation.
+The formal outer comparison changed both model configuration and sample weighting, so it cannot attribute the entire gain to weighting alone. A post hoc analysis of saved inner-fold results formed 640 exact weight-1 versus weight-8 pairs across Random Forest (160), Extra Trees (160), and HistGradientBoosting (320), with model family, non-weight hyperparameters, folds, and preprocessing held constant. Every pair improved low-DO MAE and recall. This strongly supports weighting as a contributor, but remains exploratory because it was not an independently designed outer validation.
 
 The frozen experiment conclusion is **IMPROVEMENT SUPPORTED** within development nested cross-validation. It is not external confirmation. No new external dataset was available, and no application-specific tolerance was defined for trading missed events against false alarms and ordinary-condition error.
 
