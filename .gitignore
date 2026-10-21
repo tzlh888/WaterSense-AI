@@ -35,4 +35,5 @@ Thumbs.db
 # Partial and smoke research runs; full research_outputs are public evidence.
 research_runs/
 research_upgrade_v3/**/.checkpoints/
+audit/
 docs/application_materials.md

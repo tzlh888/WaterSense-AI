@@ -61,20 +61,22 @@ class ReleaseReadinessTests(unittest.TestCase):
         gitignore = (ROOT / ".gitignore").read_text(encoding="utf-8")
         attributes = (ROOT / ".gitattributes").read_text(encoding="utf-8")
         self.assertIn(".streamlit/secrets.toml", gitignore)
+        self.assertIn("audit/", gitignore)
         self.assertIn("!models/phase4_selected_model.joblib", gitignore)
         self.assertIn("models/phase4_selected_model.joblib filter=lfs", attributes)
         self.assertFalse((ROOT / ".streamlit" / "secrets.toml").exists())
 
-    def test_readme_local_links_resolve(self) -> None:
-        readme = (ROOT / "README.md").read_text(encoding="utf-8")
-        targets = re.findall(r"!?(?:\[[^]]*\])\(([^)]+)\)", readme)
+    def test_public_navigation_links_resolve(self) -> None:
         missing: list[str] = []
-        for target in targets:
-            if target.startswith(("http://", "https://", "#")):
-                continue
-            clean = target.split("#", 1)[0]
-            if clean and not (ROOT / clean).exists():
-                missing.append(target)
+        for relative in ("README.md", "RESEARCH_EVIDENCE_MAP.md"):
+            text = (ROOT / relative).read_text(encoding="utf-8")
+            targets = re.findall(r"!?(?:\[[^]]*\])\(([^)]+)\)", text)
+            for target in targets:
+                if target.startswith(("http://", "https://", "#")):
+                    continue
+                clean = target.split("#", 1)[0]
+                if clean and not (ROOT / clean).exists():
+                    missing.append(f"{relative}: {target}")
         self.assertEqual(missing, [])
 
 

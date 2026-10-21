@@ -59,7 +59,7 @@ The cost was also broad. The 193 additional false positives occurred across 76 s
 
 The formal outer comparison changes both model family/non-weight hyperparameters and weighting, so it does not identify weighting alone. A post hoc analysis reused the already saved inner-grid results and formed 640 exact pairs with identical model family, non-weight parameters, fold membership, preprocessing, and training flow, differing only between weights 1 and 8. The pairs cover Random Forest (160), Extra Trees (160), and HistGradientBoosting (320). Low-DO MAE and recall moved beneficially in all 640 pairs.
 
-This is strong, consistent **exploratory** support for an independent weighting effect. It is not a preregistered outer-level causal attribution and does not upgrade the main result to external confirmation. No additional diagnostic model was trained for the attribution audit.
+This is strong, consistent **exploratory** support for weighting as a contributor when model family and non-weight parameters are held fixed. The matched rows reuse dependent inner folds and are not 640 independent experiments. This is not a preregistered outer-level causal attribution and does not upgrade the main result to external confirmation. No additional diagnostic model was trained for the attribution audit.
 
 ## Uncertainty and evidence levels
 
@@ -71,7 +71,7 @@ This is strong, consistent **exploratory** support for an independent weighting 
 
 ### Exploratory evidence
 
-- Exact matched inner-fold comparisons support weighting as a contributor independent of architecture and other hyperparameters.
+- Exact matched inner-fold comparisons support weighting as a contributor within architecture- and non-weight-parameter-matched comparisons.
 - Error decomposition indicates that most overall degradation occurs at normal-to-high DO values.
 
 ### Unresolved
