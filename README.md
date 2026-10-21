@@ -2,6 +2,21 @@
 
 **Evaluating Spatial and Temporal Generalization in Machine-Learning-Based Dissolved Oxygen Prediction**
 
+## START HERE — Research Overview
+
+| Review item | Short answer and evidence |
+|---|---|
+| Research Question | Can routine river-water chemistry estimate dissolved oxygen at unseen monitoring stations, especially for rare observations below 4 mg/L? See the [formal question](#research-question). |
+| Main Finding | **V3 primary development result:** low-DO MAE improved from 3.3235 to 2.3613 mg/L and recall from 0.1293 to 0.3641, while overall MAE, precision, and false positives worsened. See the [one-page summary](research_upgrade_v3/final_closeout/ONE_PAGE_RESEARCH_SUMMARY.md). |
+| Scientific Limitation | V3 has no independent external confirmation and still misses most low-DO observations. V4 is a separate **exploratory, development-only** classifier analysis, not a V3 performance upgrade. See [limitations](#limitations). |
+| Research Contribution & AI Assistance | [Contribution and attribution record](research_upgrade_v3/final_closeout/RESEARCH_CONTRIBUTION_STATEMENT.md) |
+| Source Code | [`src/`](src/) and reproducible [`scripts/`](scripts/) |
+| Experiment Results | [V3 frozen experiment](research_upgrade_v3/experiment1_weighted_regression/EXPERIMENT1_RESEARCH_REPORT.md) · [V4 exploratory report](research_upgrade_v4_candidate/WATERSENSE_V4_SCIENTIFIC_REPORT.md) |
+| Reproducibility | [V3 status and commands](research_upgrade_v3/final_closeout/REPRODUCIBILITY_STATUS.md) · [V4 development-analysis notes](research_upgrade_v4_candidate/WATERSENSE_REPRODUCIBILITY.md) |
+| Full Scientific Report | [V3 final scientific report](research_upgrade_v3/final_closeout/FINAL_SCIENTIFIC_REPORT.md) · [research evidence map](RESEARCH_EVIDENCE_MAP.md) |
+
+Evidence order: V3 is the primary frozen development result; V4 is later exploratory analysis on the reused development population; v1/v2 reports are historical robustness records. None is independent external confirmation.
+
 WaterSense AI is a reproducible machine-learning study of dissolved oxygen (DO) prediction from routine river-water chemistry. It tests whether conclusions survive station, time and river-basin separation, repeated spatiotemporal splits, alternative feature sets and fixed model families. A Streamlit deployment makes the completed research and its limitations accessible.
 
 **Research snapshot:** 151,031 modelling observations · 840 monitoring stations · 1990–2024 · station-grouped 5-fold CV · exactly 10 predefined spatiotemporal splits · checksum-verified v1.0 and v2.0 outputs.
