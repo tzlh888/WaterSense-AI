@@ -26,7 +26,7 @@ Rows from one station are correlated. Row-wise bootstrap would treat them as ind
 
 ## 7. Can the gain be attributed to sample weighting?
 
-Not completely from the formal outer comparison, because the baseline is Random Forest while the selected procedure used HistGradientBoosting with fold-specific hyperparameters and weight 8. Saved inner results allowed 640 exact weight-1/weight-8 HGB pairs, all favoring weight 8 on low-DO MAE and recall. That is strong exploratory attribution, not independent outer confirmation.
+Not completely from the formal outer comparison, because the baseline is Random Forest while the selected procedure used HistGradientBoosting with fold-specific hyperparameters and weight 8. Saved inner results allowed 640 exact weight-1/weight-8 pairs across Random Forest, Extra Trees, and HistGradientBoosting, all favoring weight 8 on low-DO MAE and recall. That is strong exploratory attribution, not independent outer confirmation.
 
 ## 8. Was there data leakage?
 

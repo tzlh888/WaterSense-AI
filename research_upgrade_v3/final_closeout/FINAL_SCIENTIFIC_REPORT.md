@@ -24,7 +24,7 @@ Low DO was defined before the experiment as ground-truth DO `< 4 mg/L`; predicte
 The fixed comparison was:
 
 - baseline: the unchanged Random Forest anchor, weight 1;
-- candidate procedure: a frozen 128-configuration grid across Random Forest, Extra Trees, and HistGradientBoosting with low-DO weight multipliers 1, 4, or 8;
+- candidate procedure: a frozen 128-configuration grid across Random Forest, Extra Trees, and HistGradientBoosting with low-DO weight multipliers 1, 2, 4, or 8;
 - selection: 2,560 candidate-fold evaluations across 20 inner folds, applying predeclared qualification and ranking rules;
 - uncertainty: paired site-clustered bootstrap, resampling stations rather than rows.
 
@@ -57,7 +57,7 @@ The cost was also broad. The 193 additional false positives occurred across 76 s
 
 ## Attribution
 
-The formal outer comparison changes both model family/non-weight hyperparameters and weighting, so it does not identify weighting alone. A post hoc analysis reused the already saved inner-grid results and formed 640 exact pairs with identical HistGradientBoosting architecture, non-weight parameters, fold membership, preprocessing, and training flow, differing only between weights 1 and 8. Low-DO MAE and recall moved beneficially in all 640 pairs.
+The formal outer comparison changes both model family/non-weight hyperparameters and weighting, so it does not identify weighting alone. A post hoc analysis reused the already saved inner-grid results and formed 640 exact pairs with identical model family, non-weight parameters, fold membership, preprocessing, and training flow, differing only between weights 1 and 8. The pairs cover Random Forest (160), Extra Trees (160), and HistGradientBoosting (320). Low-DO MAE and recall moved beneficially in all 640 pairs.
 
 This is strong, consistent **exploratory** support for an independent weighting effect. It is not a preregistered outer-level causal attribution and does not upgrade the main result to external confirmation. No additional diagnostic model was trained for the attribution audit.
 

@@ -101,6 +101,14 @@ class HistoricalAttributionIntegrationTests(unittest.TestCase):
         pairs = matched_inner_weight_pairs(self.inner)
         self.assertEqual(len(pairs), 640)
         self.assertEqual(pairs.groupby(["family", "parameters_json"]).ngroups, 32)
+        self.assertEqual(
+            pairs.groupby("family").size().to_dict(),
+            {
+                "ExtraTreesRegressor": 160,
+                "HistGradientBoostingRegressor": 320,
+                "RandomForestRegressor": 160,
+            },
+        )
         self.assertTrue(
             pairs["delta_weight8_minus_weight1__low_do_mae_mg_l"].lt(0).all()
         )
