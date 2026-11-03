@@ -1,0 +1,70 @@
+{
+  "analysis_class": "EXPLORATORY_DEVELOPMENT_ONLY",
+  "break_even_cost_ratios": {
+    "classifier_vs_baseline": 15.792013311148086,
+    "classifier_vs_weighted": 21.98108747044917,
+    "weighted_vs_baseline": 1.0842696629213484
+  },
+  "classifier_confusion": {
+    "fn": 59,
+    "fp": 9517,
+    "tn": 109415,
+    "tp": 699
+  },
+  "identity_checks": {
+    "strict_low_do_definition_verified": true,
+    "v3_station_outer_fold_disjoint": true,
+    "v3_v4_membership_identical": true,
+    "v3_variant_membership_identical": true
+  },
+  "input_hashes": {
+    "research_upgrade_v3/experiment1_weighted_regression/OUTER_CV_PREDICTIONS.csv.gz": "b779effb1bb1f2d8333d7818b606d566ee52af7a199c8368ec674e2404767697",
+    "research_upgrade_v4_candidate/WATERSENSE_CLASSIFIER_OOF_PREDICTIONS.csv.gz": "a96e0dac77ff7b94e73cfa52f6acf33587a04eb80c85095e433c1aa6d42e324b"
+  },
+  "regression_metrics": {
+    "baseline": {
+      "fn": 660,
+      "fp": 26,
+      "low_do_bias_mg_l": 3.30803962020323,
+      "low_do_mae_mg_l": 3.3235268405407927,
+      "low_do_rows": 758,
+      "mae_mg_l": 0.8797269593862147,
+      "precision": 0.7903225806451613,
+      "recall": 0.12928759894459102,
+      "rows": 119690,
+      "stations": 672,
+      "tn": 118906,
+      "tp": 98
+    },
+    "weighted": {
+      "fn": 482,
+      "fp": 219,
+      "low_do_bias_mg_l": 2.2373420094021275,
+      "low_do_mae_mg_l": 2.361347224626894,
+      "low_do_rows": 758,
+      "mae_mg_l": 0.9515970765475649,
+      "precision": 0.5575757575757576,
+      "recall": 0.3641160949868074,
+      "rows": 119690,
+      "stations": 672,
+      "tn": 118713,
+      "tp": 276
+    }
+  },
+  "station_concentration": {
+    "effective_station_count": 29.653385631709334,
+    "hhi": 0.03372296210691933,
+    "low_do_events": 758,
+    "stations_with_low_do": 115,
+    "stations_with_one_event": 47,
+    "top_10_share": 0.4947229551451187,
+    "top_1_share": 0.08575197889182058,
+    "top_20_share": 0.6912928759894459,
+    "top_5_share": 0.31926121372031663
+  },
+  "status": "PASS",
+  "temporal": {
+    "balanced_station_count": 173
+  },
+  "training_performed": false
+}
