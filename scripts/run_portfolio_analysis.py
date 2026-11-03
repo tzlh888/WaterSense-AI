@@ -197,7 +197,7 @@ definition is measured `DO < 4 mg/L`.
 The procedure improves the rare-event objectives but worsens overall MAE and
 false alarms. It must not be summarized as an unqualified model improvement.
 
-## Finding 1 — effective rare-event evidence is much smaller than 758 rows
+## Finding 1 — rare events are unevenly represented across stations
 
 The 758 measured low-DO observations occur at only
 {concentration_summary['stations_with_low_do']} of 672 development stations.
@@ -212,6 +212,10 @@ stations.
 This does not invalidate the row-level metrics. It changes their interpretation:
 758 dependent observations are not 758 independent replications, and station-
 clustered uncertainty is essential.
+
+Inverse HHI is a concentration summary, not statistical effective sample size.
+The [sprint analysis](sprint/SCIENTIFIC_REPORT.md) controls sampling intensity
+and adds cluster-bootstrap intervals and temporal composition diagnostics.
 
 ![Cumulative low-DO event concentration](../figures/low_do_station_concentration.png)
 
