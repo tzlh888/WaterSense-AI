@@ -1,0 +1,6 @@
+COMMAND: python3 scripts/run_portfolio_analysis.py
+EXIT: 0
+STDOUT:
+{"outputs": 9, "status": "PASS"}
+
+STDERR:
