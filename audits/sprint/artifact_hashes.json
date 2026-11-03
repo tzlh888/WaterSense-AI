@@ -1,0 +1,14 @@
+{
+  "research_extension/sprint/SCIENTIFIC_REPORT.md": "d66aae1d35d9612edcfae32bd4e77de05c8ae00c179d53d6425feccf7901fe63",
+  "research_extension/sprint/cluster_bootstrap_metrics.csv": "4cdce5d5fbe570ab66766904cb0d12daaaf3cb09943d2a93e816bfa8ce4c9240",
+  "research_extension/sprint/cluster_cost_differences.csv": "e4e4b497171b1a386a49f8702fb00b1fe6b422ede978321edd207b5ff26d9c63",
+  "research_extension/sprint/cluster_cost_uncertainty.png": "a6f431812cd4d75f71ec4b92f5a8007d0811e369de3d556d9baac2bc4f1e95b0",
+  "research_extension/sprint/cost_bootstrap_replicates.csv.gz": "dd6ce46b052be9583c4f212d2ef3ac3548e1e243445b6e5331ebb9cbc4cf86ed",
+  "research_extension/sprint/null_hhi_replicates.csv.gz": "f55fe4c142e88f3e891b3eaa0665489bd2352fd7dfdfada9e8cefa1c93aa79bb",
+  "research_extension/sprint/sampling_control.png": "95ff38b10f57a19045ed962d253e91c6174eb77eca34626952ba1722a8bc7af0",
+  "research_extension/sprint/sampling_null_sensitivity.csv": "fb76d744e097c436a7ff9b4a958d0b1be866fea1dd20502827b37f2eb12ac571",
+  "research_extension/sprint/station_sampling_rates.csv": "783209eede694b12a074cecbeaa55a9e9f8ecfc4c14bdc3e6cf76dd88dafbe1a",
+  "research_extension/sprint/summary.json": "ecbf0c3de030f4b6758523f46ad946cac6a08488b1af8dddf60a82c0b9c80875",
+  "research_extension/sprint/temporal_composition.csv": "51f6bc21167c9ab1b2432f7af05beb0fe4456a9e89197df2d28e785f61c75e7c",
+  "research_extension/sprint/temporal_composition.png": "d3b71fdf0dccab01073c01caa6961e5385c2af07cebafb8472a1d11f7d69c8b4"
+}

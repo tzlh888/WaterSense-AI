@@ -50,6 +50,18 @@ to state precisely what the evidence does—and does not—identify.
 
 ## Three-sentence project introduction
 
+**Final sprint evidence:** preserving each station's observation count under a
+common-rate binomial benchmark yields mean HHI 0.00352 against observed 0.03372;
+the contrast survives minimum-record sensitivities. Temporal clustering and
+monitoring selection remain unresolved. A 5,000-draw paired whole-station
+bootstrap quantifies both the MAE/recall benefit and its overall-error/precision
+cost. At FN/FP ratio 25, classifier-minus-V3 cost has a 95% interval spanning
+zero. These conclusions concern fixed development predictions.
+
+**CV supplement — owner confirmation required:** examined whether station
+sampling volume explains rare-event concentration and quantified paired
+station-cluster uncertainty in hypothetical error-cost comparisons.
+
 WaterSense AI studies whether routine river chemistry can estimate dissolved
 oxygen at monitoring stations excluded from training. Its central finding is a
 quantified reliability trade-off: improving rare low-oxygen detection reduces

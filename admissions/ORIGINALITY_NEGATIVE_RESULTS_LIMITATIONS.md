@@ -28,6 +28,13 @@ data cannot identify, and what evidence is required next.
 
 ## Why the negative results matter
 
+The final sprint adds a sampling-volume null rather than interpreting event
+concentration in isolation. It finds excess concentration under that benchmark
+while acknowledging temporal clustering and preferential monitoring. Paired
+station bootstrap cost intervals further show that a deterministic breakpoint
+does not imply a stable preference near it. Neither result establishes
+geographic risk or independently validated performance.
+
 The study preserves several results that make the portfolio more credible:
 
 1. The V3 selected procedure improves low-DO MAE and recall but worsens overall
