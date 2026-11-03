@@ -1,0 +1,13 @@
+{
+  "baseline_commit": "c2ab7b4ce7c9499d2b1a75e76ff910095a0f0b31",
+  "baseline_tree": "b8e7fd922c68ed737f254f135cbf99cdd08864ac",
+  "branch_created": "research/autonomous-portfolio-20261103",
+  "captured_date": "2026-11-03",
+  "original_worktree_clean": true,
+  "protected_input_hashes": {
+    "models/phase4_selected_model.joblib": "7434cbd29bf6a1b2b624ef3283d073212a82ec72a839d7a050bb912b8506f44f",
+    "research_upgrade_v3/experiment1_weighted_regression/OUTER_CV_PREDICTIONS.csv.gz": "b779effb1bb1f2d8333d7818b606d566ee52af7a199c8368ec674e2404767697",
+    "research_upgrade_v4_candidate/WATERSENSE_CLASSIFIER_OOF_PREDICTIONS.csv.gz": "a96e0dac77ff7b94e73cfa52f6acf33587a04eb80c85095e433c1aa6d42e324b"
+  },
+  "policy": "All portfolio changes are additive except README navigation and presentation. Historical V1-V4 artifacts are not edited."
+}
