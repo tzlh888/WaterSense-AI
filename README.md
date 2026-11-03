@@ -1,6 +1,6 @@
 # WaterSense AI
 
-## What does a good average error hide?
+## Why can accurate models fail on rare environmental events?
 
 WaterSense AI is a reproducible study of **dissolved-oxygen reliability at
 unseen river-monitoring stations**. Its central result is not a model victory:
@@ -18,8 +18,10 @@ and false alarms.
 
 > **Scientific takeaway:** the 758 measured low-DO observations occur at 115
 > stations, but half come from only ten stations. Their concentration is
-> equivalent to 29.7 equally represented stations—not 758 independent pieces
-> of geographic evidence.
+> equivalent to 29.7 equally represented stations. This describes concentration,
+> not statistical effective sample size. Controlling each station's sampling
+> volume still leaves observed HHI 0.03372 versus null mean 0.00352; monitoring
+> practice and temporal clustering remain possible explanations.
 
 [Read the manuscript](paper/WATERSENSE_AI_MANUSCRIPT.md) ·
 [Inspect the evidence ledger](audits/EVIDENCE_LEDGER.csv) ·
@@ -109,6 +111,15 @@ Under hypothetical cost `r × FN + FP`:
 
 These are arithmetic breakpoints, not ecological or regulatory valuations.
 
+Whole-station bootstrap intervals show uncertainty near the crossings. At a
+FN/FP cost ratio of 25, classifier-minus-V3-selected cost per 10,000 rows is
+-106.69 with a 95% interval [-410.87, 152.11], spanning zero. A point preference
+therefore need not be stable. Later decades also have narrower target
+distributions; lower overall MAE does not establish better low-DO reliability.
+
+[Sampling controls and uncertainty report](research_extension/sprint/SCIENTIFIC_REPORT.md) ·
+[Full execution logs and test outcomes](audits/sprint/execution_summary.json)
+
 [Reliability extension](research_extension/RELIABILITY_AND_ROBUSTNESS_REPORT.md) ·
 [V4 scientific report](research_upgrade_v4_candidate/WATERSENSE_V4_SCIENTIFIC_REPORT.md)
 
@@ -136,6 +147,7 @@ Install the declared dependencies, pull the LFS model if needed, and run:
 ```bash
 python3 -m pip install -r requirements.txt
 python3 scripts/run_portfolio_analysis.py
+python3 scripts/verify_scientific_sprint.py
 python3 -m unittest tests.test_portfolio_analysis -v
 ```
 
@@ -147,6 +159,12 @@ manifest.
 Full historical reconstruction additionally requires the exact public raw
 export documented in [the dataset guide](docs/dataset.md). Reproducing code and
 development predictions does not create new statistical independence.
+
+The sprint records a separate historical V4 suite with six passes, one failure
+(old release manifest pins the pre-redesign README) and one error (raw CSV
+missing). The main suite has two skipped tests and a skipped four-test class
+requiring the missing processed dataset. Full details and validation impact are
+in the [reproduction audit](audits/sprint/REPRODUCTION_STATUS.md).
 
 ## What this project does not establish
 

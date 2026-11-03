@@ -22,8 +22,11 @@ mg/L, reduced precision from 0.7903 to 0.5576, and increased false positives
 from 26 to 219. A later fixed classifier reached 0.9222 recall but only 0.0684
 precision and 9,517 false positives on the same reused development population.
 New exploratory artifact analysis shows that the 758 low-DO observations are
-concentrated in 115 stations; the event-share concentration corresponds to only
-29.7 equally represented stations. Error-cost breakpoints make the decision
+concentrated in 115 stations; inverse HHI corresponds to 29.7 equally represented
+stations, a concentration summary rather than an effective sample size. A
+sampling-volume-controlled null has mean HHI 0.00352 versus observed 0.03372.
+Paired whole-station bootstrap intervals quantify model and cost differences;
+cost preference remains uncertain near the arithmetic crossings. Error-cost breakpoints make the decision
 trade-off explicit, while balanced-station time slices show descriptive—not
 prospective—variation across decades. The study’s contribution is therefore a
 reproducible reliability and failure analysis, not a deployment claim. External
@@ -71,6 +74,15 @@ not only area-based summaries. Historical prediction intervals were inspired
 by split residual calibration, but coverage under distribution shift must be
 interpreted cautiously; distribution-free guarantees depend on assumptions
 such as exchangeability [5].
+
+Cluster bootstrap methods require an explicit cluster structure and sampling
+assumptions [7]. Environmental monitoring can also be preferential: where and
+when observations are taken may depend on the underlying process [8]. The new
+analysis therefore controls observed sampling volume while retaining temporal
+clustering and preferential monitoring as unresolved explanations. Relative to
+these established methods, the contribution is an auditable application linking
+rare-event concentration, case-mix diagnostics and paired decision uncertainty
+in one frozen environmental ML evidence chain; no new estimator is claimed.
 
 ## 3. Research Questions
 
@@ -199,7 +211,20 @@ C(r)=r\,FN+FP, \qquad r=C_{FN}/C_{FP}.
 \]
 
 Pairwise breakpoints are solved algebraically; no cost value is fitted to the
-data.
+data. The sprint additionally draws 5,000 paired samples of 672 complete
+stations with replacement (seed 20261103) and reports percentile 95% intervals.
+Model fits remain fixed. Cost differences are normalized per 10,000 observations
+using each replicate's row count; fractions favoring a rule describe bootstrap
+stability, not posterior probabilities. No denominator was undefined in these
+5,000 draws. Dependence between stations and model fitting/selection uncertainty
+are outside this conditional analysis.
+
+To control sampling intensity, each station retains n_s observations and receives
+independent binomial events with the pooled event probability. We simulate
+20,000 null replicates for minimum station counts 1, 10, 30 and 100. The central
+95% null range is a reference distribution, not an interval for the observed
+HHI. The independent constant-rate null is a benchmark whose violation can also
+reflect temporal clustering, case mix or monitoring practice.
 
 ## 8. Results
 
@@ -228,6 +253,13 @@ low-DO MAE and recall, and exclude zero adversely for overall MAE and precision.
 The frozen decision rule therefore supported the selected procedure for its
 bounded co-primary objectives. It did not establish a globally better model.
 
+The newly executed paired station bootstrap gives low-DO MAE change -0.9622
+mg/L [95% interval -1.0838, -0.8514] and recall change +0.2348
+[0.1878, 0.2799]. Overall MAE increases by 0.0719 [0.0643, 0.0799] and precision
+falls by 0.2327 [-0.3123, -0.1264]. These new intervals have a separately recorded
+seed and do not replace historical frozen uncertainty outputs. Absolute model
+intervals are in the [sprint statistical report](../research_extension/sprint/SCIENTIFIC_REPORT.md).
+
 ### 8.3 Attribution boundary
 
 The formal outer comparison changes architecture, non-weight hyperparameters,
@@ -254,6 +286,15 @@ top ten 49.5%. \(H=0.0337\), so \(1/H=29.7\) equally represented stations.
 
 ![Low-DO station concentration](../figures/low_do_station_concentration.png)
 
+Controlling sampling volume gives observed HHI 0.033723 against null mean
+0.003523, central 95% reference range [0.003295, 0.003773]. None of 20,000 draws
+reaches the observation (add-one Monte Carlo tail fraction 0.000050). Excluding
+stations with fewer than 10, 30 or 100 records preserves this discrepancy.
+Sampling volume alone is therefore insufficient under the independent
+common-rate benchmark. This does not identify geographic low-oxygen risk.
+
+![Sampling intensity control](../research_extension/sprint/sampling_control.png)
+
 ### 8.6 Descriptive temporal sensitivity
 
 Baseline pooled MAE declines from 1.211 mg/L in 1990–1999 to 0.608 mg/L in
@@ -265,6 +306,13 @@ covariates, event composition, or relationships.
 
 ![Temporal sensitivity](../figures/temporal_robustness.png)
 
+Temporal composition also changes: low-DO prevalence is 1.120%, 0.384%, 0.486%
+and 0.611% across the four periods, while target SD is 2.588, 1.774, 1.627 and
+1.635 mg/L. Baseline low-DO MAE is 3.110, 3.957, 3.193 and 3.085 mg/L, so the
+overall decline is not evidence of steadily improving rare-event reliability.
+The [temporal composition table](../research_extension/sprint/temporal_composition.csv)
+retains counts, prevalence, target quantiles and both model errors.
+
 ### 8.7 Decision breakpoints
 
 V3 selected has lower hypothetical cost than V3 baseline only when
@@ -272,7 +320,13 @@ V3 selected has lower hypothetical cost than V3 baseline only when
 selected at 21.981. These are transparent implications of development counts,
 not recommended real-world valuations.
 
-![Decision trade-offs](../figures/decision_tradeoffs.png)
+At ratio 1, V3 selected-minus-baseline cost difference per 10,000 rows is +1.25
+[paired cluster 95% interval -4.04, 6.32]; at ratio 2 it is -13.62
+[-24.51, -4.28]. At ratio 25, classifier-minus-V3-selected is -106.69
+[-410.87, 152.11]. Thus the point crossing does not guarantee a stable preference.
+V4 recall has interval [0.8896, 0.9482] and precision [0.0490, 0.0897].
+
+![Decision uncertainty](../research_extension/sprint/cluster_cost_uncertainty.png)
 
 ## 9. Robustness and Failure Analysis
 
@@ -363,6 +417,13 @@ under a decision policy defined independently of model outcomes.
    Monitoring 1990 to 2024 — All Parameters*. UK Open Government Licence.
    <https://www.data.gov.uk/dataset/15ec8080-ee1c-469b-858e-546d2fb57c27/riverwaterqualitymonitoring-1990to2024-allparameters13>
 
+7. Field, C. A., & Welsh, A. H. (2007). Bootstrapping clustered data.
+   *Journal of the Royal Statistical Society: Series B*, 69(3), 369–390.
+   <https://doi.org/10.1111/j.1467-9868.2007.00593.x>
+8. Diggle, P. J., Menezes, R., & Su, T.-l. (2010). Geostatistical inference under
+   preferential sampling. *Journal of the Royal Statistical Society: Series C*,
+   59(2), 191–232. <https://doi.org/10.1111/j.1467-9876.2009.00701.x>
+
 ## 14. Reproducibility Statement
 
 The repository preserves code, frozen configurations, fold assignments,
@@ -371,6 +432,7 @@ Portfolio verification is run with:
 
 ```bash
 python3 scripts/run_portfolio_analysis.py
+python3 scripts/verify_scientific_sprint.py
 python3 -m unittest tests.test_portfolio_analysis -v
 ```
 

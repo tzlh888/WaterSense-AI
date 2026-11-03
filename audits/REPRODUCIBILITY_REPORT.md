@@ -1,5 +1,14 @@
 # Reproducibility report
 
+## Final sprint correction and expanded coverage
+
+The [sprint reproduction audit](sprint/REPRODUCTION_STATUS.md) supersedes the
+old counts below: main suite has 94 individual tests (92 passes, two individual
+skips) and one skipped four-test class. A separate historical V4 suite has six
+passes, one failure and one error. The old 87-of-90 figure incorrectly subtracted
+a class setup skip as if it were an executed test. Current raw reconstruction
+remains blocked. Full commands, environment and outcomes are retained.
+
 ## Current status
 
 **Artifact-level reproduction: COMPLETE. Full raw-data reconstruction: BLOCKED.**

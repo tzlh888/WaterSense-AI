@@ -1,5 +1,10 @@
 # Independent simulated scorecards
 
+**Superseded for current state:** see the [final sprint review](sprint/FINAL_REVIEW.md).
+The earlier scores omitted separate historical V4 suite failures and are not
+the final assessment. All reviews are AI-generated simulations from separate
+perspectives, not evaluations by independent human reviewers.
+
 Scored on 2026-11-03 using the previously fixed
 [`EVALUATION_RUBRIC.md`](EVALUATION_RUBRIC.md). These are transparent,
 nonofficial simulations—not admissions predictions or university ratings.

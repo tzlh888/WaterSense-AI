@@ -1,5 +1,10 @@
 # Deliverable status
 
+**Current status:** see [final sprint review](sprint/FINAL_REVIEW.md) and
+[reproduction audit](sprint/REPRODUCTION_STATUS.md). The older full-suite entry
+below is superseded: separately discovered V4 checks include one failure and
+one error. Raw/source validation and human attribution remain blocked.
+
 | Deliverable | Status | Location / blocker |
 |---|---|---|
 | Evidence ledger | COMPLETE | `audits/EVIDENCE_LEDGER.csv` |

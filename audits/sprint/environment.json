@@ -1,0 +1,26 @@
+{
+  "git_head": "b0ea7d709cea450466f6de76911f8d13e18883b5",
+  "branch": "research/autonomous-portfolio-20261103",
+  "python": "3.14.0 (v3.14.0:ebf955df7a8, Oct  7 2025, 08:20:14) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "joblib": "1.6.0"
+  },
+  "source_hashes": {
+    "scripts/run_scientific_sprint.py": "83cfcf07b4c9abb87645003039afe55cc339cf822e4e0eb1256e5726c8a937be",
+    "scripts/verify_scientific_sprint.py": "dcd183a720cf540a1837e0f7e3d1517d7179fc21cf43af287cd86bf016793ec8",
+    "scripts/run_portfolio_analysis.py": "2c093888517d241f29e30879da50ac99d4eedae7fc279e3b181ab4830432d1cd"
+  },
+  "raw_data": {
+    "data/raw/niea_river_water_quality_1990_2024.csv": {
+      "status": "MISSING"
+    },
+    "data/processed/water_quality_modeling.csv": {
+      "status": "MISSING"
+    }
+  }
+}

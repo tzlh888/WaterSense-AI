@@ -49,6 +49,16 @@ not a safety classifier, forecast, or deployed environmental decision tool.
 
 ## Three-sentence project introduction
 
+**Final sprint evidence:** sampling volume alone is insufficient under a
+constant-rate independent-observation null (observed HHI 0.03372; null mean
+0.00352). This does not identify geographic risk. Whole-station paired bootstrap
+intervals show that the classifier's point cost advantage at ratio 25 remains
+uncertain; temporal case mix and target spread also change across decades.
+
+**CV supplement — owner confirmation required:** audited sampling effort,
+case-mix changes and cluster uncertainty to assess whether apparent performance
+gains support a stable decision preference.
+
 WaterSense AI evaluates dissolved-oxygen models under station, time, basin, and
 rare-event distribution shift. The central empirical result is that optimizing
 low-oxygen reliability improves subgroup MAE and recall while worsening overall
