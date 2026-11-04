@@ -1,0 +1,30 @@
+START_UTC: 2026-11-04T13:36:36.493340+00:00
+END_UTC: 2026-11-04T13:36:37.496682+00:00
+COMMAND: python3 -m unittest discover -s research_upgrade_v4_candidate -p test*.py -v
+EXIT: 1
+
+test_deterministic_gzip_header_and_decoded_rows (test_v4_upgrade.V4Tests.test_deterministic_gzip_header_and_decoded_rows) ... ok
+test_frozen_classifier_metrics_and_claim_language (test_v4_upgrade.V4Tests.test_frozen_classifier_metrics_and_claim_language) ... ok
+test_frozen_external_export_is_rejected (test_v4_upgrade.V4Tests.test_frozen_external_export_is_rejected) ... ok
+test_metric_counts_and_definitions (test_v4_upgrade.V4Tests.test_metric_counts_and_definitions) ... ok
+test_outputs_do_not_target_historical_directories (test_v4_upgrade.V4Tests.test_outputs_do_not_target_historical_directories) ... ok
+test_release_candidate_manifest (test_v4_upgrade.V4Tests.test_release_candidate_manifest) ... FAIL
+test_v4_artifact_manifest (test_v4_upgrade.V4Tests.test_v4_artifact_manifest) ... ok
+test_w02_frozen_grid_and_execution_are_consistent (test_v4_upgrade.V4Tests.test_w02_frozen_grid_and_execution_are_consistent) ... ok
+
+======================================================================
+FAIL: test_release_candidate_manifest (test_v4_upgrade.V4Tests.test_release_candidate_manifest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<BASELINE>/research_upgrade_v4_candidate/test_v4_upgrade.py", line 39, in test_release_candidate_manifest
+    self.assertEqual(v4.sha256(v4.ROOT / relative), expected, relative)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'ffa34a6d7658e3eec72c71f8e2dc8f8e2c17c714be6649852f1c1abdd8041e26' != '289f0605c4b5b5bf79ffc1cb200d593f7e0267a951d83518d5d002d9df297db8'
+- ffa34a6d7658e3eec72c71f8e2dc8f8e2c17c714be6649852f1c1abdd8041e26
++ 289f0605c4b5b5bf79ffc1cb200d593f7e0267a951d83518d5d002d9df297db8
+ : README.md
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.102s
+
+FAILED (failures=1)

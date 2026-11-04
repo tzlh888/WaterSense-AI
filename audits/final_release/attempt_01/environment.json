@@ -1,0 +1,29 @@
+{
+  "started_utc": "2026-11-04T13:29:55.997839+00:00",
+  "git_head": "00e4cd3ac5781b808b17045d92760a0f9128b5bf",
+  "branch": "research/autonomous-portfolio-20261103",
+  "python": "3.14.0 (v3.14.0:ebf955df7a8, Oct  7 2025, 08:20:14) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "joblib": "1.6.0"
+  },
+  "input_hashes": {
+    "data/raw/niea_river_water_quality_1990_2024.csv": "a5ce02d9ab3703edc4279c8dc5f9d38a593b92c555945c5cdb2ab3ca55632632",
+    "data/processed/water_quality_modeling.csv": "5685c2c352b1cc9502cd664736d85295580127016fb60bdca45c082c5d031761",
+    "work/evidence_breakthrough/ni2025_raw.csv": "9e8713d94835f1bdb9c71f9d5bb36cfc944ed925b206d09aa18216482aa75c7a",
+    "research_extension/ni2025_confirmation/predictions.csv.gz": "0d7f22cc79d909e5f444adc0480dd6f16c74500b7c982270915b7e326838e4c0",
+    "scripts/prepare_final_release.py": "3625c20bb92de4d31cd8088e9ef40665d99c881f380a0a00ee520c1691cf237b",
+    "scripts/audit_final_release.py": "39514b3c19c72b0e8fc4c1da68b956c83893282ccbc13c36ff435593bc9c8818"
+  },
+  "working_diff_sha256": "f12ea90ebb517acc00a3a1318b6ce82c42d25dce5f7cf51d9ca4d2147703b8a6",
+  "experiment_config": {
+    "new_training": false,
+    "new_inference": false,
+    "new_random_sampling": false,
+    "random_seed": "Not applicable: deterministic saved-prediction diagnostic"
+  }
+}

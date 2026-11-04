@@ -1,0 +1,18 @@
+{
+  "sensitivity": [
+    {
+      "analysis": "FROZEN_PRIMARY",
+      "overall_mae_mg_l": 0.6431814803089019,
+      "overall_rmse_mg_l": 1.687179912440637,
+      "overall_r2": 0.4150461759447698
+    },
+    {
+      "analysis": "POST_HOC_OMIT_SINGLE_94_ROW",
+      "overall_mae_mg_l": 0.6188049003240036,
+      "overall_rmse_mg_l": 0.8617951289885846,
+      "overall_r2": 0.7406842955619621
+    }
+  ],
+  "primary_unchanged": true,
+  "chronology": "LOCAL_RECORDS_CONSISTENT_WITH_FREEZE_BEFORE_EXECUTION_NOT_INDEPENDENT_PROOF"
+}

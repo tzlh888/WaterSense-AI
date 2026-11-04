@@ -6,8 +6,8 @@
 
 ## One-page research summary
 
-**New temporal evidence — owner contribution unconfirmed:** after a committed
-pre-prediction freeze, the historical model was evaluated on 3,490 newly acquired
+**New temporal evidence — owner contribution unconfirmed:** following a local
+freeze consistent with the recorded run, the historical model was evaluated on 3,490 newly acquired
 2025 records from 494 stations. MAE was 0.6432 mg/L, but recall was 3/20=15%.
 Nine event-bearing stations fall below the fixed support criterion; precision
 1.00 relies on three detections at one station and has 1,844 undefined bootstrap
@@ -96,6 +96,13 @@ overstated scientific claim.
 
 ## Two-line CV description — draft pending owner confirmation
 
+**Final release qualification:** 2,590/6,080 source targets are missing (42.60%);
+performance is conditional on measured DO. Only nine stations have low DO and
+all three detections occur at one station. The post-hoc 94 mg/L sensitivity
+leaves 17/20 misses unchanged. Local freeze records are not independent
+preregistration. Every first-person statement below is a rehearsal template
+requiring the [task-specific owner checklist](OWNER_CONTRIBUTION_CONFIRMATION.md).
+
 **WaterSense AI — environmental ML reliability study:** analysed 151k historical
 river records using station-grouped validation and reproducible artifact audits.
 Quantified rare-event concentration and the mathematical trade-off among MAE,
@@ -114,8 +121,8 @@ recall, precision, and decision costs; 2025 temporal test exposed 85% low-DO mis
   correspond to 29.7 equally represented stations under inverse HHI.
 - Derived decision-cost breakpoints algebraically and documented why no method
   can be called operationally preferable without a real loss function.
-- Preserved negative results, published code/tests/manifests, and disclosed
-  substantial AI assistance and the absence of independent external validation.
+- Preserved negative results and code/tests/manifests, and disclosed
+  substantial AI assistance and the absence of independent-region validation.
 
 ## Sixty-second oral explanation
 
@@ -166,6 +173,7 @@ classifier generates 9,517 false positives. The dataset cannot choose `r`.
 
 The project’s contribution is therefore a reproducible framework for asking
 what a metric means under dependence and imbalance. Its main limitation is the
-absence of confirmation in an independent region. I would freeze the current rule
-and test it on a later or geographically independent dataset before making any
-deployment claim.”
+absence of confirmation in an independent region. The acquired 2025 test has now
+exposed 17/20 low-DO misses; its outcomes cannot be reused as an untouched test.
+A separately frozen, adequately supported regional test is still needed before
+any deployment claim.”

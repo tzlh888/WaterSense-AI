@@ -1,0 +1,16 @@
+commit 2a55e5a7d4ff608f34695ef19bf9c1f8c9aa8d63
+Author:     唐泽 <tangze@tangzedeMacBook-Pro.local>
+AuthorDate: Tue Nov 3 14:50:57 2026 +0100
+Commit:     唐泽 <tangze@tangzedeMacBook-Pro.local>
+CommitDate: Tue Nov 3 14:50:57 2026 +0100
+
+    protocol: freeze held-out 2025 temporal evaluation before prediction
+
+ .gitignore                                         |   1 +
+ research_extension/NI2025_CONFIRMATION_PROTOCOL.md | 107 +++++++++++++
+ research_extension/ni2025_confirmation/FREEZE.json |  56 +++++++
+ .../ni2025_confirmation/compatibility_audit.json   | 112 ++++++++++++++
+ .../ni2025_confirmation/eligible_cohort.csv.gz     | Bin 0 -> 92959 bytes
+ scripts/validate_ni2025.py                         | 166 +++++++++++++++++++++
+ tests/test_ni2025_adapter.py                       |  41 +++++
+ 7 files changed, 483 insertions(+)

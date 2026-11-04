@@ -1,0 +1,11 @@
+{
+  "historical_files_checked": 269,
+  "historical_byte_mismatches": [],
+  "primary_2025_files_checked": 11,
+  "primary_2025_changed": [],
+  "v4_release_manifest_sha256": "77985a02a852bf2c7b892f4150e44bf79abaca1bd931fde884b69eefb007b041",
+  "v4_expected_readme_sha256": "289f0605c4b5b5bf79ffc1cb200d593f7e0267a951d83518d5d002d9df297db8",
+  "current_readme_sha256": "f64b084ec0dcd5e77f58b96dcd3beeffb7ef95141f004d43550b2d97c7d16f93",
+  "frozen_model_sha256": "7434cbd29bf6a1b2b624ef3283d073212a82ec72a839d7a050bb912b8506f44f",
+  "status": "PASS"
+}
