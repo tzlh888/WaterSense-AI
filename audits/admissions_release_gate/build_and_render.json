@@ -1,0 +1,22 @@
+{
+  "utc": "2026-11-04T13:53:47.863882+00:00",
+  "python_compile": "PASS",
+  "streamlit_startup_health_http": 200,
+  "streamlit_home_browser_render": "PASS",
+  "browser_console_errors": [],
+  "model_estimator_page_opened": false,
+  "scientific_prediction_or_training_run": false,
+  "readme_local_renderer": "existing mistune; Markdown tables enabled",
+  "readme_three_images_loaded": true,
+  "screenshots": [
+    "readme_top.png",
+    "readme_figures.png",
+    "app_home.png"
+  ],
+  "limitations": [
+    "Local preview is not GitHub exact rendering; Mermaid appears as a code block in this renderer.",
+    "No remote CI, deployment, artifact regeneration or scientific experiment was run.",
+    "Initial markdown_it import failed (not installed); used existing mistune without dependency changes."
+  ],
+  "dedicated_build_pipeline": "No packaging/CI configuration found; compile, saved-artifact tests and local startup checked."
+}

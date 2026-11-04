@@ -1,0 +1,29 @@
+{
+  "identities": [
+    {
+      "identity_sha256": "42fcc3ed5b24c4780bbcecb719d07dcef72a5881fdb8cdf8ee334b412f107c5b",
+      "local_machine_email": false,
+      "github_noreply": true
+    },
+    {
+      "identity_sha256": "824e656ccf86b3599106be62f0d5f4873b3dfa2c11ee80ffba7105859e86fbd2",
+      "local_machine_email": false,
+      "github_noreply": true
+    },
+    {
+      "identity_sha256": "13b1b244f2c9e00c67447a53df86abba1a709121a2b2655443b3774aea1ac8f7",
+      "local_machine_email": true,
+      "github_noreply": false
+    }
+  ],
+  "local_email_commit_count": 8,
+  "author_identity_is_human_attribution": false,
+  "identity_or_history_rewritten": false,
+  "owner_approval_required_before_public_push": true,
+  "commits_with_signature_headers": [
+    "8a54cda0dcc5589ce94c5bae0b80e59a731b8acb",
+    "12826aa66147bae1c87cb67d2ce739d3bb6fa0b2"
+  ],
+  "freeze_commit_has_signature_header": false,
+  "signature_validation": "Not performed: local gpg executable unavailable. Presence of a header is not cryptographic verification."
+}

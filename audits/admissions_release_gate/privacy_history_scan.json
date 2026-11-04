@@ -1,0 +1,13 @@
+{
+  "reachable_commits_scanned": 22,
+  "findings": [
+    {
+      "category": "local_email_in_file",
+      "commit": "3ad167097a58d1678886abdcececff1b24a9d37f",
+      "path": "audits/final_release/freeze_commit.txt"
+    }
+  ],
+  "tracked_sensitive_filenames": [],
+  "person_related_csv_headers": [],
+  "scope": "Heuristic text scan of reachable Git revisions plus compressed CSV headers; Git identity reviewed separately. No guarantee of exhaustive personal-data detection."
+}
