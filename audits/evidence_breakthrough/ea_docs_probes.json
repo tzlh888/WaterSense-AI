@@ -1,0 +1,22 @@
+[
+  {
+    "name": "ea_api_docs.html",
+    "url": "https://environment.data.gov.uk/water-quality/api-docs",
+    "retrieved_utc": "2026-11-03T13:30:23.552199+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 145035,
+    "sha256": "3ae0db0738a44458041d9a9583c25405e680d05c7d77e9951a7390b6b8559b9f"
+  },
+  {
+    "name": "ea_downloads.html",
+    "url": "https://environment.data.gov.uk/water-quality/downloads",
+    "retrieved_utc": "2026-11-03T13:30:24.061791+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 146470,
+    "sha256": "433c30076ef5e480ce76c28cccf06059fccb8e6b4eee542f50bcef7a3a783c02"
+  }
+]

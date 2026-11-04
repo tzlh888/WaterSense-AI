@@ -1,5 +1,13 @@
 # Reproducibility report
 
+**Latest evidence:** exact source recovery, cleaned-artifact hashes and fixed
+Phase4 replay are now verified. The main suite has 108 passes without skips;
+the unchanged historical V4 suite retains one archive mismatch and seven passes.
+See the [current version report](evidence_breakthrough/VERSION_CONSISTENCY_REPORT.md).
+Prior sprint failures/skips below are historical execution records, not current
+raw-data availability. The separate 2025 temporal test is complete; full V3
+search rerunning and cross-region confirmation remain uncompleted.
+
 ## Final sprint correction and expanded coverage
 
 The [sprint reproduction audit](sprint/REPRODUCTION_STATUS.md) supersedes the

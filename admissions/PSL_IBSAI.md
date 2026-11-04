@@ -6,6 +6,24 @@
 
 ## One-page research summary
 
+**New temporal evidence — personal contribution awaiting confirmation:** one
+frozen Phase4 model was evaluated once on 3,490 new-year records / 494 stations.
+Its MAE was 0.6432 mg/L but it detected only 3 of 20 low-DO observations. The
+nine event stations fail the prespecified support criterion. Precision 1.00 is
+based on three predictions at one station; 36.88% of bootstrap precision
+replicates are undefined. The result strengthens the failure narrative rather
+than establishing warning readiness or independent V3 confirmation.
+
+**Final CV draft — owner confirmation required:** executed a frozen temporal
+evaluation and documented how satisfactory average error concealed 85% missed
+rare events, with exact provenance and station-level uncertainty.
+
+**Evidence breakthrough (owner contribution unconfirmed):** exact source and
+cleaned-data recovery now support a fixed-model end-to-end replay, reproducing
+historical holdout MAE 0.8311906 mg/L. A 2025 England pilot yielded 430
+measurements / 49 samples / six stations; mapping and support gaps prevented
+external scoring. Reproduction and external generalization remain separate.
+
 WaterSense AI is an empirical AI reliability study using public river-monitoring
 data. It asks whether models trained on routine chemistry can estimate
 contemporaneous dissolved oxygen at unseen stations and, more importantly,
@@ -59,6 +77,10 @@ uncertain; temporal case mix and target spread also change across decades.
 case-mix changes and cluster uncertainty to assess whether apparent performance
 gains support a stable decision preference.
 
+**Additional CV draft — owner confirmation required:** audited exact data/model
+provenance and external measurement compatibility; retained an unresolved
+external-validation gate instead of inferring reliability from runnable code.
+
 WaterSense AI evaluates dissolved-oxygen models under station, time, basin, and
 rare-event distribution shift. The central empirical result is that optimizing
 low-oxygen reliability improves subgroup MAE and recall while worsening overall
@@ -100,8 +122,9 @@ low-oxygen-oriented procedure improved subgroup MAE and recall, but increased
 overall error and false alarms; a separate classifier reached 92% recall but
 only 6.8% precision. Rather than selecting the most dramatic number, I analysed
 why the trade-off occurs, how events concentrate across stations, and which
-hypothetical error costs would prefer each rule. The system is not externally
-validated and is not a forecast. The main result is a reproducible example of
+hypothetical error costs would prefer each rule. A new 2025 temporal test
+reinforces the failure finding; cross-region validation remains outstanding.
+The main result is a reproducible example of
 responsible AI evaluation: the objective, validation unit, and failure costs
 must match the intended use.”
 

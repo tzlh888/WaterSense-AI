@@ -14,7 +14,31 @@ and false alarms.
 | V3 low-DO MAE | 3.3235 → **2.3613 mg/L** |
 | V3 low-DO recall | 0.1293 → **0.3641** |
 | Cost of that gain | overall MAE 0.8797 → **0.9516**; false positives 26 → **219** |
-| Independent external confirmation | **None** |
+| New-period confirmation | **2025 NIEA: 3,490 rows / 494 stations; low-DO recall 15%** |
+| Independent-region / V3 confirmation | **Outstanding** |
+
+**New reproduction evidence:** the official raw CSV, rebuilt modelling table
+and cleaning audit now match all three frozen hashes. Refitting the historical
+Phase4 model reproduces its 31,341-row predictions within `1e-10` mg/L and
+MAE **0.8311906 mg/L**. This validates the historical computation; it adds no
+external generalization evidence.
+
+An England EA compatibility pilot retrieved **430 observations / 49 exact
+samples / 6 stations**. Mapping gaps in measurement definitions and insufficient
+pilot support keep EA scoring blocked. A separate compatible 2025 NIEA release
+was subsequently evaluated under a pre-prediction freeze.
+[Recovery and compatibility evidence](audits/evidence_breakthrough/EXTERNAL_COMPATIBILITY_REPORT.md)
+
+**The new evidence is a failure result.** On 2025 data the frozen Phase4 model
+has overall MAE **0.6432 mg/L** [95% station-bootstrap interval 0.5896–0.7176],
+but misses **17 of 20** measured low-DO observations. Recall is **0.15**
+[0.00–0.3462]; low-DO MAE is **2.2888 mg/L**. Precision 1.00 comes from just
+three positive predictions at one station; 1,844/5,000 bootstrap draws have
+undefined precision. Only nine low-DO stations fail the predeclared support
+criterion. This is same-programme later-period evidence, not cross-region
+validation or confirmation of V3 weighting.
+
+[2025 protocol, counts, uncertainty and failure analysis](research_extension/ni2025_confirmation/TEMPORAL_CONFIRMATION_REPORT.md)
 
 > **Scientific takeaway:** the 758 measured low-DO observations occur at 115
 > stations, but half come from only ten stations. Their concentration is
@@ -137,8 +161,9 @@ distributions; lower overall MAE does not establish better low-DO reliability.
 
 Evidence order matters: V3 is the primary frozen development result; V4 and the
 portfolio extension are exploratory analyses on the reused development
-population; V1/V2 are historical robustness evidence. None is independent
-external confirmation.
+population; V1/V2 are historical robustness evidence. The separate 2025 test
+uses the frozen historical Phase4 model and newly acquired later-period records.
+It provides no direct confirmation of the V3 selected procedure.
 
 ## Reproduce the portfolio audit
 
@@ -160,15 +185,17 @@ Full historical reconstruction additionally requires the exact public raw
 export documented in [the dataset guide](docs/dataset.md). Reproducing code and
 development predictions does not create new statistical independence.
 
-The sprint records a separate historical V4 suite with six passes, one failure
-(old release manifest pins the pre-redesign README) and one error (raw CSV
-missing). The main suite has two skipped tests and a skipped four-test class
-requiring the missing processed dataset. Full details and validation impact are
-in the [reproduction audit](audits/sprint/REPRODUCTION_STATUS.md).
+After exact data recovery, the current main suite has **108 passes, no skips**.
+The unchanged historical V4 suite has **7 passes and 1 failure**, identically
+on the baseline and current branch: its release manifest pins an older README.
+The former raw-data error is resolved. See the
+[version consistency report](audits/evidence_breakthrough/VERSION_CONSISTENCY_REPORT.md)
+for baseline comparison and full logs; the frozen assertion remains unchanged.
 
 ## What this project does not establish
 
-- No independent external region or later period confirms the result.
+- No independent external region confirms the result; the 2025 same-programme
+  temporal test does not validate V3's selected weighted procedure.
 - Most low-DO observations are still missed by the V3 selected procedure.
 - Northern Ireland observations do not establish transfer to other regions.
 - Temperature, flow/discharge, and catchment context are absent.

@@ -72,6 +72,32 @@ the model and call the result external confirmation.
 
 ## Questions the applicant should answer personally
 
+### What did the first new-year evaluation actually show?
+
+The historical Phase4 model was frozen before prediction on the newly acquired
+2025 NIEA release. In 3,490 rows at 494 stations, MAE was 0.6432 mg/L but recall
+was only 3/20=15%. All detections occurred at one station; nine low-DO stations
+fell below the predeclared support criterion. Conditional bootstrap precision
+[1,1] is misleading if its 1,844 undefined replicates are hidden. The result is
+same-programme temporal evidence, not validation of V3 weighting or a forecast.
+
+### What changed after recovery, and why is it not external validation?
+
+The raw CSV, cleaned CSV and audit JSON match historical hashes. The fixed
+Phase4 model was retrained from these data; its 31,341 predictions match the
+historical table within 1e-10 mg/L. This establishes computational reproduction.
+The holdout had already been inspected and is not a new population. The full V3
+inner search was not rerun.
+
+### Why did the EA pilot stop before prediction?
+
+Exact sample IDs and units are available, but NI method definitions do not
+establish equivalence for ATU BOD, temperature-standardized conductivity,
+alkalinity titration and reactive phosphorus. Missing predictors alone can be
+handled by a frozen imputer; incompatible chemistry cannot. The pilot also has
+only six represented stations. Neither data access nor running a model proves
+external reliability.
+
 Before interview use, prepare a truthful account of which hypotheses, code,
 debugging, statistical choices, visual reviews, and manuscript revisions were
 personally performed or independently checked. Do not memorize first-person

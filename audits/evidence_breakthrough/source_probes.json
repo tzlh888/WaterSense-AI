@@ -1,0 +1,342 @@
+[
+  {
+    "name": "ni_service.json",
+    "url": "https://services-eu1.arcgis.com/kswen6BYexuc1SUk/arcgis/rest/services/River_Water_Quality_Monitoring_1990_to_2024_All_Parameters/FeatureServer/0?f=json",
+    "retrieved_utc": "2026-11-03T13:28:44.173501+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 15850,
+    "sha256": "4e48b6e59d0663a04080811085cb860c9af37cf1f347198e62dc63c39b9636cb"
+  },
+  {
+    "name": "ni_count.json",
+    "url": "https://services-eu1.arcgis.com/kswen6BYexuc1SUk/arcgis/rest/services/River_Water_Quality_Monitoring_1990_to_2024_All_Parameters/FeatureServer/0/query?where=1%3D1&returnCountOnly=true&f=json",
+    "retrieved_utc": "2026-11-03T13:28:44.329470+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 16,
+    "sha256": "b69d8e33dd81848c6c8363b296253d3c6dc807240232eadae94c17bd85d405a7"
+  },
+  {
+    "name": "ni_page.json",
+    "url": "https://services-eu1.arcgis.com/kswen6BYexuc1SUk/arcgis/rest/services/River_Water_Quality_Monitoring_1990_to_2024_All_Parameters/FeatureServer/0/query?where=1%3D1&outFields=*&orderByFields=OBJECTID&resultOffset=0&resultRecordCount=2&returnGeometry=false&f=json",
+    "retrieved_utc": "2026-11-03T13:28:44.499603+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 6747,
+    "sha256": "5518965a0e3ae96edb73afc880714e97c3d0132bb7eab2fe22e04058532fe809"
+  },
+  {
+    "name": "ea_reference.html",
+    "url": "https://environment.data.gov.uk/water-quality/doc/reference",
+    "retrieved_utc": "2026-11-03T13:28:44.749374+00:00",
+    "curl_exit": 0,
+    "http_status": "404",
+    "stderr": "",
+    "bytes": 143822,
+    "sha256": "5aecaa4f233a29ce564da205d4a3f0191bd1fc4bc5b4c478738e2838f9433b8c"
+  },
+  {
+    "name": "ea_api.html",
+    "url": "https://environment.data.gov.uk/water-quality/api",
+    "retrieved_utc": "2026-11-03T13:28:44.749609+00:00",
+    "curl_exit": 0,
+    "http_status": "404",
+    "stderr": "",
+    "bytes": 143808,
+    "sha256": "876fb702d027a4f8747bd5c28e7e82a3a97ae48c29a3d6036dd8becbfb974350"
+  },
+  {
+    "name": "ea_sampling.json",
+    "url": "https://environment.data.gov.uk/water-quality/id/sampling-point.json?_limit=2",
+    "retrieved_utc": "2026-11-03T13:28:44.749546+00:00",
+    "curl_exit": 0,
+    "http_status": "404",
+    "stderr": "",
+    "bytes": 143876,
+    "sha256": "86562b3add29ef6570853afb9fa58fd832194e238d8ec4ed1be7e1b99ba21b98"
+  },
+  {
+    "name": "ea_determinands.json",
+    "url": "https://environment.data.gov.uk/water-quality/id/determinand.json?_limit=1000",
+    "retrieved_utc": "2026-11-03T13:28:44.889078+00:00",
+    "curl_exit": 0,
+    "http_status": "404",
+    "stderr": "",
+    "bytes": 143882,
+    "sha256": "040f8e88ebbf120096fc8a1870fdf6f33ccf3aecb181ab44a7429ae2c8819f18"
+  },
+  {
+    "name": "ea_chunk_0.js",
+    "url": "https://environment.data.gov.uk/water-quality/_next/static/chunks/4bd1b696-e5d7c65570c947b7.js",
+    "retrieved_utc": "2026-11-03T13:28:44.923258+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 198492,
+    "sha256": "7a895b4ee2efab7034983accdb1d1a39c6525c5904b1e2dfac2ddd6e153dbc5b"
+  },
+  {
+    "name": "ea_chunk_1.js",
+    "url": "https://environment.data.gov.uk/water-quality/_next/static/chunks/3794-252ce8dfe9c01edf.js",
+    "retrieved_utc": "2026-11-03T13:28:45.028653+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 188775,
+    "sha256": "2b50795df679bdffecf7c92fd2993fa6e766ff799bc24dc84bb6936adc9bd1cd"
+  },
+  {
+    "name": "ea_chunk_2.js",
+    "url": "https://environment.data.gov.uk/water-quality/_next/static/chunks/main-app-dd34b0e775cca20f.js",
+    "retrieved_utc": "2026-11-03T13:28:45.028385+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 529,
+    "sha256": "699a03a2007d82b8fad30197010acb8f05d470c0b29394ee55c193b0d2baf0bd"
+  },
+  {
+    "name": "ea_chunk_3.js",
+    "url": "https://environment.data.gov.uk/water-quality/_next/static/chunks/59650de3-857e4f9220f02663.js",
+    "retrieved_utc": "2026-11-03T13:28:45.022855+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 1315,
+    "sha256": "d2c1db65180a0ffe0a74d73f5bb82ab652b64bf386b6eccfaf3ff65d019a17a5"
+  },
+  {
+    "name": "ea_chunk_4.js",
+    "url": "https://environment.data.gov.uk/water-quality/_next/static/chunks/5e22fd23-a0e930829f9cd7a0.js",
+    "retrieved_utc": "2026-11-03T13:28:45.022971+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 550,
+    "sha256": "f6d0f0b10092bbde50a1a82e3ae9dfe357dfd61255a3cbf23beb5a906ec43dac"
+  },
+  {
+    "name": "ea_chunk_5.js",
+    "url": "https://environment.data.gov.uk/water-quality/_next/static/chunks/aaea2bcf-4f9eb5012da21e0f.js",
+    "retrieved_utc": "2026-11-03T13:28:45.730227+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 325409,
+    "sha256": "cccc20b74adae41dbddda00f2980a8a4e9675e684888bfd965268372cc6e095c"
+  },
+  {
+    "name": "ea_chunk_6.js",
+    "url": "https://environment.data.gov.uk/water-quality/_next/static/chunks/94730671-dd396dc1b20fd85b.js",
+    "retrieved_utc": "2026-11-03T13:28:45.459339+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 981,
+    "sha256": "d88882f991bad30b5adaf612e01f4f0b0827d089cf84dc69fc6edaefb84a266d"
+  },
+  {
+    "name": "ea_chunk_7.js",
+    "url": "https://environment.data.gov.uk/water-quality/_next/static/chunks/eec3d76d-1223e0e949d77bce.js",
+    "retrieved_utc": "2026-11-03T13:28:45.556307+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 657,
+    "sha256": "c20d1545e1bbb3fc585da53909dfe22d459f30f1f1f8d9b8c840dcc2b122d1e5"
+  },
+  {
+    "name": "ea_chunk_8.js",
+    "url": "https://environment.data.gov.uk/water-quality/_next/static/chunks/c16f53c3-27c911e70b166e74.js",
+    "retrieved_utc": "2026-11-03T13:28:45.730341+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 25153,
+    "sha256": "a67c399b1986d5d4a408cfff90b74b4c26556fc6397719c63428af3dcf5fdd11"
+  },
+  {
+    "name": "ea_chunk_9.js",
+    "url": "https://environment.data.gov.uk/water-quality/_next/static/chunks/f97e080b-907ccfb346fbb897.js",
+    "retrieved_utc": "2026-11-03T13:28:45.555994+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 384,
+    "sha256": "fd38d9e487d146cee5202db887fa1ed5d8b7b05a8732d6beff18266dc3ec4bf8"
+  },
+  {
+    "name": "ea_chunk_10.js",
+    "url": "https://environment.data.gov.uk/water-quality/_next/static/chunks/f25cdb8d-09f55e9484c92778.js",
+    "retrieved_utc": "2026-11-03T13:28:45.556236+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 1516,
+    "sha256": "4a4de3f4bc5dbf5be0d15f47a5e2d90e52f1dfb8a1dde8c8417a8c28962d2a64"
+  },
+  {
+    "name": "ea_chunk_11.js",
+    "url": "https://environment.data.gov.uk/water-quality/_next/static/chunks/2333-718c267e50937a42.js",
+    "retrieved_utc": "2026-11-03T13:28:45.891258+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 24262,
+    "sha256": "04c5e24c9a36a0e56d082a06566de858fc7051cbbb9203b3429e4f7ad5ec5e19"
+  },
+  {
+    "name": "ea_chunk_12.js",
+    "url": "https://environment.data.gov.uk/water-quality/_next/static/chunks/3642-35a7fa773e168e2a.js",
+    "retrieved_utc": "2026-11-03T13:28:45.894836+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 27510,
+    "sha256": "b5f56448f9b22f521d469e339773e0f38182d23da9e7d2e441c6e859331a21e6"
+  },
+  {
+    "name": "ea_chunk_13.js",
+    "url": "https://environment.data.gov.uk/water-quality/_next/static/chunks/9403-83450485a5b4de75.js",
+    "retrieved_utc": "2026-11-03T13:28:46.286400+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 520476,
+    "sha256": "75275bc84c0d914a08ac6c9290a87809deaf9171e2f404a4fce06f3e2909a4d6"
+  },
+  {
+    "name": "ea_chunk_14.js",
+    "url": "https://environment.data.gov.uk/water-quality/_next/static/chunks/3730-e4608fbf9303d33a.js",
+    "retrieved_utc": "2026-11-03T13:28:45.929384+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 91819,
+    "sha256": "4edfcb47391d6c86c3dc54bbed4c09c556031a7f56a5608040112604192e39b7"
+  },
+  {
+    "name": "ea_chunk_15.js",
+    "url": "https://environment.data.gov.uk/water-quality/_next/static/chunks/7107-a76c0e52bd9d8c04.js",
+    "retrieved_utc": "2026-11-03T13:28:46.433614+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 320648,
+    "sha256": "5d2b5e7fdb71d86aca0240733c97b252e0257138f26d4a15a1997dad89d5f100"
+  },
+  {
+    "name": "ea_chunk_16.js",
+    "url": "https://environment.data.gov.uk/water-quality/_next/static/chunks/8567-b888c2bf3447d81f.js",
+    "retrieved_utc": "2026-11-03T13:28:46.286527+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 186556,
+    "sha256": "76699f89597974b4a70bc429ee6268c1a9771b8648822f7d4c40887b7b948474"
+  },
+  {
+    "name": "ea_chunk_17.js",
+    "url": "https://environment.data.gov.uk/water-quality/_next/static/chunks/8731-b9bc85aba7cec507.js",
+    "retrieved_utc": "2026-11-03T13:28:46.626313+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 100906,
+    "sha256": "7785b58426d9d7178f6380aefcd267875c75d2b2babf3d30a093618ddc475ca8"
+  },
+  {
+    "name": "ea_chunk_18.js",
+    "url": "https://environment.data.gov.uk/water-quality/_next/static/chunks/8138-9fbd55c1a520ab25.js",
+    "retrieved_utc": "2026-11-03T13:28:46.467355+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 13593,
+    "sha256": "cc90cade3c8fa533b78828c21cf35b22582bd0b0241cb6afdf8302149d39d5d3"
+  },
+  {
+    "name": "ea_chunk_19.js",
+    "url": "https://environment.data.gov.uk/water-quality/_next/static/chunks/3462-4871fb410257ee55.js",
+    "retrieved_utc": "2026-11-03T13:28:46.598025+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 6976,
+    "sha256": "f1e86758e88ff7d1298cb11e7f84ef1dbb5e07c523e81d96b0b90e73ffdd9b84"
+  },
+  {
+    "name": "ea_chunk_20.js",
+    "url": "https://environment.data.gov.uk/water-quality/_next/static/chunks/8988-f57e13c622096b6a.js",
+    "retrieved_utc": "2026-11-03T13:28:46.866713+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 26688,
+    "sha256": "c6bd0f6368da85c654fb463e5958c7223046b1aa950424434d55b124288a259d"
+  },
+  {
+    "name": "ea_chunk_21.js",
+    "url": "https://environment.data.gov.uk/water-quality/_next/static/chunks/4647-1db6073629a34e2c.js",
+    "retrieved_utc": "2026-11-03T13:28:46.772662+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 11637,
+    "sha256": "26bca93779153c21894551d2537b4490ea5f8304b3dff0374223f1f0c2181cc3"
+  },
+  {
+    "name": "ea_chunk_22.js",
+    "url": "https://environment.data.gov.uk/water-quality/_next/static/chunks/app/page-5428f8343cf29b2b.js",
+    "retrieved_utc": "2026-11-03T13:28:46.942361+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 22457,
+    "sha256": "e4855d9d28699b27aebeaaacfd454a304a79aaae8538f596d52aee0adbbfde4f"
+  },
+  {
+    "name": "ea_chunk_23.js",
+    "url": "https://environment.data.gov.uk/water-quality/_next/static/chunks/4135-242e9fcec9625065.js",
+    "retrieved_utc": "2026-11-03T13:28:46.944550+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 14833,
+    "sha256": "e232d90b06195df6e17376602859eb9216a24b009ff93048995497146bc8d9d6"
+  },
+  {
+    "name": "ea_chunk_24.js",
+    "url": "https://environment.data.gov.uk/water-quality/_next/static/chunks/app/layout-54a0070a30d5fbd5.js",
+    "retrieved_utc": "2026-11-03T13:28:46.974978+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 18091,
+    "sha256": "9afe5a346532817e9b52b5c7a4ea6f54013e42c6ae6f48eba07ef9c810e5dc04"
+  },
+  {
+    "name": "ea_chunk_25.js",
+    "url": "https://environment.data.gov.uk/water-quality/_next/static/chunks/polyfills-42372ed130431b0a.js",
+    "retrieved_utc": "2026-11-03T13:28:47.122790+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 112594,
+    "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683"
+  },
+  {
+    "name": "ea_chunk_26.js",
+    "url": "https://environment.data.gov.uk/water-quality/_next/static/chunks/webpack-0cbd271502d4a90a.js",
+    "retrieved_utc": "2026-11-03T13:28:46.969478+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 4398,
+    "sha256": "a454e8df3561c417a29df5ae6fc8e92ca7af5c82aa5e5b0af577d91813400b22"
+  }
+]

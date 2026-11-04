@@ -6,6 +6,25 @@
 
 ## One-page research summary
 
+**New temporal evidence — owner contribution unconfirmed:** after a committed
+pre-prediction freeze, the historical model was evaluated on 3,490 newly acquired
+2025 records from 494 stations. MAE was 0.6432 mg/L, but recall was 3/20=15%.
+Nine event-bearing stations fall below the fixed support criterion; precision
+1.00 relies on three detections at one station and has 1,844 undefined bootstrap
+replicates. This provides a concrete new-period failure result, while independent
+regional transfer and the V3 weighting effect remain unconfirmed.
+
+**Final CV draft — owner confirmation required:** evaluated a frozen model on
+new-year monitoring records, reporting low average error alongside 85% missed
+low-oxygen events and explicitly accounting for sparse station support.
+
+**Evidence breakthrough (draft attribution remains unconfirmed):** the official
+raw bytes and deterministic cleaned artifacts have now been recovered exactly.
+Refitting the frozen historical configuration reproduces 31,341 predictions to
+within 1e-10 mg/L. An external England pilot was audited at exact sample level;
+measurement-definition gaps prevented scoring. This demonstrates a reproducibility
+result and an evidence boundary, not external performance confirmation.
+
 WaterSense AI asks a mathematical reliability question hidden inside an
 environmental machine-learning problem: when observations are clustered by
 monitoring station and rare events are unevenly distributed, what does an
@@ -44,7 +63,7 @@ metrics without specifying a cost ratio.
 This work demonstrates group-aware experimental design, exact metric
 reconstruction, clustered uncertainty, concentration measures, sensitivity
 analysis, and careful separation between descriptive and causal statements. It
-does not claim external validation, forecasting, deployment readiness, or a
+does not claim cross-region validation, forecasting, deployment readiness, or a
 weight-only causal effect. The mathematically strongest outcome is the ability
 to state precisely what the evidence does—and does not—identify.
 
@@ -62,6 +81,10 @@ zero. These conclusions concern fixed development predictions.
 sampling volume explains rare-event concentration and quantified paired
 station-cluster uncertainty in hypothetical error-cost comparisons.
 
+**Additional CV draft — owner confirmation required:** reconstructed the exact
+historical data-to-prediction computation and audited independent river data for
+sample identity, measurement compatibility and censoring before model access.
+
 WaterSense AI studies whether routine river chemistry can estimate dissolved
 oxygen at monitoring stations excluded from training. Its central finding is a
 quantified reliability trade-off: improving rare low-oxygen detection reduces
@@ -76,7 +99,7 @@ overstated scientific claim.
 **WaterSense AI — environmental ML reliability study:** analysed 151k historical
 river records using station-grouped validation and reproducible artifact audits.
 Quantified rare-event concentration and the mathematical trade-off among MAE,
-recall, precision, and hypothetical decision costs; no external validation claim.
+recall, precision, and decision costs; 2025 temporal test exposed 85% low-DO misses.
 
 ## Detailed CV description — draft pending owner confirmation
 
@@ -143,6 +166,6 @@ classifier generates 9,517 false positives. The dataset cannot choose `r`.
 
 The project’s contribution is therefore a reproducible framework for asking
 what a metric means under dependence and imbalance. Its main limitation is the
-absence of an untouched external population. I would freeze the current rule
+absence of confirmation in an independent region. I would freeze the current rule
 and test it on a later or geographically independent dataset before making any
 deployment claim.”

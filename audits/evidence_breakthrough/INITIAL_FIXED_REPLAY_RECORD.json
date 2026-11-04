@@ -1,0 +1,17 @@
+{
+  "record_source": "Values transcribed from initial reproduce_recovered_history.py tool stdout; this is an execution summary, not a reconstructed full raw log",
+  "recovered_utc_reported_by_initial_execution": "2026-11-03T13:30:00.249176+00:00",
+  "git_head": "18cf7d713f135d9308b8f1ce50c006bcbe2c12cd",
+  "raw_sha256": "a5ce02d9ab3703edc4279c8dc5f9d38a593b92c555945c5cdb2ab3ca55632632",
+  "processed_sha256": "5685c2c352b1cc9502cd664736d85295580127016fb60bdca45c082c5d031761",
+  "training_rows": 119690,
+  "test_rows": 31341,
+  "random_state": 42,
+  "mae": 0.8311906043664727,
+  "rmse": 1.291061082666924,
+  "r2": 0.5390543500024132,
+  "max_prediction_difference": 8.881784197001252e-15,
+  "predictions_match_at_1e_10": true,
+  "initial_replay_prediction_sha256": "27bd1f91292194da0a839124a2d14822cb1b465128c36e609580da9fed45091d",
+  "subsequent_execution": "recovery_manifest.json and historical_replay.log record a second run with floating-point-scale differences; no model selection used either result"
+}

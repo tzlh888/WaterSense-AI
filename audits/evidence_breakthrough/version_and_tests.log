@@ -1,0 +1,9 @@
+COMMAND: python3 scripts/audit_version_consistency.py
+EXIT: 0
+STDOUT:
+{"version": "baseline", "suite": "main", "exit_code": 0, "head": "c2ab7b4ce7c9499d2b1a75e76ff910095a0f0b31", "log": "baseline_main.log"}
+{"version": "baseline", "suite": "v4", "exit_code": 1, "head": "c2ab7b4ce7c9499d2b1a75e76ff910095a0f0b31", "log": "baseline_v4.log"}
+{"version": "current", "suite": "main", "exit_code": 0, "head": "18cf7d713f135d9308b8f1ce50c006bcbe2c12cd", "log": "current_main.log"}
+{"version": "current", "suite": "v4", "exit_code": 1, "head": "18cf7d713f135d9308b8f1ce50c006bcbe2c12cd", "log": "current_v4.log"}
+
+STDERR:
