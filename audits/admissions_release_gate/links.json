@@ -1,0 +1,24 @@
+{
+  "documents": [
+    "README.md",
+    "paper/WATERSENSE_AI_MANUSCRIPT.md",
+    "admissions/PSL_IBSAI.md",
+    "admissions/OWNER_CONTRIBUTION_CONFIRMATION.md",
+    "admissions/RESEARCH_SUMMARY.md",
+    "admissions/ECOLE_POLYTECHNIQUE.md",
+    "admissions/TECHNICAL_INTERVIEW_QA.md",
+    "admissions/ORIGINALITY_NEGATIVE_RESULTS_LIMITATIONS.md"
+  ],
+  "broken_local_links": [],
+  "readme_anchors": [
+    {
+      "anchor": "reproduce-the-portfolio-audit",
+      "exists": true
+    },
+    {
+      "anchor": "what-this-project-does-not-establish",
+      "exists": true
+    }
+  ],
+  "ledger_evidence_paths_checked": 45
+}
