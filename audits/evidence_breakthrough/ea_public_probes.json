@@ -1,0 +1,32 @@
+[
+  {
+    "name": "ea_determinand.json",
+    "url": "https://environment.data.gov.uk/water-quality/def/determinand?limit=250",
+    "retrieved_utc": "2026-11-03T13:30:46.386180+00:00",
+    "curl_exit": 0,
+    "http_status": "404",
+    "stderr": "",
+    "bytes": 143872,
+    "sha256": "98f2dda60512d4ccce8c03a4f73b60299d8c4a4574366fd001bcde343d31f671"
+  },
+  {
+    "name": "ea_codelist.json",
+    "url": "https://environment.data.gov.uk/water-quality/codelist/determinand",
+    "retrieved_utc": "2026-11-03T13:30:46.382303+00:00",
+    "curl_exit": 0,
+    "http_status": "404",
+    "stderr": "",
+    "bytes": 143829,
+    "sha256": "d7814ea7802dccfabb428d058bb9a48c607c60c969eaa739188cc860cdfe210b"
+  },
+  {
+    "name": "ea_points.json",
+    "url": "https://environment.data.gov.uk/water-quality/sampling-point?limit=2",
+    "retrieved_utc": "2026-11-03T13:30:46.366706+00:00",
+    "curl_exit": 0,
+    "http_status": "404",
+    "stderr": "",
+    "bytes": 143861,
+    "sha256": "dabfcc0fac8acbd02917d103b125b2709191ac3ee2ad3ca356d2c423fd074910"
+  }
+]

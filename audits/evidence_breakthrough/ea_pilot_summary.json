@@ -1,0 +1,102 @@
+{
+  "points": [
+    "AN-01M02",
+    "AN-01M04",
+    "AN-01M05",
+    "AN-01M07",
+    "AN-01M08",
+    "AN-01M14",
+    "AN-01M15",
+    "AN-01M26",
+    "AN-02M04",
+    "AN-02M06"
+  ],
+  "observations": 430,
+  "all_pages_complete": true,
+  "station_observation_counts": {
+    "AN-01M02": 108,
+    "AN-01M04": 0,
+    "AN-01M05": 56,
+    "AN-01M07": 24,
+    "AN-01M08": 108,
+    "AN-01M14": 81,
+    "AN-01M15": 0,
+    "AN-01M26": 0,
+    "AN-02M04": 53,
+    "AN-02M06": 0
+  },
+  "prediction_performed": false,
+  "compatibility_gate": "NOT_FEASIBLE_FOR_PLANNED_CONFIRMATION_WITH_THIS_PILOT",
+  "exact_samples": 49,
+  "complete_ten_determinand_samples": 0,
+  "same_sample_bod_and_suspended_solids": 0,
+  "code_units_counts": [
+    {
+      "code": "0061",
+      "label": "pH",
+      "unit": "PHUNITS",
+      "count": 49
+    },
+    {
+      "code": "0077",
+      "label": "Conductivity at 25 C",
+      "unit": "uS/cm",
+      "count": 49
+    },
+    {
+      "code": "0085",
+      "label": "BOD : 5 Day ATU",
+      "unit": "mg/l",
+      "count": 29
+    },
+    {
+      "code": "0111",
+      "label": "Ammoniacal Nitrogen as N",
+      "unit": "mg/l",
+      "count": 49
+    },
+    {
+      "code": "0117",
+      "label": "Nitrate as N",
+      "unit": "mg/l",
+      "count": 49
+    },
+    {
+      "code": "0118",
+      "label": "Nitrite as N",
+      "unit": "mg/l",
+      "count": 49
+    },
+    {
+      "code": "0135",
+      "label": "Solids, Suspended at 105 C",
+      "unit": "mg/l",
+      "count": 9
+    },
+    {
+      "code": "0162",
+      "label": "Alkalinity to pH 4.5 as CaCO3",
+      "unit": "mg/l",
+      "count": 49
+    },
+    {
+      "code": "0180",
+      "label": "Orthophosphate, reactive as P",
+      "unit": "mg/l",
+      "count": 49
+    },
+    {
+      "code": "9924",
+      "label": "Oxygen, Dissolved as O2",
+      "unit": "mg/l",
+      "count": 49
+    }
+  ],
+  "censoring_counts": {
+    "upper_bound": 45
+  },
+  "date_min": "2025-01-07T12:51:00",
+  "date_max": "2025-12-10T14:42:00",
+  "station_identifier_overlap_with_ni": [],
+  "overlap_boundary": "England/2025 provenance differs from Northern Ireland/1990\u20132024. Zero station-ID overlap is supporting evidence, not a complete cross-provider physical-sample deduplication."
+}

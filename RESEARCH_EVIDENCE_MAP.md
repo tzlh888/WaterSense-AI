@@ -1,5 +1,12 @@
 # WaterSense AI — Research Evidence Map
 
+**Latest evidence update:** exact historical source recovery and a fixed Phase4
+replay are verified. The separately frozen 2025 NIEA temporal evaluation yields
+MAE 0.6432 mg/L but misses 17/20 low-DO observations. See the
+[new-period report](research_extension/ni2025_confirmation/TEMPORAL_CONFIRMATION_REPORT.md).
+This is same-programme temporal evidence; the V3/V4 confirmation limitations
+below still apply to their selected procedures and to independent-region claims.
+
 This index maps public claims to the smallest useful evidence trail. `VERIFIED` means the cited repository artifacts or tests directly support the bounded claim; `REPORTED` means the repository records the claim but this review did not independently reproduce the underlying historical run; `NOT VERIFIED` means the required evidence does not exist in the public record.
 
 V3 is the primary frozen development result. V4 is a later exploratory analysis on the same development population. V1/v2 materials are retained as historical robustness records rather than new confirmation.

@@ -1,0 +1,46 @@
+[
+  {
+    "name": "wqp_userguide.html",
+    "url": "https://www.waterqualitydata.us/portal_userguide/",
+    "retrieved_utc": "2026-11-03T13:35:28.834878+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "headers": {},
+    "bytes": 156791,
+    "sha256": "79899ebc049e4c216f9a52a37ca0eec0187f1e0a3135bbace5715d98eca05791"
+  },
+  {
+    "name": "wqp_pilot.csv",
+    "url": "https://www.waterqualitydata.us/data/Result/search?siteid=USGS-01463500&startDateLo=01-01-2025&startDateHi=12-31-2025&mimeType=csv&zip=no",
+    "retrieved_utc": "2026-11-03T13:35:27.944777+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "headers": {},
+    "bytes": 1754,
+    "sha256": "86a29ee0c9323c0dec6b90ee30afffe5c8a0ba4853ff6dc8d350f54430e3450f"
+  },
+  {
+    "name": "eea_aggregate.html",
+    "url": "https://dd.eionet.europa.eu/datasets/latest/WISE-SoE_WaterQualityICM/tables/AggregatedData",
+    "retrieved_utc": "2026-11-03T13:35:26.674994+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "headers": {},
+    "bytes": 79859,
+    "sha256": "fdb906cb54105410085267cd1eee9305eaee55ca2c26f91ce6b6e690ad2f3935"
+  },
+  {
+    "name": "eea_disaggregate.html",
+    "url": "https://dd.eionet.europa.eu/datasets/latest/WISE-SoE_WaterQualityICM/tables/DisaggregatedData",
+    "retrieved_utc": "2026-11-03T13:35:26.677239+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "headers": {},
+    "bytes": 68949,
+    "sha256": "8f4a68e0085ee2a7c62ffd899c8fea880a7136e8b3139e7b59335bf27e7a47da"
+  }
+]

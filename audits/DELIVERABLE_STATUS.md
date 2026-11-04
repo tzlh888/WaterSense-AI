@@ -1,5 +1,13 @@
 # Deliverable status
 
+**Evidence breakthrough update:** raw/processed reconstruction and the fixed
+Phase4 replay are COMPLETE. External compatibility audit is COMPLETE with a
+pilot NOT FEASIBLE conclusion; EA prediction remains BLOCKED. A separate
+compatible NIEA 2025 temporal evaluation is COMPLETE, with sparse rare-event
+support and no claim of V3/cross-region confirmation. Current
+test status and merge recommendation are in the
+[version report](evidence_breakthrough/VERSION_CONSISTENCY_REPORT.md).
+
 **Current status:** see [final sprint review](sprint/FINAL_REVIEW.md) and
 [reproduction audit](sprint/REPRODUCTION_STATUS.md). The older full-suite entry
 below is superseded: separately discovered V4 checks include one failure and

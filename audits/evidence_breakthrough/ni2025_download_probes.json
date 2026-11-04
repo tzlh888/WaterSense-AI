@@ -1,0 +1,24 @@
+[
+  {
+    "name": "ni2025_raw.csv",
+    "url": "https://www.daera-ni.gov.uk/sites/default/files/2026-10/DAERA%2026-784%20-%20Annex%20A.CSV",
+    "retrieved_utc": "2026-11-03T13:45:15.229000+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "headers": {},
+    "bytes": 1044781,
+    "sha256": "9e8713d94835f1bdb9c71f9d5bb36cfc944ed925b206d09aa18216482aa75c7a"
+  },
+  {
+    "name": "ni2025_letter.pdf",
+    "url": "https://www.daera-ni.gov.uk/sites/default/files/2026-10/DAERA%2026-784%20-%20Reply_Redacted.pdf",
+    "retrieved_utc": "2026-11-03T13:45:15.160413+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "headers": {},
+    "bytes": 510896,
+    "sha256": "197cc495c40d5d81d17d65e5a756ecb78b110b301bdbdcf5685733e7bb6178fa"
+  }
+]

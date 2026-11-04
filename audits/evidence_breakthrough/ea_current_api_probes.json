@@ -1,0 +1,32 @@
+[
+  {
+    "name": "ea_codes_api.json",
+    "url": "https://environment.data.gov.uk/water-quality/api/proxy/codelist/determinand",
+    "retrieved_utc": "2026-11-03T13:29:59.366256+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "ea_materials_api.json",
+    "url": "https://environment.data.gov.uk/water-quality/api/proxy/codelist/sample-material",
+    "retrieved_utc": "2026-11-03T13:29:57.588290+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "ea_types_api.json",
+    "url": "https://environment.data.gov.uk/water-quality/api/proxy/codelist/sampling-point-type",
+    "retrieved_utc": "2026-11-03T13:29:57.578250+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

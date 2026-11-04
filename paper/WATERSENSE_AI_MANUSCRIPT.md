@@ -1,7 +1,8 @@
 # WaterSense AI: Station-Grouped Evaluation of Rare Low-Oxygen Reliability in Long-Term River Monitoring Data
 
 **Manuscript status:** research portfolio manuscript; not peer-reviewed,
-published, accepted, or independently externally validated.  
+published or accepted; acquired 2025 same-programme temporal evidence is
+distinct from outstanding cross-region validation.
 **Author:** `[OWNER TO CONFIRM NAME AND CONTRIBUTION BEFORE SUBMISSION]`
 
 ## Abstract
@@ -29,9 +30,13 @@ Paired whole-station bootstrap intervals quantify model and cost differences;
 cost preference remains uncertain near the arithmetic crossings. Error-cost breakpoints make the decision
 trade-off explicit, while balanced-station time slices show descriptive—not
 prospective—variation across decades. The study’s contribution is therefore a
-reproducible reliability and failure analysis, not a deployment claim. External
-confirmation, application-defined costs, and owner-verified contribution
-attribution remain outstanding.
+reproducible reliability and failure analysis. A separately frozen evaluation of
+newly acquired 2025 records (3,490 rows, 494 stations) gives the historical
+Phase4 model MAE 0.6432 mg/L but recall only 0.15 (3/20 low-DO observations).
+Only nine stations contain low-DO events; precision 1.00 rests on three positive
+predictions at one station. Cross-region confirmation, independent validation
+of V3 weighting, real decision costs and owner-verified contribution remain
+outstanding.
 
 ## 1. Introduction
 
@@ -126,10 +131,13 @@ indicator features. Predictor missingness was handled by training-fold median
 imputation with missingness indicators. The raw and complete processed tables
 are ignored by Git; frozen predictions and manifests are public.
 
-An exact recovery was attempted on 2026-11-03. The repository’s Python client
-failed TLS certificate validation and the frozen download URL returned HTTP 500
-through the system client. Therefore raw-table claims are `REPORTED_ONLY` in the
-current audit, while prediction-level claims are independently recomputed.
+An initial recovery attempt on 2026-11-03 failed. The later evidence sprint
+retrieved the official CSV with SHA-256 exactly matching the historical source;
+the original cleaning code reproduced both processed CSV and audit JSON hashes.
+The raw source has 178,680 rows, 40 fields and 1,311 stations; the rebuilt
+modelling table has 151,031 rows and 840 stations. These claims are now directly
+verified. An ArcGIS count query agrees, and a normalized two-row API spot check
+is reported separately from full byte identity.
 
 ## 5. Experimental Methodology
 
@@ -330,6 +338,72 @@ V4 recall has interval [0.8896, 0.9482] and precision [0.0490, 0.0897].
 
 ## 9. Robustness and Failure Analysis
 
+### 2025 acquired temporal confirmation
+
+DAERA/26-784, published 2026-10-26, supplies previously unused 2025 observations
+from the same programme [9]. A local protocol and adapter/data/model hashes
+were committed at `2a55e5a` before the single prediction execution. This is an
+outcome-blind local freeze, not independent preregistration. The unchanged
+Phase4 model uses its original training imputer, 25 predictors and <4 mg/L rule.
+The new source's temperature field is unused. Two conflicting identity records
+were excluded together before freezing; both lack targets. Subsequent missing-
+target exclusion leaves 3,490 observations at 494 stations, with zero historical
+station/date overlap.
+
+| 2025 quantity | Estimate | Whole-station 95% percentile interval |
+|---|---:|---|
+| MAE (mg/L) | 0.6432 | [0.5896, 0.7176] |
+| Low-DO MAE (mg/L) | 2.2888 | [1.9237, 2.6796] |
+| Recall | 0.1500 | [0.0000, 0.3462] |
+| Precision | 1.0000 | Conditional [1,1]; 1,844/5,000 replicates undefined |
+
+TP=3, FP=0, TN=3470 and FN=17; RMSE=1.6872 mg/L and R²=0.4150.
+Only nine low-DO stations fail the predeclared ten-station support criterion.
+All three detections occur at one station. Conditional bootstrap precision is
+degenerate because resampling cannot introduce unobserved false positives; the
+observed 1.00 is not evidence of robust perfect precision.
+
+391 stations (2,777 rows) were in model training; 103 stations (713 rows) were
+absent from training. The latter have only five low-DO observations at two
+stations, all missed. Since 493 stations occur somewhere in the historical
+programme, this test establishes later-period evidence, not cross-region
+transportability or confirmation of the V3 weighted procedure.
+
+Suspended-solids missingness rises from 26.00% in historical training to 75.10%
+in 2025. One source DO value of 94 mg/L produces an 85.69 mg/L error and
+materially raises RMSE; its validity remains unresolved, and it is retained
+under the frozen no-outlier-filter rule. Lower MAE than the historical Phase4
+holdout (0.8312) coexists with higher RMSE (historical 1.2911). Population and
+measurement differences prevent interpreting that comparison as improvement.
+
+![2025 detection failure](../research_extension/ni2025_confirmation/temporal_confirmation.png)
+
+The [full confirmation report](../research_extension/ni2025_confirmation/TEMPORAL_CONFIRMATION_REPORT.md)
+retains counts, exclusions, strata, missingness shifts and all undefined metrics.
+
+### Historical replay and external compatibility
+
+The exact source reconstruction enables a new end-to-end replay of the fixed
+historical Phase4 pipeline: 119,690 training rows and 31,341 previously inspected
+holdout rows, seed 42, the original 25 predictors, and the saved selected
+150-tree Random Forest configuration. Retraining yields MAE 0.8311906044 mg/L,
+RMSE 1.2910610827 and R² 0.5390543500. The maximum per-row prediction difference
+from the historical table is below 1e-10 mg/L in both replay executions. This is computational reproduction,
+not new scientific validation. Feature selection and the 2,560-fit V3 inner
+grid were not rerun; their branch/HEAD gates remain unchanged.
+
+An external compatibility pilot on EA England river records for 2025 retrieved
+430 determinand observations from 49 exact samples at six stations. Units and
+sample identities are accessible, but BOD is available in 29 samples and
+suspended solids in nine, never together. Intermittent missingness can be
+handled by the frozen imputer, but equivalence of BOD incubation/ATU,
+alkalinity basis, conductivity reference temperature and soluble-reactive-P
+methods is not established by the NI export. These method gaps and insufficient
+station support prevent the pilot from passing the confirmation gate. No
+EA predictions or performance claims were generated. Full details and
+source links are in the
+[compatibility audit](../audits/evidence_breakthrough/EXTERNAL_COMPATIBILITY_REPORT.md).
+
 The main result survives several checks: five outer station folds, paired
 membership, station-clustered bootstrap intervals, exact artifact
 reconstruction, matched inner weight comparisons, repeated earlier
@@ -378,7 +452,8 @@ prove that the model has improved over time and does not support forecasting.
 8. Time-band analysis is descriptive rather than prospective.
 9. Prediction intervals can fail under spatial or temporal distribution shift.
 10. No ecological, regulatory, or financial cost ratio has been established.
-11. No external population has confirmed the findings.
+11. Cross-region validation and confirmation of V3 weighting remain absent;
+    the 2025 same-programme test has sparse low-DO station support.
 12. Applicant-specific personal contribution has not yet been authenticated.
 
 ## 12. Conclusion
@@ -391,9 +466,11 @@ amplifies that trade-off dramatically. Rare-event evidence is concentrated
 across stations, reinforcing the need for group-aware validation and
 cluster-aware uncertainty.
 
-The next scientifically decisive step is not another search on the same data.
-It is evaluation of a frozen rule on a genuinely new, compatible population
-under a decision policy defined independently of model outcomes.
+The 2025 result confirms an observed failure pattern in newly acquired records:
+low overall absolute error can coexist with missing most low-DO observations.
+Further decisive evidence requires a compatible independent region or a
+separately frozen V3 model, adequate event-station support and an explicit
+decision policy. The 2025 outcomes cannot now be reused as an untouched test.
 
 ## 13. References
 
@@ -423,6 +500,10 @@ under a decision policy defined independently of model outcomes.
 8. Diggle, P. J., Menezes, R., & Su, T.-l. (2010). Geostatistical inference under
    preferential sampling. *Journal of the Royal Statistical Society: Series C*,
    59(2), 191–232. <https://doi.org/10.1111/j.1467-9876.2009.00701.x>
+
+9. DAERA / NIEA (2026). DAERA/26-784: River water quality monitoring data for
+   all of Northern Ireland for 2025. Published 26 October 2026. Annex A.
+   <https://www.daera-ni.gov.uk/publications/daera26-784-river-water-quality-monitoring-data-all-northern-ireland-2025>
 
 ## 14. Reproducibility Statement
 

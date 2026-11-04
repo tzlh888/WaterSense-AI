@@ -1,0 +1,22 @@
+[
+  {
+    "commit": "9672c80",
+    "readme_sha256": "ed413e62be139a19777b7cd201188b22d6a3383d0b65d1b01df7deb6848fa11d",
+    "matches_v4_release_readme": false
+  },
+  {
+    "commit": "d649c9d",
+    "readme_sha256": "289f0605c4b5b5bf79ffc1cb200d593f7e0267a951d83518d5d002d9df297db8",
+    "matches_v4_release_readme": true
+  },
+  {
+    "commit": "c2ab7b4",
+    "readme_sha256": "ffa34a6d7658e3eec72c71f8e2dc8f8e2c17c714be6649852f1c1abdd8041e26",
+    "matches_v4_release_readme": false
+  },
+  {
+    "commit": "HEAD",
+    "readme_sha256": "f4f7a809a14a98fdbb9d026a9508b90efdc634be8774c49ee138db41cb1d79b8",
+    "matches_v4_release_readme": false
+  }
+]
