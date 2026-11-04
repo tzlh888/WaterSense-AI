@@ -1,0 +1,134 @@
+[
+  {
+    "commit": "220fd06531dbcbfd7d16c3dcbda26e7f5dd09bd5",
+    "author_date": "2026-10-02T09:08:28+02:00",
+    "committer_date": "2026-10-02T09:08:28+02:00",
+    "subject": "Initial public release of WaterSense AI"
+  },
+  {
+    "commit": "09f84cf02608e97684ef40d897f2e238a0945077",
+    "author_date": "2026-10-04T23:25:59+02:00",
+    "committer_date": "2026-10-04T23:25:59+02:00",
+    "subject": "Finalize WaterSense AI research validation and documentation"
+  },
+  {
+    "commit": "3553b29ff104918b12da8c84d2c9a8c5ed032e18",
+    "author_date": "2026-10-05T11:54:16+02:00",
+    "committer_date": "2026-10-05T11:54:16+02:00",
+    "subject": "Complete WaterSense AI v2.0 robustness analysis"
+  },
+  {
+    "commit": "8ed6c4ce7a36ab91b7166efe9aeaa8a942f26507",
+    "author_date": "2026-10-13T08:45:36+02:00",
+    "committer_date": "2026-10-13T08:45:36+02:00",
+    "subject": "Add reproducible low-DO research upgrade tooling"
+  },
+  {
+    "commit": "095d00f9974b0badb0595ed6db8156c267ca6031",
+    "author_date": "2026-10-13T08:45:47+02:00",
+    "committer_date": "2026-10-13T08:45:47+02:00",
+    "subject": "Add frozen low-DO protocols and research evidence"
+  },
+  {
+    "commit": "eb24304143f9250342106e27a7344d4b74884f7d",
+    "author_date": "2026-10-13T08:46:02+02:00",
+    "committer_date": "2026-10-13T08:46:02+02:00",
+    "subject": "Document final scientific and release status"
+  },
+  {
+    "commit": "97749f32b52f444d49d2717c9b29fe53704e8d9e",
+    "author_date": "2026-10-13T09:15:13+02:00",
+    "committer_date": "2026-10-13T09:15:13+02:00",
+    "subject": "Resolve legacy documentation links before main merge"
+  },
+  {
+    "commit": "9672c80e786ca91f66407c1137b526813517ae2d",
+    "author_date": "2026-10-13T19:14:08+02:00",
+    "committer_date": "2026-10-13T19:14:08+02:00",
+    "subject": "Clarify research contribution and validation limits"
+  },
+  {
+    "commit": "8a54cda0dcc5589ce94c5bae0b80e59a731b8acb",
+    "author_date": "2026-10-13T19:16:19+02:00",
+    "committer_date": "2026-10-13T19:16:19+02:00",
+    "subject": "Merge pull request #1 from tzlh888/research-upgrade-v3"
+  },
+  {
+    "commit": "d649c9dd33f9ebad9a673c9d6b8b3c7cc38aadb7",
+    "author_date": "2026-10-14T14:26:53+02:00",
+    "committer_date": "2026-10-14T14:26:53+02:00",
+    "subject": "Add WaterSense V4 exploratory research and reproducibility audit"
+  },
+  {
+    "commit": "a7198a2874a0eb9a563106cb6974041adc7b5691",
+    "author_date": "2026-10-14T14:48:00+02:00",
+    "committer_date": "2026-10-14T14:48:00+02:00",
+    "subject": "Clarify applicant contribution and AI assistance boundaries"
+  },
+  {
+    "commit": "12826aa66147bae1c87cb67d2ce739d3bb6fa0b2",
+    "author_date": "2026-10-14T20:11:42+02:00",
+    "committer_date": "2026-10-14T20:11:42+02:00",
+    "subject": "Merge pull request #2 from tzlh888/research/v4-watersense-20261014"
+  },
+  {
+    "commit": "93b13fbd54ea5d8babd3b08b6930611b73bb44d8",
+    "author_date": "2026-10-22T01:14:24+02:00",
+    "committer_date": "2026-10-22T01:14:24+02:00",
+    "subject": "docs(research): correct weighting attribution claims"
+  },
+  {
+    "commit": "c2ab7b4ce7c9499d2b1a75e76ff910095a0f0b31",
+    "author_date": "2026-10-22T01:38:29+02:00",
+    "committer_date": "2026-10-22T01:38:29+02:00",
+    "subject": "docs: add research evidence navigation"
+  },
+  {
+    "commit": "82c19e9813d4168e6e58856522561a15f307bb51",
+    "author_date": "2026-11-03T09:17:22+01:00",
+    "committer_date": "2026-11-03T09:17:22+01:00",
+    "subject": "research: add verified reliability portfolio analysis"
+  },
+  {
+    "commit": "b0ea7d709cea450466f6de76911f8d13e18883b5",
+    "author_date": "2026-11-03T09:17:25+01:00",
+    "committer_date": "2026-11-03T09:17:25+01:00",
+    "subject": "docs: publish evidence-led admissions research portfolio"
+  },
+  {
+    "commit": "f055a8eb27843d0ca0c366948bec3195c59edba2",
+    "author_date": "2026-11-03T09:55:46+01:00",
+    "committer_date": "2026-11-03T09:55:46+01:00",
+    "subject": "research: control sampling effort and quantify paired station uncertainty"
+  },
+  {
+    "commit": "84fe98c80130daf70d6350ed921a2df7bb7ec617",
+    "author_date": "2026-11-03T09:55:46+01:00",
+    "committer_date": "2026-11-03T09:55:46+01:00",
+    "subject": "docs: align final claims with sampling controls and complete test audit"
+  },
+  {
+    "commit": "18cf7d713f135d9308b8f1ce50c006bcbe2c12cd",
+    "author_date": "2026-11-03T09:56:55+01:00",
+    "committer_date": "2026-11-03T09:56:55+01:00",
+    "subject": "audit: retain complete sprint execution logs"
+  },
+  {
+    "commit": "2a55e5a7d4ff608f34695ef19bf9c1f8c9aa8d63",
+    "author_date": "2026-11-03T14:50:57+01:00",
+    "committer_date": "2026-11-03T14:50:57+01:00",
+    "subject": "protocol: freeze held-out 2025 temporal evaluation before prediction"
+  },
+  {
+    "commit": "00e4cd3ac5781b808b17045d92760a0f9128b5bf",
+    "author_date": "2026-11-04T14:10:38+01:00",
+    "committer_date": "2026-11-04T14:10:38+01:00",
+    "subject": "research: recover exact history and report frozen 2025 temporal failure evidence"
+  },
+  {
+    "commit": "3ad167097a58d1678886abdcececff1b24a9d37f",
+    "author_date": "2026-11-04T14:37:31+01:00",
+    "committer_date": "2026-11-04T14:37:31+01:00",
+    "subject": "audit: prepare final release with post-hoc sensitivity and provenance limits"
+  }
+]

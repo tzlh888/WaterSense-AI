@@ -1,0 +1,14 @@
+{
+  "git_head": "3ad167097a58d1678886abdcececff1b24a9d37f",
+  "utc": "2026-11-04T13:50:09.473398+00:00",
+  "python": "3.14.0",
+  "dependencies": {
+    "pandas": "3.0.6",
+    "numpy": "2.5.3",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "joblib": "1.6.0",
+    "streamlit": "1.64.0"
+  },
+  "scope": "Existing tests/build/startup only; no scientific experiment rerun."
+}

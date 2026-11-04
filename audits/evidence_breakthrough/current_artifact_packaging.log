@@ -1,0 +1,17 @@
+COMMAND: python3 scripts/finalize_evidence_audit.py
+EXIT: 0
+STDOUT:
+{
+  "semantic_check": {
+    "api_count": 178680,
+    "csv_rows": 178680,
+    "api_page_rows": 2,
+    "normalized_fields_compared": 74,
+    "normalized_differences": [],
+    "interpretation": "Two-row semantic spot check only. Full original identity is established separately by exact CSV SHA-256, not by this partial API check."
+  },
+  "snapshots": 11,
+  "current_manifest_files": 9
+}
+
+STDERR:

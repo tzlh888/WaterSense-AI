@@ -1,0 +1,121 @@
+[
+  {
+    "url": "https://doi.org/10.1023/A:1010933404324",
+    "final_url": "https://link.springer.com/article/10.1023/A:1010933404324?error=cookies_not_supported&code=3e641a88-6b74-4e96-92cf-f289baca2cf1",
+    "status": 200,
+    "retrieved_utc": "2026-11-04T13:36:27.286953+00:00",
+    "bytes": 243721,
+    "sha256": "260ab1111bb7f2f7c9dbdb75f8051be79d59725e127fac83ab3b0a8a9e9e7430",
+    "transport": "system curl; TLS verification enabled"
+  },
+  {
+    "url": "https://doi.org/10.1080/01621459.2017.1307116",
+    "final_url": "https://www.tandfonline.com/doi/full/10.1080/01621459.2017.1307116",
+    "status": 403,
+    "retrieved_utc": "2026-11-04T13:36:27.287073+00:00",
+    "bytes": 5555,
+    "sha256": "ea79c00b59c6a9790bf2255948073b8fc413ffcc3260fab22b801f30ea53e96a",
+    "transport": "system curl; TLS verification enabled"
+  },
+  {
+    "url": "https://doi.org/10.1111/ecog.02881",
+    "final_url": "https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.02881",
+    "status": 403,
+    "retrieved_utc": "2026-11-04T13:36:27.289399+00:00",
+    "bytes": 5544,
+    "sha256": "c9b18e816b876d2a4c2370691d9a016e510a0c5b62580ee9e16437d0298b9b09",
+    "transport": "system curl; TLS verification enabled"
+  },
+  {
+    "url": "https://doi.org/10.1111/j.1467-9868.2007.00593.x",
+    "final_url": "https://academic.oup.com/jrsssb/article/69/3/369/7109361",
+    "status": 403,
+    "retrieved_utc": "2026-11-04T13:36:27.293165+00:00",
+    "bytes": 5489,
+    "sha256": "af071cbca58bdb6bec817b8438919ef3fd655ed414fdab820bb700d555f25fea",
+    "transport": "system curl; TLS verification enabled"
+  },
+  {
+    "url": "https://doi.org/10.1111/j.1467-9876.2009.00701.x",
+    "final_url": "https://academic.oup.com/jrsssc/article/59/2/191/7079222",
+    "status": 403,
+    "retrieved_utc": "2026-11-04T13:36:27.293303+00:00",
+    "bytes": 5468,
+    "sha256": "52517a72f198def7bf3a9304157e171312f44aa2ba455855f74ae54e14f1f89b",
+    "transport": "system curl; TLS verification enabled"
+  },
+  {
+    "url": "https://doi.org/10.1371/journal.pone.0118432",
+    "final_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0118432",
+    "status": 200,
+    "retrieved_utc": "2026-11-04T13:36:27.293384+00:00",
+    "bytes": 249700,
+    "sha256": "fdd04fa61ff49f3e45f25eca52c7c4e53fb66138911811926ecf7f407974027a",
+    "transport": "system curl; TLS verification enabled"
+  },
+  {
+    "url": "https://www.daera-ni.gov.uk/articles/crown-copyright-daera",
+    "final_url": "https://www.daera-ni.gov.uk/articles/crown-copyright-daera",
+    "status": 200,
+    "retrieved_utc": "2026-11-04T13:36:27.678321+00:00",
+    "bytes": 41921,
+    "sha256": "2323500ae4609bf65f1e9f9dd9f756b1454549f9687c5ad8c3ff78ccb240b2d4",
+    "transport": "system curl; TLS verification enabled"
+  },
+  {
+    "url": "https://www.daera-ni.gov.uk/publications/daera26-784-river-water-quality-monitoring-data-all-northern-ireland-2025",
+    "final_url": "https://www.daera-ni.gov.uk/publications/daera26-784-river-water-quality-monitoring-data-all-northern-ireland-2025",
+    "status": 200,
+    "retrieved_utc": "2026-11-04T13:36:27.708327+00:00",
+    "bytes": 32094,
+    "sha256": "6a9dee36bc3e8b760770e8a19456cd5e4ba9e63c8fd5e46b58b129ddc2b6412f",
+    "transport": "system curl; TLS verification enabled"
+  },
+  {
+    "url": "https://www.daera-ni.gov.uk/sites/default/files/2026-10/DAERA%2026-784%20-%20Annex%20A.CSV",
+    "final_url": "https://www.daera-ni.gov.uk/sites/default/files/2026-10/DAERA%2026-784%20-%20Annex%20A.CSV",
+    "status": 200,
+    "retrieved_utc": "2026-11-04T13:36:27.712986+00:00",
+    "bytes": 1044781,
+    "sha256": "9e8713d94835f1bdb9c71f9d5bb36cfc944ed925b206d09aa18216482aa75c7a",
+    "transport": "system curl; TLS verification enabled",
+    "matches_evaluated_source_bytes": true,
+    "source_row_4859_do_mg_l": 94.0
+  },
+  {
+    "url": "https://www.data.gov.uk/dataset/15ec8080-ee1c-469b-858e-546d2fb57c27/riverwaterqualitymonitoring-1990to2024-allparameters13",
+    "final_url": "https://www.data.gov.uk/dataset/15ec8080-ee1c-469b-858e-546d2fb57c27/riverwaterqualitymonitoring-1990to2024-allparameters13",
+    "status": 200,
+    "retrieved_utc": "2026-11-04T13:36:27.741323+00:00",
+    "bytes": 28202,
+    "sha256": "0a8b9e63c2473bf0176804b335f5b8ea1106cd73d0582bbd7d0fc13662a527f0",
+    "transport": "system curl; TLS verification enabled"
+  },
+  {
+    "url": "https://www.data.gov.uk/dataset/583e771f-1af6-4934-b8f0-28f1d1ddd48c/water-quality-explorer",
+    "final_url": "https://www.data.gov.uk/dataset/583e771f-1af6-4934-b8f0-28f1d1ddd48c/water-quality-explorer",
+    "status": 200,
+    "retrieved_utc": "2026-11-04T13:36:27.771165+00:00",
+    "bytes": 27957,
+    "sha256": "542fbc59fa8f98cc8df15ac401b32743b1d8989337c680f999f980de74b43ccf",
+    "transport": "system curl; TLS verification enabled"
+  },
+  {
+    "url": "https://www.jmlr.org/papers/v12/pedregosa11a.html",
+    "final_url": "https://www.jmlr.org/papers/v12/pedregosa11a.html",
+    "status": 200,
+    "retrieved_utc": "2026-11-04T13:36:27.774871+00:00",
+    "bytes": 6429,
+    "sha256": "e39640aef7993fd6bbee627b71aa74d6e5e6c52c6d74777e00574833c38d5e51",
+    "transport": "system curl; TLS verification enabled"
+  },
+  {
+    "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "final_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "status": 200,
+    "retrieved_utc": "2026-11-04T13:36:28.076235+00:00",
+    "bytes": 10450,
+    "sha256": "f5b2b9f2af63647cde889fa6c3508f5705925295b74912c68caa28dd37e64aa5",
+    "transport": "system curl; TLS verification enabled"
+  }
+]

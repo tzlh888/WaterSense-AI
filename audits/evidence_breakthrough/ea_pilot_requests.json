@@ -1,0 +1,142 @@
+[
+  {
+    "name": "ea_pilot_AN-01M02_0.json",
+    "url": "https://environment.data.gov.uk/water-quality/sampling-point/AN-01M02/observation?dateFrom=2025-01-01&dateTo=2025-12-31&sampleMaterialType=2AZZ&determinand=9924%2C0082%2C0085%2C0088%2C0111%2C0118%2C0117%2C0180%2C0189%2C7692%2C0162%2C0062%2C0077%2C0135%2C0061&limit=250&skip=0",
+    "retrieved_utc": "2026-11-03T13:33:43.463141+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "headers": {
+      "Accept": "application/ld+json",
+      "API-Version": "1"
+    },
+    "bytes": 273655,
+    "sha256": "92ad744cb2c1aeef23f0f587b7eb939c52e0b0d0f3ba66fcd440187c931ea21a"
+  },
+  {
+    "name": "ea_pilot_AN-01M04_0.json",
+    "url": "https://environment.data.gov.uk/water-quality/sampling-point/AN-01M04/observation?dateFrom=2025-01-01&dateTo=2025-12-31&sampleMaterialType=2AZZ&determinand=9924%2C0082%2C0085%2C0088%2C0111%2C0118%2C0117%2C0180%2C0189%2C7692%2C0162%2C0062%2C0077%2C0135%2C0061&limit=250&skip=0",
+    "retrieved_utc": "2026-11-03T13:33:42.232303+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "headers": {
+      "Accept": "application/ld+json",
+      "API-Version": "1"
+    },
+    "bytes": 166,
+    "sha256": "5ccf81c1cd081e8ddeb021e2d7b76ce4d0273ca8dd0e2cd051af6523b8cdb083"
+  },
+  {
+    "name": "ea_pilot_AN-01M05_0.json",
+    "url": "https://environment.data.gov.uk/water-quality/sampling-point/AN-01M05/observation?dateFrom=2025-01-01&dateTo=2025-12-31&sampleMaterialType=2AZZ&determinand=9924%2C0082%2C0085%2C0088%2C0111%2C0118%2C0117%2C0180%2C0189%2C7692%2C0162%2C0062%2C0077%2C0135%2C0061&limit=250&skip=0",
+    "retrieved_utc": "2026-11-03T13:33:42.894873+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "headers": {
+      "Accept": "application/ld+json",
+      "API-Version": "1"
+    },
+    "bytes": 140904,
+    "sha256": "a3ad90641df6f5517bd09bfacba94bca4d0d6ef517d625de3e641fd2c90f6e3c"
+  },
+  {
+    "name": "ea_pilot_AN-01M07_0.json",
+    "url": "https://environment.data.gov.uk/water-quality/sampling-point/AN-01M07/observation?dateFrom=2025-01-01&dateTo=2025-12-31&sampleMaterialType=2AZZ&determinand=9924%2C0082%2C0085%2C0088%2C0111%2C0118%2C0117%2C0180%2C0189%2C7692%2C0162%2C0062%2C0077%2C0135%2C0061&limit=250&skip=0",
+    "retrieved_utc": "2026-11-03T13:33:42.530854+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "headers": {
+      "Accept": "application/ld+json",
+      "API-Version": "1"
+    },
+    "bytes": 59959,
+    "sha256": "e2f263b36a5a799527873e2fa96bdce913a73b3b4ca1474847fd5d981b18b037"
+  },
+  {
+    "name": "ea_pilot_AN-01M08_0.json",
+    "url": "https://environment.data.gov.uk/water-quality/sampling-point/AN-01M08/observation?dateFrom=2025-01-01&dateTo=2025-12-31&sampleMaterialType=2AZZ&determinand=9924%2C0082%2C0085%2C0088%2C0111%2C0118%2C0117%2C0180%2C0189%2C7692%2C0162%2C0062%2C0077%2C0135%2C0061&limit=250&skip=0",
+    "retrieved_utc": "2026-11-03T13:33:43.710344+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "headers": {
+      "Accept": "application/ld+json",
+      "API-Version": "1"
+    },
+    "bytes": 273437,
+    "sha256": "13b574b12e94d03f031317e47724ddff40875cf6fd28d96735cf8ec1ede8b5d4"
+  },
+  {
+    "name": "ea_pilot_AN-01M14_0.json",
+    "url": "https://environment.data.gov.uk/water-quality/sampling-point/AN-01M14/observation?dateFrom=2025-01-01&dateTo=2025-12-31&sampleMaterialType=2AZZ&determinand=9924%2C0082%2C0085%2C0088%2C0111%2C0118%2C0117%2C0180%2C0189%2C7692%2C0162%2C0062%2C0077%2C0135%2C0061&limit=250&skip=0",
+    "retrieved_utc": "2026-11-03T13:33:43.796751+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "headers": {
+      "Accept": "application/ld+json",
+      "API-Version": "1"
+    },
+    "bytes": 203638,
+    "sha256": "3cd1c6c8fb064b38cda871e17e4e1ca51687c4941e903a5387228a8bea9603c9"
+  },
+  {
+    "name": "ea_pilot_AN-01M15_0.json",
+    "url": "https://environment.data.gov.uk/water-quality/sampling-point/AN-01M15/observation?dateFrom=2025-01-01&dateTo=2025-12-31&sampleMaterialType=2AZZ&determinand=9924%2C0082%2C0085%2C0088%2C0111%2C0118%2C0117%2C0180%2C0189%2C7692%2C0162%2C0062%2C0077%2C0135%2C0061&limit=250&skip=0",
+    "retrieved_utc": "2026-11-03T13:33:43.486671+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "headers": {
+      "Accept": "application/ld+json",
+      "API-Version": "1"
+    },
+    "bytes": 166,
+    "sha256": "5ccf81c1cd081e8ddeb021e2d7b76ce4d0273ca8dd0e2cd051af6523b8cdb083"
+  },
+  {
+    "name": "ea_pilot_AN-01M26_0.json",
+    "url": "https://environment.data.gov.uk/water-quality/sampling-point/AN-01M26/observation?dateFrom=2025-01-01&dateTo=2025-12-31&sampleMaterialType=2AZZ&determinand=9924%2C0082%2C0085%2C0088%2C0111%2C0118%2C0117%2C0180%2C0189%2C7692%2C0162%2C0062%2C0077%2C0135%2C0061&limit=250&skip=0",
+    "retrieved_utc": "2026-11-03T13:33:43.950720+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "headers": {
+      "Accept": "application/ld+json",
+      "API-Version": "1"
+    },
+    "bytes": 166,
+    "sha256": "5ccf81c1cd081e8ddeb021e2d7b76ce4d0273ca8dd0e2cd051af6523b8cdb083"
+  },
+  {
+    "name": "ea_pilot_AN-02M04_0.json",
+    "url": "https://environment.data.gov.uk/water-quality/sampling-point/AN-02M04/observation?dateFrom=2025-01-01&dateTo=2025-12-31&sampleMaterialType=2AZZ&determinand=9924%2C0082%2C0085%2C0088%2C0111%2C0118%2C0117%2C0180%2C0189%2C7692%2C0162%2C0062%2C0077%2C0135%2C0061&limit=250&skip=0",
+    "retrieved_utc": "2026-11-03T13:33:44.381980+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "headers": {
+      "Accept": "application/ld+json",
+      "API-Version": "1"
+    },
+    "bytes": 134064,
+    "sha256": "6bcce02e4de4d5c4b7e58b2103364d3a80ac2890e4b990c5a8571c2fda12e439"
+  },
+  {
+    "name": "ea_pilot_AN-02M06_0.json",
+    "url": "https://environment.data.gov.uk/water-quality/sampling-point/AN-02M06/observation?dateFrom=2025-01-01&dateTo=2025-12-31&sampleMaterialType=2AZZ&determinand=9924%2C0082%2C0085%2C0088%2C0111%2C0118%2C0117%2C0180%2C0189%2C7692%2C0162%2C0062%2C0077%2C0135%2C0061&limit=250&skip=0",
+    "retrieved_utc": "2026-11-03T13:33:44.254893+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "headers": {
+      "Accept": "application/ld+json",
+      "API-Version": "1"
+    },
+    "bytes": 166,
+    "sha256": "5ccf81c1cd081e8ddeb021e2d7b76ce4d0273ca8dd0e2cd051af6523b8cdb083"
+  }
+]

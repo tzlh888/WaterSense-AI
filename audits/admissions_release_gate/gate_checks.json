@@ -1,0 +1,41 @@
+{
+  "checked_utc": "2026-11-04T13:59:00.897106+00:00",
+  "input_head": "3ad167097a58d1678886abdcececff1b24a9d37f",
+  "scientific_experiments_performed_this_gate": false,
+  "existing_3ad1670_sealed_files_verified": 64,
+  "code_and_test_paths_changed_since_baseline": [
+    "scripts/audit_ea_compatibility.py",
+    "scripts/audit_final_release.py",
+    "scripts/audit_version_consistency.py",
+    "scripts/finalize_evidence_audit.py",
+    "scripts/investigate_evidence_sources.py",
+    "scripts/prepare_final_release.py",
+    "scripts/report_ni2025.py",
+    "scripts/reproduce_recovered_history.py",
+    "scripts/run_evidence_breakthrough_checks.py",
+    "scripts/run_portfolio_analysis.py",
+    "scripts/run_scientific_sprint.py",
+    "scripts/validate_ni2025.py",
+    "scripts/verify_scientific_sprint.py",
+    "src/portfolio_analysis.py",
+    "tests/test_application_logic.py",
+    "tests/test_evidence_breakthrough.py",
+    "tests/test_final_release.py",
+    "tests/test_ni2025_adapter.py",
+    "tests/test_phase4_refinement.py",
+    "tests/test_portfolio_analysis.py",
+    "tests/test_scientific_sprint.py"
+  ],
+  "latest_tests": {
+    "main_pass": 110,
+    "main_fail": 0,
+    "v4_pass": 7,
+    "v4_fail": 1,
+    "errors": 0,
+    "skips": 0
+  },
+  "scientific_claim_review": "PASS_WITH_DISCLOSED_LIMITATIONS",
+  "public_release_status": "BLOCKED_OWNER_CONTRIBUTION_IDENTITY_PRIVACY_AND_REMOTE_AUTHORIZATION",
+  "human_attestation_provided": false,
+  "remote_actions_performed": false
+}

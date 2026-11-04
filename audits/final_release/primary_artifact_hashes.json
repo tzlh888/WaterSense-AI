@@ -1,0 +1,13 @@
+{
+  "temporal_confirmation.png": "349973111046e4aa0ee59e2344fd27b54f67b2106eccede38efba963b9a8fbbd",
+  "TEMPORAL_CONFIRMATION_REPORT.md": "8219d38eb7440616b9114f2118adec876b1fffcf835a7eeb707fb367250598f3",
+  "eligible_cohort.csv.gz": "6f1bd84a0423e23c1cae6233a7adfa5136e11bc408f97b938fc9cedc0c3fda95",
+  "feature_distribution_shift.csv": "2a1830a60441791328cb6a5e473553a89236567987bc6e08f964b7073ed9a387",
+  "RESULTS.json": "d0dd0971aea20e3658cbb169fb7f22764629df49730996e9398a28e91730fd38",
+  "predictions.csv.gz": "0d7f22cc79d909e5f444adc0480dd6f16c74500b7c982270915b7e326838e4c0",
+  "compatibility_audit.json": "778b47f604f637e1488e3f60542789e891f335ab3f100e0b6e956309620452a6",
+  "ARTIFACT_MANIFEST.json": "a6462b1e5b7198b195165d810aa367161b34cb87118d19e0e4d376d77db72c84",
+  "historical_phase4_comparison.json": "07bde3258bc0da1f18499876806d33de35921e3a415705e227c155ccc2cb5bb7",
+  "bootstrap_replicates.csv.gz": "6ac1dd75d3e732c8bafc634c38be0da34863c1a8147940185d82f0f8698e0030",
+  "FREEZE.json": "59b68ed8c9177a3a40b3a421ec74364fb4c929d7dd3dbe55d5e7a88e388ad2cd"
+}

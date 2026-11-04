@@ -1,0 +1,52 @@
+{
+  "runs": [
+    {
+      "version": "baseline",
+      "suite": "main",
+      "exit_code": 0,
+      "head": "c2ab7b4ce7c9499d2b1a75e76ff910095a0f0b31",
+      "log": "baseline_main.log"
+    },
+    {
+      "version": "baseline",
+      "suite": "v4",
+      "exit_code": 1,
+      "head": "c2ab7b4ce7c9499d2b1a75e76ff910095a0f0b31",
+      "log": "baseline_v4.log"
+    },
+    {
+      "version": "current",
+      "suite": "main",
+      "exit_code": 0,
+      "head": "2a55e5a7d4ff608f34695ef19bf9c1f8c9aa8d63",
+      "log": "current_main.log"
+    },
+    {
+      "version": "current",
+      "suite": "v4",
+      "exit_code": 1,
+      "head": "2a55e5a7d4ff608f34695ef19bf9c1f8c9aa8d63",
+      "log": "current_v4.log"
+    }
+  ],
+  "release_manifest_mismatches": {
+    "baseline": [
+      {
+        "file": "README.md",
+        "expected": "289f0605c4b5b5bf79ffc1cb200d593f7e0267a951d83518d5d002d9df297db8",
+        "observed": "ffa34a6d7658e3eec72c71f8e2dc8f8e2c17c714be6649852f1c1abdd8041e26"
+      }
+    ],
+    "current": [
+      {
+        "file": "README.md",
+        "expected": "289f0605c4b5b5bf79ffc1cb200d593f7e0267a951d83518d5d002d9df297db8",
+        "observed": "0dbff4af03587af97ac67bc9bb4d3eb6f0344584859c39ac78968697fc5872fe"
+      }
+    ]
+  },
+  "protected_tracked_changes": [],
+  "protected_files_checked": 269,
+  "protected_byte_mismatches": [],
+  "v4_test_source_identical": true
+}

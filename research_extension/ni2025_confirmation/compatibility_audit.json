@@ -1,0 +1,112 @@
+{
+  "schema_rows": 6080,
+  "excluded_identity_conflict_rows": 2,
+  "invalid_predictor_qualifier_or_identity_rows": 2,
+  "field_checks": {
+    "ALK (mg/l)": {
+      "unsupported_qualifiers": 0,
+      "nonfinite": 0,
+      "missing": 2871,
+      "qualified": 149
+    },
+    "BOD (mg/l)": {
+      "unsupported_qualifiers": 0,
+      "nonfinite": 0,
+      "missing": 2870,
+      "qualified": 2620
+    },
+    "COND (US/CM)": {
+      "unsupported_qualifiers": 0,
+      "nonfinite": 0,
+      "missing": 2869,
+      "qualified": 0
+    },
+    "DO (mg/l)": {
+      "unsupported_qualifiers": 0,
+      "nonfinite": 0,
+      "missing": 2590,
+      "qualified": 0
+    },
+    "NH4-N (mg/l)": {
+      "unsupported_qualifiers": 0,
+      "nonfinite": 0,
+      "missing": 159,
+      "qualified": 1962
+    },
+    "NO2-N (mg/l)": {
+      "unsupported_qualifiers": 0,
+      "nonfinite": 0,
+      "missing": 159,
+      "qualified": 760
+    },
+    "NO3-N (mg/l)": {
+      "unsupported_qualifiers": 0,
+      "nonfinite": 0,
+      "missing": 159,
+      "qualified": 180
+    },
+    "P(SOL) (mg/l)": {
+      "unsupported_qualifiers": 0,
+      "nonfinite": 0,
+      "missing": 159,
+      "qualified": 241
+    },
+    "PH (PH UNITS)": {
+      "unsupported_qualifiers": 0,
+      "nonfinite": 0,
+      "missing": 2869,
+      "qualified": 0
+    },
+    "SS (mg/l)": {
+      "unsupported_qualifiers": 0,
+      "nonfinite": 0,
+      "missing": 5209,
+      "qualified": 432
+    }
+  },
+  "cleaning": {
+    "raw_rows": 6078,
+    "missing_target_rows_excluded": 2588,
+    "qualified_target_rows_excluded": 0,
+    "processed_rows": 3490,
+    "processed_stations": 494,
+    "complete_case_rows": 3192,
+    "complete_case_percent_of_processed": 91.46131805157593,
+    "feature_missing_counts": {
+      "bod_mg_l": 298,
+      "ammonia_n_mg_l": 0,
+      "nitrite_n_mg_l": 0,
+      "nitrate_n_mg_l": 0,
+      "soluble_reactive_phosphorus_mg_l": 0,
+      "ph": 297
+    },
+    "extended_feature_missing_counts": {
+      "alkalinity_mg_l": 299,
+      "conductivity_us_cm": 297,
+      "suspended_solids_mg_l": 2621
+    },
+    "extended_feature_censor_counts": {
+      "alkalinity_is_below_limit": 149,
+      "alkalinity_is_above_limit": 0,
+      "suspended_solids_is_below_limit": 431,
+      "suspended_solids_is_above_limit": 0
+    },
+    "temperature_field_available": false,
+    "transformations": [
+      "Excluded rows with missing dissolved-oxygen target.",
+      "Excluded rows with any dissolved-oxygen target qualifier.",
+      "Parsed sample date and derived sample year.",
+      "Derived month, season, and cyclical day-of-year context from sample date.",
+      "Renamed selected core chemistry columns for modelling.",
+      "Preserved predictor numeric values exactly as exported.",
+      "Added separate below-limit and above-limit flags for qualified predictors.",
+      "Retained predictor missing values for training-only median imputation."
+    ]
+  },
+  "old_new_station_date_overlap": 0,
+  "historical_station_overlap": 493,
+  "eligible_rows": 3490,
+  "eligible_stations": 494,
+  "data_scope": "Same-programme later-period acquired confirmation; not independent region",
+  "new_temperature_feature_used": false
+}

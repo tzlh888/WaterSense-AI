@@ -1,0 +1,24 @@
+[
+  {
+    "name": "ni_2026_releases.html",
+    "url": "https://www.daera-ni.gov.uk/articles/information-released-daera-2026",
+    "retrieved_utc": "2026-11-03T13:44:35.692000+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "headers": {},
+    "bytes": 262649,
+    "sha256": "4d8583620cd27d43a1ea0676e50e0486a9de70eda39f533b9b1dac46fc9cb60c"
+  },
+  {
+    "name": "ni_monitoring_methods.html",
+    "url": "https://www.daera-ni.gov.uk/articles/river-water-quality-monitoring",
+    "retrieved_utc": "2026-11-03T13:44:35.796992+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "headers": {},
+    "bytes": 39163,
+    "sha256": "f0c12438382bf4f18b2283b37ac7a6a1690858e401c40912692c84db0c466e25"
+  }
+]

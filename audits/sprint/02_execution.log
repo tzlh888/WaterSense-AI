@@ -1,0 +1,67 @@
+COMMAND: python3 scripts/run_scientific_sprint.py
+EXIT: 0
+STDOUT:
+{
+  "status": "PASS",
+  "stations": 672,
+  "sampling_control": [
+    {
+      "minimum_observations": 1,
+      "stations": 672,
+      "observations": 119690,
+      "events": 758,
+      "sampling_hhi": 0.0022134967668342486,
+      "observed_hhi": 0.03372296210691934,
+      "null_mean": 0.0035231498867547137,
+      "null_lower": 0.003295233907131949,
+      "null_upper": 0.0037733039287649165,
+      "mc_upper_tail": 4.999750012499375e-05,
+      "valid_draws": 20000,
+      "excluded_zero_event_draws": 0
+    },
+    {
+      "minimum_observations": 10,
+      "stations": 625,
+      "observations": 119545,
+      "events": 757,
+      "sampling_hhi": 0.0022188252335562757,
+      "observed_hhi": 0.03381037223692913,
+      "null_mean": 0.0035302105885228314,
+      "null_lower": 0.003302798454501104,
+      "null_upper": 0.0037838115694641687,
+      "mc_upper_tail": 4.999750012499375e-05,
+      "valid_draws": 20000,
+      "excluded_zero_event_draws": 0
+    },
+    {
+      "minimum_observations": 30,
+      "stations": 601,
+      "observations": 119017,
+      "events": 727,
+      "sampling_hhi": 0.0022376708380130303,
+      "observed_hhi": 0.03590909864926996,
+      "null_mean": 0.0036030655066179476,
+      "null_lower": 0.003369315359074115,
+      "null_upper": 0.003863310612160317,
+      "mc_upper_tail": 4.999750012499375e-05,
+      "valid_draws": 20000,
+      "excluded_zero_event_draws": 0
+    },
+    {
+      "minimum_observations": 100,
+      "stations": 462,
+      "observations": 110024,
+      "events": 630,
+      "sampling_hhi": 0.0025655836562412278,
+      "observed_hhi": 0.04596623834719073,
+      "null_mean": 0.004141220089957539,
+      "null_lower": 0.003862762217079997,
+      "null_upper": 0.004453228114336092,
+      "mc_upper_tail": 4.999750012499375e-05,
+      "valid_draws": 20000,
+      "excluded_zero_event_draws": 0
+    }
+  ]
+}
+
+STDERR:

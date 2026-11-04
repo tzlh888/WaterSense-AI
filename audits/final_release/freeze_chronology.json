@@ -1,0 +1,69 @@
+{
+  "classification": "LOCAL_RECORDS_CONSISTENT_WITH_FREEZE_BEFORE_EXECUTION_NOT_INDEPENDENT_PROOF",
+  "freeze_commit": "2a55e5a7d4ff608f34695ef19bf9c1f8c9aa8d63",
+  "freeze_file_recorded_utc": "2026-11-03T13:50:32.627954+00:00",
+  "commit_metadata": [
+    "2a55e5a7d4ff608f34695ef19bf9c1f8c9aa8d63",
+    "18cf7d713f135d9308b8f1ce50c006bcbe2c12cd",
+    "2026-11-03T14:50:57+01:00",
+    "2026-11-03T14:50:57+01:00",
+    "N"
+  ],
+  "git_reflog": [
+    "00e4cd3ac5781b808b17045d92760a0f9128b5bf HEAD@{2026-11-04T14:10:38+01:00} commit: research: recover exact history and report frozen 2025 temporal failure evidence",
+    "2a55e5a7d4ff608f34695ef19bf9c1f8c9aa8d63 HEAD@{2026-11-03T14:50:57+01:00} commit: protocol: freeze held-out 2025 temporal evaluation before prediction",
+    "18cf7d713f135d9308b8f1ce50c006bcbe2c12cd HEAD@{2026-11-03T09:56:55+01:00} commit: audit: retain complete sprint execution logs",
+    "84fe98c80130daf70d6350ed921a2df7bb7ec617 HEAD@{2026-11-03T09:55:46+01:00} commit: docs: align final claims with sampling controls and complete test audit",
+    "f055a8eb27843d0ca0c366948bec3195c59edba2 HEAD@{2026-11-03T09:55:46+01:00} commit: research: control sampling effort and quantify paired station uncertainty",
+    "b0ea7d709cea450466f6de76911f8d13e18883b5 HEAD@{2026-11-03T09:17:25+01:00} commit: docs: publish evidence-led admissions research portfolio",
+    "82c19e9813d4168e6e58856522561a15f307bb51 HEAD@{2026-11-03T09:17:22+01:00} commit: research: add verified reliability portfolio analysis",
+    "c2ab7b4ce7c9499d2b1a75e76ff910095a0f0b31 HEAD@{2026-11-03T09:07:06+01:00} checkout: moving from main to research/autonomous-portfolio-20261103",
+    "c2ab7b4ce7c9499d2b1a75e76ff910095a0f0b31 HEAD@{2026-11-03T09:06:24+01:00} clone: from https://github.com/tzlh888/WaterSense-AI.git"
+  ],
+  "verified_inputs": [
+    {
+      "path": "scripts/validate_ni2025.py",
+      "sha256": "deeb044aa794a43cbf603e6d670c994364cfa504ce22ecf74b1e108fb81f7b61",
+      "matches_freeze_commit_and_working_copy": true
+    },
+    {
+      "path": "research_extension/NI2025_CONFIRMATION_PROTOCOL.md",
+      "sha256": "7e81854c4a33bfede3d1d80c81712e83d2ede6fcf0194a989e690590592c2491",
+      "matches_freeze_commit_and_working_copy": true
+    },
+    {
+      "path": "src/preprocessing.py",
+      "sha256": "d9703777bab9d164e5f940da81f7c7be500a600f7df29264e7939119c89a0f96",
+      "matches_freeze_commit_and_working_copy": true
+    },
+    {
+      "path": "research_extension/ni2025_confirmation/eligible_cohort.csv.gz",
+      "sha256": "6f1bd84a0423e23c1cae6233a7adfa5136e11bc408f97b938fc9cedc0c3fda95",
+      "matches_freeze_commit_and_working_copy": true
+    }
+  ],
+  "prediction_and_result_absent_at_freeze_commit": [
+    "research_extension/ni2025_confirmation/RESULTS.json",
+    "research_extension/ni2025_confirmation/predictions.csv.gz"
+  ],
+  "local_filesystem_metadata": {
+    "FREEZE.json": {
+      "mtime_utc": "2026-11-03T13:50:32.646410+00:00",
+      "birthtime_utc": "2026-11-03T13:50:32.646337+00:00"
+    },
+    "predictions.csv.gz": {
+      "mtime_utc": "2026-11-03T13:50:59.483952+00:00",
+      "birthtime_utc": "2026-11-03T13:50:59.449446+00:00"
+    },
+    "RESULTS.json": {
+      "mtime_utc": "2026-11-03T13:50:59.869910+00:00",
+      "birthtime_utc": "2026-11-03T13:50:59.869833+00:00"
+    },
+    "execution_log": {
+      "mtime_utc": "2026-11-03T13:51:00.026450+00:00",
+      "birthtime_utc": "2026-11-03T13:51:00.026313+00:00"
+    }
+  },
+  "execution_log_sha256": "7607d74b2009f2a1b82e51ce5eafbc6cbf6bb21f3eac5588fbdd71a6a3ba24cb",
+  "evidence_limit": "Git and filesystem clocks are locally mutable; commit is unsigned, execution log has no UTC start timestamp. These records cannot prove no earlier unrecorded prediction or substitute for third-party preregistration."
+}

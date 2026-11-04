@@ -1,0 +1,26 @@
+
+test_deterministic_gzip_header_and_decoded_rows (test_v4_upgrade.V4Tests.test_deterministic_gzip_header_and_decoded_rows) ... ok
+test_frozen_classifier_metrics_and_claim_language (test_v4_upgrade.V4Tests.test_frozen_classifier_metrics_and_claim_language) ... ok
+test_frozen_external_export_is_rejected (test_v4_upgrade.V4Tests.test_frozen_external_export_is_rejected) ... ok
+test_metric_counts_and_definitions (test_v4_upgrade.V4Tests.test_metric_counts_and_definitions) ... ok
+test_outputs_do_not_target_historical_directories (test_v4_upgrade.V4Tests.test_outputs_do_not_target_historical_directories) ... ok
+test_release_candidate_manifest (test_v4_upgrade.V4Tests.test_release_candidate_manifest) ... FAIL
+test_v4_artifact_manifest (test_v4_upgrade.V4Tests.test_v4_artifact_manifest) ... ok
+test_w02_frozen_grid_and_execution_are_consistent (test_v4_upgrade.V4Tests.test_w02_frozen_grid_and_execution_are_consistent) ... ok
+
+======================================================================
+FAIL: test_release_candidate_manifest (test_v4_upgrade.V4Tests.test_release_candidate_manifest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<REPO>/research_upgrade_v4_candidate/test_v4_upgrade.py", line 39, in test_release_candidate_manifest
+    self.assertEqual(v4.sha256(v4.ROOT / relative), expected, relative)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '0dbff4af03587af97ac67bc9bb4d3eb6f0344584859c39ac78968697fc5872fe' != '289f0605c4b5b5bf79ffc1cb200d593f7e0267a951d83518d5d002d9df297db8'
+- 0dbff4af03587af97ac67bc9bb4d3eb6f0344584859c39ac78968697fc5872fe
++ 289f0605c4b5b5bf79ffc1cb200d593f7e0267a951d83518d5d002d9df297db8
+ : README.md
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.121s
+
+FAILED (failures=1)

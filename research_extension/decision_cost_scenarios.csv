@@ -1,0 +1,19 @@
+fn_to_fp_cost_ratio,model,false_negatives,false_positives,hypothetical_cost
+1,V3 baseline,660,26,686
+1,V3 selected procedure,482,219,701
+1,V4 classifier,59,9517,9576
+2,V3 baseline,660,26,1346
+2,V3 selected procedure,482,219,1183
+2,V4 classifier,59,9517,9635
+5,V3 baseline,660,26,3326
+5,V3 selected procedure,482,219,2629
+5,V4 classifier,59,9517,9812
+10,V3 baseline,660,26,6626
+10,V3 selected procedure,482,219,5039
+10,V4 classifier,59,9517,10107
+25,V3 baseline,660,26,16526
+25,V3 selected procedure,482,219,12269
+25,V4 classifier,59,9517,10992
+50,V3 baseline,660,26,33026
+50,V3 selected procedure,482,219,24319
+50,V4 classifier,59,9517,12467
