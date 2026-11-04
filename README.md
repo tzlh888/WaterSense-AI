@@ -26,7 +26,9 @@ external generalization evidence.
 An England EA compatibility pilot retrieved **430 observations / 49 exact
 samples / 6 stations**. Mapping gaps in measurement definitions and insufficient
 pilot support keep EA scoring blocked. A separate compatible 2025 NIEA release
-was subsequently evaluated under a pre-prediction freeze.
+was subsequently evaluated under a local freeze. The chronology is consistent
+with freezing before the recorded run; no independent preregistration or exact
+execution-start timestamp exists.
 [Recovery and compatibility evidence](audits/evidence_breakthrough/EXTERNAL_COMPATIBILITY_REPORT.md)
 
 **The new evidence is a failure result.** On 2025 data the frozen Phase4 model
@@ -37,6 +39,14 @@ three positive predictions at one station; 1,844/5,000 bootstrap draws have
 undefined precision. Only nine low-DO stations fail the predeclared support
 criterion. This is same-programme later-period evidence, not cross-region
 validation or confirmation of V3 weighting.
+
+DO is absent in **2,590/6,080 source rows (42.60%)**; evaluation describes the
+measured-target subset. A separately labelled post-hoc omission of one
+suspicious **94 mg/L** source value changes MAE to 0.618805 and RMSE to
+0.861795 mg/L, while **17/20 low-DO misses remain**. Primary MAE 0.643181 and
+RMSE 1.687180 remain unchanged. No correction to the source value is verified.
+[Sensitivity and source check](research_extension/final_release/POST_HOC_SENSITIVITY.md) ·
+[Local freeze chronology and limits](audits/final_release/FREEZE_CHRONOLOGY.md)
 
 [2025 protocol, counts, uncertainty and failure analysis](research_extension/ni2025_confirmation/TEMPORAL_CONFIRMATION_REPORT.md)
 
@@ -157,7 +167,8 @@ distributions; lower overall MAE does not establish better low-DO reliability.
 | Can the analysis be rerun? | [Reproducibility report](audits/REPRODUCIBILITY_REPORT.md) |
 | What is the complete research narrative? | [Portfolio manuscript](paper/WATERSENSE_AI_MANUSCRIPT.md) |
 | What was new in the extension? | [Analysis protocol](research_extension/ANALYSIS_PROTOCOL.md) |
-| What still requires human confirmation? | [Contribution statement](research_upgrade_v3/final_closeout/RESEARCH_CONTRIBUTION_STATEMENT.md) |
+| What still requires human confirmation? | [Task-specific contribution checklist](admissions/OWNER_CONTRIBUTION_CONFIRMATION.md) |
+| Is this version ready for review? | [Local Draft PR preparation](audits/final_release/DRAFT_PR.md) |
 
 Evidence order matters: V3 is the primary frozen development result; V4 and the
 portfolio extension are exploratory analyses on the reused development
@@ -185,12 +196,14 @@ Full historical reconstruction additionally requires the exact public raw
 export documented in [the dataset guide](docs/dataset.md). Reproducing code and
 development predictions does not create new statistical independence.
 
-After exact data recovery, the current main suite has **108 passes, no skips**.
+After exact data recovery, the final current main suite has **110 passes, no skips**.
 The unchanged historical V4 suite has **7 passes and 1 failure**, identically
 on the baseline and current branch: its release manifest pins an older README.
 The former raw-data error is resolved. See the
 [version consistency report](audits/evidence_breakthrough/VERSION_CONSISTENCY_REPORT.md)
 for baseline comparison and full logs; the frozen assertion remains unchanged.
+The [final-release validation record](audits/final_release/FINAL_RELEASE_REPORT.md)
+records the new test run separately from the archived V4 manifest and failures.
 
 ## What this project does not establish
 
@@ -205,6 +218,8 @@ for baseline comparison and full logs; the frozen assertion remains unchanged.
 - No defensible operational false-negative/false-positive cost has been set.
 - The model is not validated for warnings, regulation, safety, or deployment.
 - Applicant-specific personal contribution requires owner confirmation.
+- The 2025 target-missing selection and sparse event-station support limit
+  population claims; post-hoc source-value diagnostics do not replace main results.
 
 ## Repository guide
 
@@ -232,3 +247,6 @@ substantial assistance with implementation, testing, analysis, writing,
 visualization, and auditing. The repository does not present AI-generated work
 as unaided human work, and personal contribution language remains subject to
 owner verification.
+
+Public environmental data retain their source terms:
+[data attribution and reuse boundaries](docs/DATA_REUSE_AND_RELEASE.md).

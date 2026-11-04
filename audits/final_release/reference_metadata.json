@@ -1,0 +1,113 @@
+[
+  {
+    "doi": "10.1023/A:1010933404324",
+    "source": "https://api.crossref.org/works/10.1023%2FA%3A1010933404324",
+    "status": "UNVERIFIED",
+    "reason": "curl: (56) The requested URL returned error: 429"
+  },
+  {
+    "doi": "10.1080/01621459.2017.1307116",
+    "source": "https://api.crossref.org/works/10.1080%2F01621459.2017.1307116",
+    "status": "VERIFIED_REGISTRY_METADATA",
+    "title": [
+      "Distribution-Free Predictive Inference for Regression"
+    ],
+    "journal": [
+      "Journal of the American Statistical Association"
+    ],
+    "authors": [
+      "Lei",
+      "G\u2019Sell",
+      "Rinaldo",
+      "Tibshirani",
+      "Wasserman"
+    ],
+    "volume": "113",
+    "pages": "1094-1111",
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          6,
+          8
+        ]
+      ]
+    }
+  },
+  {
+    "doi": "10.1111/ecog.02881",
+    "source": "https://api.crossref.org/works/10.1111%2Fecog.02881",
+    "status": "VERIFIED_REGISTRY_METADATA",
+    "title": [
+      "Cross\u2010validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure"
+    ],
+    "journal": [
+      "Ecography"
+    ],
+    "authors": [
+      "Roberts",
+      "Bahn",
+      "Ciuti",
+      "Boyce",
+      "Elith",
+      "Guillera\u2010Arroita",
+      "Hauenstein",
+      "Lahoz\u2010Monfort",
+      "Schr\u00f6der",
+      "Thuiller",
+      "Warton",
+      "Wintle",
+      "Hartig",
+      "Dormann"
+    ],
+    "volume": "40",
+    "pages": "913-929",
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          3,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "doi": "10.1111/j.1467-9868.2007.00593.x",
+    "source": "https://api.crossref.org/works/10.1111%2Fj.1467-9868.2007.00593.x",
+    "status": "UNVERIFIED",
+    "reason": "curl: (56) The requested URL returned error: 429"
+  },
+  {
+    "doi": "10.1111/j.1467-9876.2009.00701.x",
+    "source": "https://api.crossref.org/works/10.1111%2Fj.1467-9876.2009.00701.x",
+    "status": "UNVERIFIED",
+    "reason": "curl: (56) The requested URL returned error: 429"
+  },
+  {
+    "doi": "10.1371/journal.pone.0118432",
+    "source": "https://api.crossref.org/works/10.1371%2Fjournal.pone.0118432",
+    "status": "VERIFIED_REGISTRY_METADATA",
+    "title": [
+      "The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets"
+    ],
+    "journal": [
+      "PLOS ONE"
+    ],
+    "authors": [
+      "Saito",
+      "Rehmsmeier"
+    ],
+    "volume": "10",
+    "pages": "e0118432",
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          3,
+          4
+        ]
+      ]
+    }
+  }
+]

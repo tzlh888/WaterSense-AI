@@ -74,12 +74,32 @@ the model and call the result external confirmation.
 
 ### What did the first new-year evaluation actually show?
 
-The historical Phase4 model was frozen before prediction on the newly acquired
-2025 NIEA release. In 3,490 rows at 494 stations, MAE was 0.6432 mg/L but recall
+Local Git records are consistent with a freeze before the recorded evaluation
+of the newly acquired 2025 NIEA release; they do not independently prove the
+first-ever inference time. In 3,490 rows at 494 stations, MAE was 0.6432 mg/L but recall
 was only 3/20=15%. All detections occurred at one station; nine low-DO stations
 fell below the predeclared support criterion. Conditional bootstrap precision
 [1,1] is misleading if its 1,844 undefined replicates are hidden. The result is
 same-programme temporal evidence, not validation of V3 weighting or a forecast.
+
+### What do missing targets and the 94 mg/L diagnostic change?
+
+DO is missing in 2,590/6,080 source rows (42.60%), so performance is conditional
+on measured targets and cannot be assumed representative of missing ones.
+The flagged source record combines DO=94 mg/L with 10% saturation at 18°C;
+no corrected value is verified. Its separate post-hoc omission yields MAE
+0.618805 and RMSE 0.861795 mg/L, but still misses 17/20 low-DO observations.
+Keep the frozen primary MAE 0.643181 and RMSE 1.687180. Do not present the
+diagnostic as an optimized model or second independent test.
+
+### Was the protocol independently preregistered?
+
+No. Commit 2a55e5a contains the matching protocol, adapter, cohort and hashes,
+but its unsigned local timestamp and later file creation cannot prove inference
+start. The old execution log has no UTC start line. The
+[chronology report](../audits/final_release/FREEZE_CHRONOLOGY.md) states those
+limits; the [owner checklist](OWNER_CONTRIBUTION_CONFIRMATION.md) requires
+separate confirmation of any personal pre-run review.
 
 ### What changed after recovery, and why is it not external validation?
 

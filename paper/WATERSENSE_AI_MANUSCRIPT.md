@@ -36,7 +36,8 @@ Phase4 model MAE 0.6432 mg/L but recall only 0.15 (3/20 low-DO observations).
 Only nine stations contain low-DO events; precision 1.00 rests on three positive
 predictions at one station. Cross-region confirmation, independent validation
 of V3 weighting, real decision costs and owner-verified contribution remain
-outstanding.
+outstanding. DO is missing in 2,590/6,080 source rows (42.60%), so these
+2025 estimates are conditional on observed targets, not the entire programme.
 
 ## 1. Introduction
 
@@ -342,13 +343,27 @@ V4 recall has interval [0.8896, 0.9482] and precision [0.0490, 0.0897].
 
 DAERA/26-784, published 2026-10-26, supplies previously unused 2025 observations
 from the same programme [9]. A local protocol and adapter/data/model hashes
-were committed at `2a55e5a` before the single prediction execution. This is an
-outcome-blind local freeze, not independent preregistration. The unchanged
+were committed at `2a55e5a`. Local records are consistent with freezing before
+the recorded single evaluation, but do not independently establish its exact
+start time or exclude earlier unrecorded inference. The freeze JSON records
+13:50:32 UTC, the unsigned commit 13:50:57 UTC, and the prediction file's local
+creation time 13:50:59 UTC on 2026-11-03. The execution log lacks a UTC start
+timestamp. This is a local freeze, not third-party preregistration; the
+[chronology audit](../audits/final_release/FREEZE_CHRONOLOGY.md) preserves Git
+objects, log hashes and the evidential limits. The unchanged
 Phase4 model uses its original training imputer, 25 predictors and <4 mg/L rule.
 The new source's temperature field is unused. Two conflicting identity records
 were excluded together before freezing; both lack targets. Subsequent missing-
 target exclusion leaves 3,490 observations at 494 stations, with zero historical
 station/date overlap.
+
+The original release has 2,590 missing DO targets among 6,080 rows (42.60%).
+Both identity-conflict exclusions have missing DO; 2,588 additional target-
+missing rows are excluded after resolving identity. No target is imputed.
+The 3,490-row evaluation is thus a measured-target subset of 503 source
+stations, representing 494 stations. Missingness may depend on sampling
+practice or environmental conditions; the available evidence does not establish
+missing-at-random sampling or performance on the unmeasured targets.
 
 | 2025 quantity | Estimate | Whole-station 95% percentile interval |
 |---|---:|---|
@@ -362,6 +377,10 @@ Only nine low-DO stations fail the predeclared ten-station support criterion.
 All three detections occur at one station. Conditional bootstrap precision is
 degenerate because resampling cannot introduce unobserved false positives; the
 observed 1.00 is not evidence of robust perfect precision.
+Twenty events at nine stations are not twenty independent replications;
+three detections at one station provide just one detected station cluster.
+The station bootstrap preserves within-station dependence but cannot create
+new event-station information or remedy this sparse support.
 
 391 stations (2,777 rows) were in model training; 103 stations (713 rows) were
 absent from training. The latter have only five low-DO observations at two
@@ -375,6 +394,20 @@ materially raises RMSE; its validity remains unresolved, and it is retained
 under the frozen no-outlier-filter rule. Lower MAE than the historical Phase4
 holdout (0.8312) coexists with higher RMSE (historical 1.2911). Population and
 measurement differences prevent interpreting that comparison as improvement.
+
+A separately labelled **post-hoc diagnostic**, using only saved predictions,
+omits the single 94 mg/L row: n=3,489, MAE=0.618805 mg/L,
+RMSE=0.861795 mg/L and R²=0.740684. The source pairs 94 mg/L with
+10% saturation at 18°C; the same station's other nonmissing 2025 DO values
+range from 8.6 to 13.4 mg/L. This internal inconsistency is suspicious, but
+neither an error nor a replacement value is verified. The row supplies 73.92%
+of primary squared error. Removing it also changes target variance, so the
+R² increase is not evidence of a model improvement. Low-DO MAE, recall and
+TP/FP/FN remain unchanged; TN changes from 3,470 to 3,469. No model or threshold
+was changed and the primary table and its intervals remain the frozen results.
+This diagnostic is not a second confirmation test and has no newly claimed
+confirmatory interval. See the
+[full sensitivity analysis](../research_extension/final_release/POST_HOC_SENSITIVITY.md).
 
 ![2025 detection failure](../research_extension/ni2025_confirmation/temporal_confirmation.png)
 
@@ -453,8 +486,11 @@ prove that the model has improved over time and does not support forecasting.
 9. Prediction intervals can fail under spatial or temporal distribution shift.
 10. No ecological, regulatory, or financial cost ratio has been established.
 11. Cross-region validation and confirmation of V3 weighting remain absent;
-    the 2025 same-programme test has sparse low-DO station support.
+    the 2025 same-programme test has just nine low-DO stations and one detected
+    station; its complete-target selection excludes 42.60% of source rows.
 12. Applicant-specific personal contribution has not yet been authenticated.
+13. Local freeze timestamps are not independent proof of the first inference;
+    the 94 mg/L source value is unresolved and its omission is post hoc.
 
 ## 12. Conclusion
 

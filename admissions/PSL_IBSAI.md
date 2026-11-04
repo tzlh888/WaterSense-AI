@@ -91,6 +91,13 @@ boundaries matter more than a single headline score.
 
 ## Two-line CV description — draft pending owner confirmation
 
+**Final release qualification:** 2,590/6,080 source targets are missing (42.60%);
+performance is conditional on measured DO. Only nine stations have low DO and
+all three detections occur at one station. The post-hoc 94 mg/L sensitivity
+leaves 17/20 misses unchanged. Local freeze records are not independent
+preregistration. Every first-person statement below is a rehearsal template
+requiring the [task-specific owner checklist](OWNER_CONTRIBUTION_CONFIRMATION.md).
+
 **WaterSense AI — empirical AI reliability research:** developed and audited a
 station-grouped ML workflow over 151k river observations, with nested CV,
 rare-event analysis, uncertainty, and reproducible row-level evidence. Exposed
@@ -163,5 +170,6 @@ than about 22 false positives.
 My conclusion is that responsible AI requires more than model fitting. It
 requires matching validation to deployment structure, publishing failure
 counts, resisting post-hoc claims, and knowing when the evidence is not yet
-enough. The next step is a frozen evaluation on genuinely new compatible data,
-not further tuning on the same population.”
+enough. After observing the 2025 failures, the next step is a separately frozen,
+adequately supported test in another region; these 2025 outcomes are no longer
+an untouched confirmation set.”

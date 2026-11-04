@@ -1,0 +1,20 @@
+{
+  "analysis_class": "POST_HOC_SENSITIVITY_NOT_REPLACEMENT",
+  "source_object_id": 4859,
+  "source_csv_line_including_header": 4860,
+  "station_code": "UKGBNIF10937",
+  "sample_date": "2025-08-07",
+  "source_do_mg_l": 94,
+  "source_do_saturation_percent": 10.0,
+  "source_water_temperature_c": 18.0,
+  "preceding_target_qualifier": null,
+  "prediction_mg_l": 8.306930952380947,
+  "absolute_error": 85.69306904761905,
+  "share_of_total_squared_error": 0.739168030610699,
+  "other_nonmissing_station_do_range": [
+    8.6,
+    13.4
+  ],
+  "interpretation": "Source contains an internally suspicious DO/saturation pair. No verified correction is available; no replacement value is proposed.",
+  "primary_files_unchanged": true
+}

@@ -1,8 +1,10 @@
 # External data compatibility: evidence and decision
 
 **Subsequent compatible source:** DAERA/26-784 supplied the complete same-
-programme 2025 field schema. A separate pre-prediction freeze and single
-evaluation were completed; see the
+programme 2025 field schema. A separate local freeze and recorded single
+evaluation were completed. Local records support that sequence but do not
+independently establish first inference; see the
+[chronology limits](../final_release/FREEZE_CHRONOLOGY.md) and
 [2025 confirmation report](../../research_extension/ni2025_confirmation/TEMPORAL_CONFIRMATION_REPORT.md).
 The EA-specific block below remains. The new test is temporal, not cross-region,
 and does not validate the V3 selected weighted procedure.
