@@ -1,0 +1,45 @@
+COMMAND: python3 -m unittest discover -s research_upgrade_v4_candidate -p test*.py -v
+EXIT: 1
+STDOUT:
+
+STDERR:
+test_deterministic_gzip_header_and_decoded_rows (test_v4_upgrade.V4Tests.test_deterministic_gzip_header_and_decoded_rows) ... ok
+test_frozen_classifier_metrics_and_claim_language (test_v4_upgrade.V4Tests.test_frozen_classifier_metrics_and_claim_language) ... ok
+test_frozen_external_export_is_rejected (test_v4_upgrade.V4Tests.test_frozen_external_export_is_rejected) ... ERROR
+test_metric_counts_and_definitions (test_v4_upgrade.V4Tests.test_metric_counts_and_definitions) ... ok
+test_outputs_do_not_target_historical_directories (test_v4_upgrade.V4Tests.test_outputs_do_not_target_historical_directories) ... ok
+test_release_candidate_manifest (test_v4_upgrade.V4Tests.test_release_candidate_manifest) ... FAIL
+test_v4_artifact_manifest (test_v4_upgrade.V4Tests.test_v4_artifact_manifest) ... ok
+test_w02_frozen_grid_and_execution_are_consistent (test_v4_upgrade.V4Tests.test_w02_frozen_grid_and_execution_are_consistent) ... ok
+
+======================================================================
+ERROR: test_frozen_external_export_is_rejected (test_v4_upgrade.V4Tests.test_frozen_external_export_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<REPO>/research_upgrade_v4_candidate/test_v4_upgrade.py", line 25, in test_frozen_external_export_is_rejected
+    self.assertEqual(v4.sha256(v4.RAW), v4.CURRENT_EXPORT_SHA256)
+                     ~~~~~~~~~^^^^^^^^
+  File "<REPO>/research_upgrade_v4_candidate/v4_upgrade.py", line 51, in sha256
+    with path.open("rb") as handle:
+         ~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 776, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '<REPO>/data/raw/niea_river_water_quality_1990_2024.csv'
+
+======================================================================
+FAIL: test_release_candidate_manifest (test_v4_upgrade.V4Tests.test_release_candidate_manifest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<REPO>/research_upgrade_v4_candidate/test_v4_upgrade.py", line 39, in test_release_candidate_manifest
+    self.assertEqual(v4.sha256(v4.ROOT / relative), expected, relative)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'f4f7a809a14a98fdbb9d026a9508b90efdc634be8774c49ee138db41cb1d79b8' != '289f0605c4b5b5bf79ffc1cb200d593f7e0267a951d83518d5d002d9df297db8'
+- f4f7a809a14a98fdbb9d026a9508b90efdc634be8774c49ee138db41cb1d79b8
++ 289f0605c4b5b5bf79ffc1cb200d593f7e0267a951d83518d5d002d9df297db8
+ : README.md
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.090s
+
+FAILED (failures=1, errors=1)

@@ -1,0 +1,11 @@
+code,label,unit,count
+0061,pH,PHUNITS,49
+0077,Conductivity at 25 C,uS/cm,49
+0085,BOD : 5 Day ATU,mg/l,29
+0111,Ammoniacal Nitrogen as N,mg/l,49
+0117,Nitrate as N,mg/l,49
+0118,Nitrite as N,mg/l,49
+0135,"Solids, Suspended at 105 C",mg/l,9
+0162,Alkalinity to pH 4.5 as CaCO3,mg/l,49
+0180,"Orthophosphate, reactive as P",mg/l,49
+9924,"Oxygen, Dissolved as O2",mg/l,49

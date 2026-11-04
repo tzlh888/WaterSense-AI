@@ -1,0 +1,58 @@
+[
+  {
+    "name": "ea_materials_ld.json",
+    "url": "https://environment.data.gov.uk/water-quality/codelist/sample-material?limit=250",
+    "retrieved_utc": "2026-11-03T13:31:36.819834+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "headers": {
+      "Accept": "application/ld+json",
+      "API-Version": "1"
+    },
+    "bytes": 35822,
+    "sha256": "62985b22169aef87f297099f3d01ac22351c6eaaaa2e0d345479340094eed8b9"
+  },
+  {
+    "name": "ea_types_ld.json",
+    "url": "https://environment.data.gov.uk/water-quality/codelist/sampling-point-type?limit=250",
+    "retrieved_utc": "2026-11-03T13:31:36.820230+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "headers": {
+      "Accept": "application/ld+json",
+      "API-Version": "1"
+    },
+    "bytes": 15980,
+    "sha256": "5dd3e7ac1686fd629539c6f8016713e403e44b72173c392fd9e10966dd30f283"
+  },
+  {
+    "name": "ea_oxygen_ld.json",
+    "url": "https://environment.data.gov.uk/water-quality/codelist/determinand?prefLabel=oxygen&limit=100",
+    "retrieved_utc": "2026-11-03T13:31:36.812180+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "headers": {
+      "Accept": "application/ld+json",
+      "API-Version": "1"
+    },
+    "bytes": 4617,
+    "sha256": "fdfcf0b8998a2c926c55b34d6f6ada45b2a15678798f91e97b0996549ba11d4d"
+  },
+  {
+    "name": "ea_river_points_ld.json",
+    "url": "https://environment.data.gov.uk/water-quality/sampling-point?samplingPointType=FJ&limit=3",
+    "retrieved_utc": "2026-11-03T13:31:36.814890+00:00",
+    "curl_exit": 0,
+    "http_status": "200",
+    "stderr": "",
+    "headers": {
+      "Accept": "application/ld+json",
+      "API-Version": "1"
+    },
+    "bytes": 4119,
+    "sha256": "dc52ea79debe803ac4d04411d7f5df62de2fa00bac62f827be6d425e0058a63f"
+  }
+]

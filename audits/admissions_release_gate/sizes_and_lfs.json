@@ -1,0 +1,51 @@
+{
+  "reachable_blob_versions": 613,
+  "largest_ten": [
+    {
+      "bytes": 6698117,
+      "path": "results/phase4_holdout_predictions.csv"
+    },
+    {
+      "bytes": 6188849,
+      "path": "research_upgrade_v3/experiment1_weighted_regression/OUTER_CV_PREDICTIONS.csv.gz"
+    },
+    {
+      "bytes": 3488601,
+      "path": "results/best_model_holdout_predictions.csv"
+    },
+    {
+      "bytes": 2189508,
+      "path": "research_upgrade_v4_candidate/WATERSENSE_CLASSIFIER_OOF_PREDICTIONS.csv.gz"
+    },
+    {
+      "bytes": 1556372,
+      "path": "audits/evidence_breakthrough/public_source_snapshots/ea_pilot_observations.json"
+    },
+    {
+      "bytes": 1343610,
+      "path": "research_outputs/predictions/split_random.csv.gz"
+    },
+    {
+      "bytes": 1218264,
+      "path": "data/app/training_feature_reference.csv.gz"
+    },
+    {
+      "bytes": 1214143,
+      "path": "research_outputs/predictions/intervals_station.csv.gz"
+    },
+    {
+      "bytes": 1107901,
+      "path": "research_extension/sprint/cost_bootstrap_replicates.csv.gz"
+    },
+    {
+      "bytes": 1055720,
+      "path": "research_outputs_v2/predictions/spatial_basin_predictions.csv.gz"
+    }
+  ],
+  "over_50_mib": [],
+  "over_100_mib": [],
+  "lfs_model_bytes": 175556503,
+  "lfs_pointer": "version https://git-lfs.github.com/spec/v1\noid sha256:7434cbd29bf6a1b2b624ef3283d073212a82ec72a839d7a050bb912b8506f44f\nsize 175556503\n",
+  "lfs_local_object_and_working_hash_match": true,
+  "remote_lfs_quota_or_upload_tested": false
+}

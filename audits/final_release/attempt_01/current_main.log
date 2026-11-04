@@ -1,0 +1,163 @@
+START_UTC: 2026-11-04T13:30:09.533994+00:00
+END_UTC: 2026-11-04T13:30:17.701477+00:00
+COMMAND: python3 -m unittest discover -s tests -v
+EXIT: 1
+Fitting random: 144 rows / full
+Fitting grouped: 144 rows / full
+Fitting temporal: 60 rows / full
+Fitting cv_core_1: 72 rows / core
+Fitting cv_core_2: 72 rows / core
+Fitting ablation_core: 144 rows / core
+Fitting cv_core_indicators_1: 72 rows / core_indicators
+Fitting cv_core_indicators_2: 72 rows / core_indicators
+Fitting ablation_core_indicators: 144 rows / core_indicators
+Fitting cv_core_date_1: 72 rows / core_date
+Fitting cv_core_date_2: 72 rows / core_date
+Fitting ablation_core_date: 144 rows / core_date
+Fitting cv_full_1: 72 rows / full
+Fitting cv_full_2: 72 rows / full
+Fitting station_calibration: 108 rows / full
+Computing held-out permutation importance
+Fitting spatiotemporal: 96 rows / full
+Fitting random: 144 rows / full
+Fitting grouped: 144 rows / full
+Fitting temporal: 60 rows / full
+Fitting cv_core_1: 72 rows / core
+Fitting cv_core_2: 72 rows / core
+Fitting ablation_core: 144 rows / core
+Fitting cv_core_indicators_1: 72 rows / core_indicators
+Fitting cv_core_indicators_2: 72 rows / core_indicators
+Fitting ablation_core_indicators: 144 rows / core_indicators
+Fitting cv_core_date_1: 72 rows / core_date
+Fitting cv_core_date_2: 72 rows / core_date
+Fitting ablation_core_date: 144 rows / core_date
+Fitting cv_full_1: 72 rows / full
+Fitting cv_full_2: 72 rows / full
+Fitting station_calibration: 108 rows / full
+Computing held-out permutation importance
+Fitting spatiotemporal: 96 rows / full
+
+test_application_code_contains_no_local_absolute_paths (test_application_logic.ApplicationLogicTests.test_application_code_contains_no_local_absolute_paths) ... ok
+test_censoring_qualifiers_create_correct_flags (test_application_logic.ApplicationLogicTests.test_censoring_qualifiers_create_correct_flags) ... ok
+test_date_transformation_matches_processed_phase4_data (test_application_logic.ApplicationLogicTests.test_date_transformation_matches_processed_phase4_data) ... ok
+test_empty_or_malformed_percentile_result_never_raises_key_error (test_application_logic.ApplicationLogicTests.test_empty_or_malformed_percentile_result_never_raises_key_error) ... ok
+test_example_monitoring_record_returns_finite_prediction (test_application_logic.ApplicationLogicTests.test_example_monitoring_record_returns_finite_prediction) ... ok
+test_model_loads_with_verified_contract (test_application_logic.ApplicationLogicTests.test_model_loads_with_verified_contract) ... ok
+test_model_returns_one_finite_prediction (test_application_logic.ApplicationLogicTests.test_model_returns_one_finite_prediction) ... ok
+test_percentile_positions_include_every_complete_measurement (test_application_logic.ApplicationLogicTests.test_percentile_positions_include_every_complete_measurement) ... ok
+test_percentile_positions_omit_multiple_missing_measurements (test_application_logic.ApplicationLogicTests.test_percentile_positions_omit_multiple_missing_measurements) ... ok
+test_percentile_positions_omit_one_missing_measurement (test_application_logic.ApplicationLogicTests.test_percentile_positions_omit_one_missing_measurement) ... ok
+test_percentile_positions_use_real_reference_values (test_application_logic.ApplicationLogicTests.test_percentile_positions_use_real_reference_values) ... ok
+test_training_range_checker_flags_only_outside_values (test_application_logic.ApplicationLogicTests.test_training_range_checker_flags_only_outside_values) ... ok
+test_ui_input_has_exact_expected_features_and_no_target (test_application_logic.ApplicationLogicTests.test_ui_input_has_exact_expected_features_and_no_target) ... ok
+test_unavailable_measurement_remains_nan (test_application_logic.ApplicationLogicTests.test_unavailable_measurement_remains_nan) ... ok
+test_zero_usable_percentile_rows_keep_stable_columns (test_application_logic.ApplicationLogicTests.test_zero_usable_percentile_rows_keep_stable_columns) ... ok
+test_perfect_classification (test_evaluate.EvaluationTests.test_perfect_classification) ... ok
+test_regression_metrics (test_evaluate.EvaluationTests.test_regression_metrics) ... ok
+test_canals_rejected (test_evidence_breakthrough.EvidenceBreakthroughTests.test_canals_rejected) ... ok
+test_current_artifact_manifest (test_evidence_breakthrough.EvidenceBreakthroughTests.test_current_artifact_manifest) ... ok
+test_duplicates_rejected (test_evidence_breakthrough.EvidenceBreakthroughTests.test_duplicates_rejected) ... ok
+test_same_sample_joins (test_evidence_breakthrough.EvidenceBreakthroughTests.test_same_sample_joins) ... ok
+test_same_time_different_sample_does_not_join (test_evidence_breakthrough.EvidenceBreakthroughTests.test_same_time_different_sample_does_not_join) ... ok
+test_complete_matched_weight_grid (test_experiment1a_attribution.HistoricalAttributionIntegrationTests.test_complete_matched_weight_grid) ... ok
+test_outer_predictions_cover_each_development_row_once (test_experiment1a_attribution.HistoricalAttributionIntegrationTests.test_outer_predictions_cover_each_development_row_once) ... ok
+test_selected_configuration_decomposition_is_complete (test_experiment1a_attribution.HistoricalAttributionIntegrationTests.test_selected_configuration_decomposition_is_complete) ... ok
+test_inner_weight_pairs_require_identical_grid (test_experiment1a_attribution.SyntheticAttributionTests.test_inner_weight_pairs_require_identical_grid) ... ok
+test_prediction_pairing_and_transition_accounting (test_experiment1a_attribution.SyntheticAttributionTests.test_prediction_pairing_and_transition_accounting) ... ok
+test_prediction_pairing_rejects_actual_mismatch (test_experiment1a_attribution.SyntheticAttributionTests.test_prediction_pairing_rejects_actual_mismatch) ... ok
+test_designated_posthoc_flag_must_be_unique (test_final_release.FinalReleaseTests.test_designated_posthoc_flag_must_be_unique) ... ok
+test_posthoc_omission_keeps_low_event_counts (test_final_release.FinalReleaseTests.test_posthoc_omission_keeps_low_event_counts) ... ok
+test_false_negative_count_and_rate (test_low_do_reliability.LowDoReliabilityTests.test_false_negative_count_and_rate) ... ok
+test_low_do_threshold_is_strictly_below_four (test_low_do_reliability.LowDoReliabilityTests.test_low_do_threshold_is_strictly_below_four) ... ok
+test_repeated_split_identity_mismatch_is_rejected (test_low_do_reliability.LowDoReliabilityTests.test_repeated_split_identity_mismatch_is_rejected) ... ok
+test_site_bootstrap_is_deterministic_and_reports_invalid_metrics (test_low_do_reliability.LowDoReliabilityTests.test_site_bootstrap_is_deterministic_and_reports_invalid_metrics) ... ok
+test_site_bootstrap_resamples_whole_clusters_not_rows (test_low_do_reliability.LowDoReliabilityTests.test_site_bootstrap_resamples_whole_clusters_not_rows) ... ok
+test_unique_observation_count_and_repeated_prediction_aggregation (test_low_do_reliability.LowDoReliabilityTests.test_unique_observation_count_and_repeated_prediction_aggregation) ... ok
+test_zero_predicted_positives_marks_precision_and_f1_undefined (test_low_do_reliability.LowDoReliabilityTests.test_zero_predicted_positives_marks_precision_and_f1_undefined) ... ok
+test_conflicting_identity_excludes_all_members (test_ni2025_adapter.NI2025AdapterTests.test_conflicting_identity_excludes_all_members) ... ok
+test_mapping_preserves_limits_and_historical_date_features (test_ni2025_adapter.NI2025AdapterTests.test_mapping_preserves_limits_and_historical_date_features) ... ok
+test_pre2025_date_rejected (test_ni2025_adapter.NI2025AdapterTests.test_pre2025_date_rejected) ... ok
+test_qualified_target_excluded (test_ni2025_adapter.NI2025AdapterTests.test_qualified_target_excluded) ... ok
+test_saved_confirmation_identity_counts_and_freeze (test_ni2025_adapter.NI2025AdapterTests.test_saved_confirmation_identity_counts_and_freeze) ... ok
+test_exact_historical_identity_partition_and_fold_hashes (test_phase2b0_readiness.HistoricalDataIntegrationTests.test_exact_historical_identity_partition_and_fold_hashes) ... ok
+test_cross_partition_station_overlap_is_rejected (test_phase2b0_readiness.SyntheticReadinessUnitTests.test_cross_partition_station_overlap_is_rejected) ... ok
+test_fold_hash_changes_when_seed_changes (test_phase2b0_readiness.SyntheticReadinessUnitTests.test_fold_hash_changes_when_seed_changes) ... ok
+test_missing_and_nonnumeric_targets_fail_closed (test_phase2b0_readiness.SyntheticReadinessUnitTests.test_missing_and_nonnumeric_targets_fail_closed) ... ok
+test_nested_cv_is_reproducible_and_station_disjoint (test_phase2b0_readiness.SyntheticReadinessUnitTests.test_nested_cv_is_reproducible_and_station_disjoint) ... ok
+test_partition_identity_mismatch_is_rejected (test_phase2b0_readiness.SyntheticReadinessUnitTests.test_partition_identity_mismatch_is_rejected) ... ok
+test_recovery_refuses_to_overwrite_nonmatching_file (test_phase2b0_readiness.SyntheticReadinessUnitTests.test_recovery_refuses_to_overwrite_nonmatching_file) ... ok
+test_saved_development_membership_and_counts (test_phase2b0_readiness.SyntheticReadinessUnitTests.test_saved_development_membership_and_counts) ... ok
+test_schema_and_expected_counts_are_enforced (test_phase2b0_readiness.SyntheticReadinessUnitTests.test_schema_and_expected_counts_are_enforced) ... ok
+test_strict_low_do_threshold (test_phase2b0_readiness.SyntheticReadinessUnitTests.test_strict_low_do_threshold) ... ok
+test_unique_observation_identity_is_required (test_phase2b0_readiness.SyntheticReadinessUnitTests.test_unique_observation_identity_is_required) ... ok
+test_unqualified_fold_exits_before_experiment (test_phase2b0_readiness.SyntheticReadinessUnitTests.test_unqualified_fold_exits_before_experiment) ... ok
+test_feature_sets_exclude_target_and_target_qualifier (test_phase4_refinement.Phase4RefinementTests.test_feature_sets_exclude_target_and_target_qualifier) ... ok
+test_feature_transformers_are_reproducible_and_finite (test_phase4_refinement.Phase4RefinementTests.test_feature_transformers_are_reproducible_and_finite) ... ok
+test_group_cv_and_final_test_stations_never_overlap (test_phase4_refinement.Phase4RefinementTests.test_group_cv_and_final_test_stations_never_overlap) ... ok
+test_saved_final_pipeline_reloads_and_predicts_expected_rows (test_phase4_refinement.Phase4RefinementTests.test_saved_final_pipeline_reloads_and_predicts_expected_rows) ... ok
+test_break_even_ratio (test_portfolio_analysis.PortfolioAnalysisTests.test_break_even_ratio) ... ok
+test_confusion_counts (test_portfolio_analysis.PortfolioAnalysisTests.test_confusion_counts) ... ok
+test_evidence_ledger_uses_fixed_statuses_and_resolvable_paths (test_portfolio_analysis.PortfolioAnalysisTests.test_evidence_ledger_uses_fixed_statuses_and_resolvable_paths) ... FAIL
+test_generated_manifest_matches_outputs (test_portfolio_analysis.PortfolioAnalysisTests.test_generated_manifest_matches_outputs) ... ok
+test_identity_and_concentration (test_portfolio_analysis.PortfolioAnalysisTests.test_identity_and_concentration) ... ok
+test_identity_rejects_station_in_multiple_folds (test_portfolio_analysis.PortfolioAnalysisTests.test_identity_rejects_station_in_multiple_folds) ... ok
+test_column_name_collision_is_rejected (test_preprocessing.PreprocessingTests.test_column_name_collision_is_rejected) ... ok
+test_column_names_are_normalised_without_mutating_input (test_preprocessing.PreprocessingTests.test_column_names_are_normalised_without_mutating_input) ... ok
+test_target_is_separated_and_feature_types_are_identified (test_preprocessing.PreprocessingTests.test_target_is_separated_and_feature_types_are_identified) ... ok
+test_example_is_complete_and_is_not_labelled_by_risk (test_release_readiness.ReleaseReadinessTests.test_example_is_complete_and_is_not_labelled_by_risk) ... ok
+test_public_app_artifact_manifest_matches_files (test_release_readiness.ReleaseReadinessTests.test_public_app_artifact_manifest_matches_files) ... ok
+test_public_navigation_links_resolve (test_release_readiness.ReleaseReadinessTests.test_public_navigation_links_resolve) ... ok
+test_release_configuration_protects_secrets_and_large_model (test_release_readiness.ReleaseReadinessTests.test_release_configuration_protects_secrets_and_large_model) ... ok
+test_required_public_app_artifacts_exist (test_release_readiness.ReleaseReadinessTests.test_required_public_app_artifacts_exist) ... ok
+test_all_experiments_include_spatiotemporal_without_changing_old_splits (test_research.ResearchTests.test_all_experiments_include_spatiotemporal_without_changing_old_splits) ... ok
+test_feature_sets_exclude_metadata_and_truly_ablate_indicators (test_research.ResearchTests.test_feature_sets_exclude_metadata_and_truly_ablate_indicators) ... ok
+test_finite_sample_interval_rank_and_boundary_coverage (test_research.ResearchTests.test_finite_sample_interval_rank_and_boundary_coverage) ... ok
+test_imputer_learns_only_training_rows (test_research.ResearchTests.test_imputer_learns_only_training_rows) ... ok
+test_metrics_and_residual_direction (test_research.ResearchTests.test_metrics_and_residual_direction) ... ok
+test_small_experiment_outputs_and_calibration_separation (test_research.ResearchTests.test_small_experiment_outputs_and_calibration_separation) ... ok
+test_spatiotemporal_determinism_independent_of_row_order (test_research.ResearchTests.test_spatiotemporal_determinism_independent_of_row_order) ... ok
+test_spatiotemporal_eligibility_accounts_for_all_stations (test_research.ResearchTests.test_spatiotemporal_eligibility_accounts_for_all_stations) ... ok
+test_spatiotemporal_metrics_metadata_and_training_only_preprocessing (test_research.ResearchTests.test_spatiotemporal_metrics_metadata_and_training_only_preprocessing) ... ok
+test_spatiotemporal_rejects_invalid_dates_and_insufficient_stations (test_research.ResearchTests.test_spatiotemporal_rejects_invalid_dates_and_insufficient_stations) ... ok
+test_spatiotemporal_station_time_and_exact_test_integrity (test_research.ResearchTests.test_spatiotemporal_station_time_and_exact_test_integrity) ... ok
+test_station_disjoint_partitions_and_reject_leakage (test_research.ResearchTests.test_station_disjoint_partitions_and_reject_leakage) ... ok
+test_strict_temporal_order_even_when_input_is_shuffled (test_research.ResearchTests.test_strict_temporal_order_even_when_input_is_shuffled) ... ok
+test_target_distribution_preserves_exact_bin_boundaries (test_research.ResearchTests.test_target_distribution_preserves_exact_bin_boundaries) ... ok
+test_basin_split_has_zero_basin_and_station_overlap (test_research_v2.ResearchV2Tests.test_basin_split_has_zero_basin_and_station_overlap) ... ok
+test_exact_repeated_seeds_are_deterministic_and_strictly_separated (test_research_v2.ResearchV2Tests.test_exact_repeated_seeds_are_deterministic_and_strictly_separated) ... ok
+test_importance_aggregation_ranks_and_correlations (test_research_v2.ResearchV2Tests.test_importance_aggregation_ranks_and_correlations) ... ok
+test_interval_coverage_uses_fixed_ranges_and_boundaries (test_research_v2.ResearchV2Tests.test_interval_coverage_uses_fixed_ranges_and_boundaries) ... ok
+test_reduced_ablation_has_exactly_five_cumulative_groups (test_research_v2.ResearchV2Tests.test_reduced_ablation_has_exactly_five_cumulative_groups) ... ok
+test_split_summary_uses_requested_statistics_only (test_research_v2.ResearchV2Tests.test_split_summary_uses_requested_statistics_only) ... ok
+test_v1_output_hashes_remain_unchanged_when_v2_exists (test_research_v2.ResearchV2Tests.test_v1_output_hashes_remain_unchanged_when_v2_exists) ... ok
+test_bootstrap_resamples_whole_paired_stations (test_scientific_sprint.ScientificSprintTests.test_bootstrap_resamples_whole_paired_stations) ... ok
+test_intervals_report_undefined_replicates (test_scientific_sprint.ScientificSprintTests.test_intervals_report_undefined_replicates) ... ok
+test_null_rejects_impossible_counts (test_scientific_sprint.ScientificSprintTests.test_null_rejects_impossible_counts) ... ok
+test_null_retains_station_counts_and_is_deterministic (test_scientific_sprint.ScientificSprintTests.test_null_retains_station_counts_and_is_deterministic) ... ok
+test_grouped_split_has_no_station_overlap (test_water_quality_pipeline.WaterQualityPipelineTests.test_grouped_split_has_no_station_overlap) ... ok
+test_pipeline_transforms_and_predicts_without_nan_output (test_water_quality_pipeline.WaterQualityPipelineTests.test_pipeline_transforms_and_predicts_without_nan_output) ... ok
+test_preparation_does_not_overwrite_raw_file (test_water_quality_pipeline.WaterQualityPipelineTests.test_preparation_does_not_overwrite_raw_file) ... ok
+test_target_and_target_qualifier_are_not_predictors (test_water_quality_pipeline.WaterQualityPipelineTests.test_target_and_target_qualifier_are_not_predictors) ... ok
+test_frozen_fold_file_hash_and_station_assignment_coverage (test_weighted_regression_experiment.HistoricalFoldIntegrationTests.test_frozen_fold_file_hash_and_station_assignment_coverage) ... ok
+test_generated_outputs_are_paired_and_traceable (test_weighted_regression_experiment.HistoricalFoldIntegrationTests.test_generated_outputs_are_paired_and_traceable) ... ok
+test_all_frozen_model_families_accept_native_sample_weight (test_weighted_regression_experiment.SyntheticWeightedRegressionTests.test_all_frozen_model_families_accept_native_sample_weight) ... ok
+test_frozen_grid_has_128_unique_candidates_and_anchor (test_weighted_regression_experiment.SyntheticWeightedRegressionTests.test_frozen_grid_has_128_unique_candidates_and_anchor) ... ok
+test_inner_selection_applies_qualification_and_ranking (test_weighted_regression_experiment.SyntheticWeightedRegressionTests.test_inner_selection_applies_qualification_and_ranking) ... ok
+test_metrics_recompute_confusion_and_zero_positive_rule (test_weighted_regression_experiment.SyntheticWeightedRegressionTests.test_metrics_recompute_confusion_and_zero_positive_rule) ... ok
+test_paired_site_bootstrap_is_reproducible (test_weighted_regression_experiment.SyntheticWeightedRegressionTests.test_paired_site_bootstrap_is_reproducible) ... ok
+test_prediction_pairing_rejects_identity_mismatch (test_weighted_regression_experiment.SyntheticWeightedRegressionTests.test_prediction_pairing_rejects_identity_mismatch) ... ok
+test_training_weights_use_strict_threshold_and_normalize (test_weighted_regression_experiment.SyntheticWeightedRegressionTests.test_training_weights_use_strict_threshold_and_normalize) ... ok
+
+======================================================================
+FAIL: test_evidence_ledger_uses_fixed_statuses_and_resolvable_paths (test_portfolio_analysis.PortfolioAnalysisTests.test_evidence_ledger_uses_fixed_statuses_and_resolvable_paths)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<REPO>/tests/test_portfolio_analysis.py", line 90, in test_evidence_ledger_uses_fixed_statuses_and_resolvable_paths
+    self.assertTrue(set(ledger["status"]).issubset(allowed))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 110 tests in 6.819s
+
+FAILED (failures=1)

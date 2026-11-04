@@ -1,0 +1,20 @@
+{
+  "purpose": "Current working-version consistency; refreshed after documented final revisions. Old V4 Release Manifest and assertions unchanged.",
+  "source_head": "00e4cd3ac5781b808b17045d92760a0f9128b5bf",
+  "files": {
+    "README.md": "f64b084ec0dcd5e77f58b96dcd3beeffb7ef95141f004d43550b2d97c7d16f93",
+    "paper/WATERSENSE_AI_MANUSCRIPT.md": "8babd43a9d01df4aec1246c8b1892bab3fb243b1956467d0e6a8e614125d83dd",
+    "research_extension/EXTERNAL_COMPATIBILITY_PROTOCOL.md": "313316f61b2800ae7e8ca066b62d7ef330f535296a75a40c3105bc86c108a2cb",
+    "admissions/ECOLE_POLYTECHNIQUE.md": "faaf43d6a672df6db258897559ce39de9311db96d52b7e01648f5f1fd4e39ad1",
+    "admissions/PSL_IBSAI.md": "88de3544aa254e779ae603c3a2027355d3e0d3f7c6234411841f73f5f079983f",
+    "admissions/TECHNICAL_INTERVIEW_QA.md": "bfe38b5e44e724509660a58954c58319e17c554d10e9d7959b38309cb8402899",
+    "audits/evidence_breakthrough/EXTERNAL_COMPATIBILITY_REPORT.md": "97a23c4766fd8b5b8d1e689e31245feb588d217f0eea70965b33c7ea86e55589",
+    "scripts/audit_ea_compatibility.py": "27f5a85b36b3ea3a0552f97639d7d91ba6b17a73e6ee9a17bb887a59f65136dc",
+    "scripts/reproduce_recovered_history.py": "3c5176abc5d9cf541c5daed45b0b58f43abc196c6c7421165fe018a0b2bd68f7",
+    "scripts/validate_ni2025.py": "deeb044aa794a43cbf603e6d670c994364cfa504ce22ecf74b1e108fb81f7b61",
+    "research_extension/NI2025_CONFIRMATION_PROTOCOL.md": "7e81854c4a33bfede3d1d80c81712e83d2ede6fcf0194a989e690590592c2491",
+    "research_extension/ni2025_confirmation/FREEZE.json": "59b68ed8c9177a3a40b3a421ec74364fb4c929d7dd3dbe55d5e7a88e388ad2cd",
+    "research_extension/ni2025_confirmation/RESULTS.json": "d0dd0971aea20e3658cbb169fb7f22764629df49730996e9398a28e91730fd38",
+    "research_extension/ni2025_confirmation/TEMPORAL_CONFIRMATION_REPORT.md": "8219d38eb7440616b9114f2118adec876b1fffcf835a7eeb707fb367250598f3"
+  }
+}

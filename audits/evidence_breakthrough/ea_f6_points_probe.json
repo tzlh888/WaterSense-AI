@@ -1,0 +1,14 @@
+{
+  "name": "ea_f6_open_points.json",
+  "url": "https://environment.data.gov.uk/water-quality/sampling-point?samplingPointType=F6&samplingPointStatus=O&limit=10",
+  "retrieved_utc": "2026-11-03T13:32:19.306790+00:00",
+  "curl_exit": 0,
+  "http_status": "200",
+  "stderr": "",
+  "headers": {
+    "Accept": "application/ld+json",
+    "API-Version": "1"
+  },
+  "bytes": 12646,
+  "sha256": "92326e8097c76d74f20a936737ee92ea8f2474d53096e30f1624daf2466bcc54"
+}

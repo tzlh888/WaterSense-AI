@@ -1,0 +1,80 @@
+[
+  {
+    "url": "https://doi.org/10.1023/A:1010933404324",
+    "retrieved_utc": "2026-11-04T13:29:59.530302+00:00",
+    "status": "UNVERIFIED",
+    "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>"
+  },
+  {
+    "url": "https://doi.org/10.1080/01621459.2017.1307116",
+    "retrieved_utc": "2026-11-04T13:29:59.530545+00:00",
+    "status": "UNVERIFIED",
+    "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>"
+  },
+  {
+    "url": "https://doi.org/10.1111/ecog.02881",
+    "retrieved_utc": "2026-11-04T13:29:59.530806+00:00",
+    "status": "UNVERIFIED",
+    "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>"
+  },
+  {
+    "url": "https://doi.org/10.1111/j.1467-9868.2007.00593.x",
+    "retrieved_utc": "2026-11-04T13:29:59.530980+00:00",
+    "status": "UNVERIFIED",
+    "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>"
+  },
+  {
+    "url": "https://doi.org/10.1111/j.1467-9876.2009.00701.x",
+    "retrieved_utc": "2026-11-04T13:29:59.531184+00:00",
+    "status": "UNVERIFIED",
+    "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>"
+  },
+  {
+    "url": "https://doi.org/10.1371/journal.pone.0118432",
+    "retrieved_utc": "2026-11-04T13:29:59.531386+00:00",
+    "status": "UNVERIFIED",
+    "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>"
+  },
+  {
+    "url": "https://www.daera-ni.gov.uk/articles/crown-copyright-daera",
+    "retrieved_utc": "2026-11-04T13:29:59.569455+00:00",
+    "status": "UNVERIFIED",
+    "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>"
+  },
+  {
+    "url": "https://www.daera-ni.gov.uk/publications/daera26-784-river-water-quality-monitoring-data-all-northern-ireland-2025",
+    "retrieved_utc": "2026-11-04T13:29:59.569539+00:00",
+    "status": "UNVERIFIED",
+    "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>"
+  },
+  {
+    "url": "https://www.daera-ni.gov.uk/sites/default/files/2026-10/DAERA%2026-784%20-%20Annex%20A.CSV",
+    "retrieved_utc": "2026-11-04T13:29:59.570658+00:00",
+    "status": "UNVERIFIED",
+    "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>"
+  },
+  {
+    "url": "https://www.data.gov.uk/dataset/15ec8080-ee1c-469b-858e-546d2fb57c27/riverwaterqualitymonitoring-1990to2024-allparameters13",
+    "retrieved_utc": "2026-11-04T13:29:59.570829+00:00",
+    "status": "UNVERIFIED",
+    "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>"
+  },
+  {
+    "url": "https://www.data.gov.uk/dataset/583e771f-1af6-4934-b8f0-28f1d1ddd48c/water-quality-explorer",
+    "retrieved_utc": "2026-11-04T13:29:59.570883+00:00",
+    "status": "UNVERIFIED",
+    "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>"
+  },
+  {
+    "url": "https://www.jmlr.org/papers/v12/pedregosa11a.html",
+    "retrieved_utc": "2026-11-04T13:29:59.579821+00:00",
+    "status": "UNVERIFIED",
+    "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>"
+  },
+  {
+    "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "retrieved_utc": "2026-11-04T13:29:59.653313+00:00",
+    "status": "UNVERIFIED",
+    "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>"
+  }
+]

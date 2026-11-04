@@ -1,0 +1,17 @@
+{
+  "git_head": "18cf7d713f135d9308b8f1ce50c006bcbe2c12cd",
+  "python": "3.14.0 (v3.14.0:ebf955df7a8, Oct  7 2025, 08:20:14) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "joblib": "1.6.0"
+  },
+  "source_hashes": {
+    "scripts/finalize_evidence_audit.py": "47b09076f5f6834aeee5b8118b967e1f135d144b65520a5482ece7d6c760a23a",
+    "scripts/run_evidence_breakthrough_checks.py": "e457ce3d7ce934d21d85681249781246da03e354d1afbf952c6bdcea1d9b1357",
+    "scripts/investigate_evidence_sources.py": "85ac56ca7a3a7b9d37acc6d62fd119ab530d9e0e448fe61ac0699b3dafffa2a9"
+  }
+}

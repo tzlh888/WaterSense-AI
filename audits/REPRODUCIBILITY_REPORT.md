@@ -1,0 +1,65 @@
+# Reproducibility report
+
+**Latest evidence:** exact source recovery, cleaned-artifact hashes and fixed
+Phase4 replay are now verified. The main suite has 108 passes without skips;
+the unchanged historical V4 suite retains one archive mismatch and seven passes.
+See the [current version report](evidence_breakthrough/VERSION_CONSISTENCY_REPORT.md).
+Prior sprint failures/skips below are historical execution records, not current
+raw-data availability. The separate 2025 temporal test is complete; full V3
+search rerunning and cross-region confirmation remain uncompleted.
+
+## Final sprint correction and expanded coverage
+
+The [sprint reproduction audit](sprint/REPRODUCTION_STATUS.md) supersedes the
+old counts below: main suite has 94 individual tests (92 passes, two individual
+skips) and one skipped four-test class. A separate historical V4 suite has six
+passes, one failure and one error. The old 87-of-90 figure incorrectly subtracted
+a class setup skip as if it were an executed test. Current raw reconstruction
+remains blocked. Full commands, environment and outcomes are retained.
+
+## Current status
+
+**Artifact-level reproduction: COMPLETE. Full raw-data reconstruction: BLOCKED.**
+
+The portfolio extension requires only committed, checksum-verified OOF
+predictions and runs without model fitting:
+
+```bash
+python3 scripts/run_portfolio_analysis.py
+python3 -m unittest tests.test_portfolio_analysis -v
+```
+
+The run verifies the two frozen input hashes, exact V3/V4 row membership, target
+agreement, strict low-DO labels, unique identities, and station-fold separation.
+It then regenerates all extension tables, figures, report text, and a hash
+manifest.
+
+## Test evidence on 2026-11-03
+
+- New portfolio tests: **6/6 passed**.
+- Full discovered suite: **90 tests run, 87 passed, 3 skipped, 0 failed**.
+- The three skips require exact ignored
+  `data/processed/water_quality_modeling.csv` research data. Data-dependent
+  tests now distinguish unavailable fixtures from code failures, consistently
+  with the existing historical-data integration gate.
+- Recovery was attempted. Python HTTPS failed certificate verification and the
+  system client reached the frozen URL but received HTTP 500. No nonmatching
+  source file was installed.
+
+## Reproduction levels
+
+| Level | Status | Requirement |
+|---|---|---|
+| Recompute portfolio metrics/figures | COMPLETE | Fresh clone and declared Python dependencies. |
+| Verify frozen V3/V4 identity | COMPLETE | Committed compressed prediction files. |
+| Load historical deployed model | COMPLETE | Git LFS object is present and hash-verified; loading joblib requires trusting the repository. |
+| Rebuild exact processed data | BLOCKED | Frozen public raw export or exact lawful copy. |
+| Rerun historical model searches | PARTIAL | Code/config exist; exact raw data and substantial compute required. Not needed for artifact verification. |
+| Independent scientific replication | BLOCKED | New compatible non-overlapping population. |
+
+## Preservation check
+
+Baseline commit `c2ab7b4` had tree
+`b8e7fd922c68ed737f254f135cbf99cdd08864ac`. Historical V1–V4 files remain
+unchanged; verification is performed by comparing the feature branch against
+that tree and by rechecking protected hashes.
