@@ -35,6 +35,19 @@ More: [Sensitivity and source check](research_extension/final_release/POST_HOC_S
 5. The official data checked in V4 were not independent of historical data, so external evaluation was correctly stopped.
 6. A historical report omitted weight 2 from the written candidate list; an additive erratum corrects the documentation without rewriting the record.
 
+## Limitations that must remain visible
+
+- There is no independent external confirmation.
+- Data come from one regional monitoring programme.
+- Temperature, flow, and catchment context are missing.
+- Repeated observations and reused splits are statistically dependent.
+- V3 does not isolate the full outer effect of weighting alone.
+- V4 uses a different objective and reused development data.
+- Time-slice analysis is descriptive, not a forecast evaluation.
+- No application owner has supplied a defensible false-negative/false-positive cost ratio.
+- The system is not validated for warnings, regulation, or deployment.
+- The applicant's exact independent contribution requires human confirmation.
+
 ## Use of AI tools
 
 WaterSense AI is an educational research project. AI systems provided substantial assistance with implementation, testing, analysis, writing, visualization, and auditing. The repository does not present AI-generated work as unaided human work, and personal contribution language remains subject to owner verification.
@@ -43,7 +56,7 @@ The [research contribution statement](research_upgrade_v3/final_closeout/RESEARC
 
 ## Removed files and older records
 
-Some earlier files were removed from the current tree: school-specific application drafts, contribution checklists and interview rehearsal templates. They remain in this repository's git history, in commits up to `8342c0d`. Several older audit records (for example `audits/EVIDENCE_LEDGER.csv`, the `ARTIFACT_MANIFEST.json` files and two scripts under `scripts/`) still refer to those paths or record their hashes. Those records are left unchanged on purpose, so they stay accurate for the commits they describe.
+Some earlier files were removed from the current tree: school-specific application drafts, contribution checklists, interview rehearsal templates, and the `audits/admissions_release_gate/` directory (internal release-check logs and review reports). They remain in this repository's git history, in commits up to `8342c0d`. Several older audit records (for example `audits/EVIDENCE_LEDGER.csv`, the `ARTIFACT_MANIFEST.json` files and two scripts under `scripts/`) still refer to those paths or record their hashes. Those records are left unchanged on purpose, so they stay accurate for the commits they describe.
 
 ## Data
 
