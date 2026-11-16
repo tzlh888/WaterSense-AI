@@ -56,7 +56,7 @@ The [research contribution statement](research_upgrade_v3/final_closeout/RESEARC
 
 ## Removed files and older records
 
-Some earlier files were removed from the current tree: school-specific application drafts, contribution checklists, interview rehearsal templates, and the `audits/admissions_release_gate/` directory (internal release-check logs and review reports). They remain in this repository's git history, in commits up to `8342c0d`. Several older audit records (for example `audits/EVIDENCE_LEDGER.csv`, the `ARTIFACT_MANIFEST.json` files and two scripts under `scripts/`) still refer to those paths or record their hashes. Those records are left unchanged on purpose, so they stay accurate for the commits they describe.
+Some earlier files were removed from the current tree: school-specific application drafts, contribution checklists, interview rehearsal templates, and the `audits/admissions_release_gate/` directory (internal release-check logs and review reports). They remain in this repository's git history, in commits up to and including `ac5f570`, the last commit on `main` before this cleanup. Several older audit records (for example `audits/EVIDENCE_LEDGER.csv`, the `ARTIFACT_MANIFEST.json` files and two scripts under `scripts/`) still refer to those paths or record their hashes. Those records are left unchanged on purpose, so they stay accurate for the commits they describe.
 
 ## Data
 
