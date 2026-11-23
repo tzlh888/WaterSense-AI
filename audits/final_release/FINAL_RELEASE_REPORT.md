@@ -85,9 +85,9 @@ Python 首次下载因本机证书链失败，记录保留；系统 curl 使用�
 原始 CSV 仍被忽略，新增站点表不含采样人员信息，不添加机构标志或地图素材。
 启发式文本扫描不代替本人最终隐私审阅。
 
-## 申请人确认及 PR
+## 作者自述及 PR
 
-[个人贡献清单](../../admissions/OWNER_CONTRIBUTION_CONFIRMATION.md)按真实提交和会话记录
+个人贡献清单 (moved to a private archive; see docs/HISTORY_NOTE.md) 按真实提交和会话记录
 区分用户方向性要求、AI 执行和未知的个人工作。Git 作者名不能充当真实性证明。
 第一人称 CV/口述仅为待确认模板，尚不建议原样提交申请。
 

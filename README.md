@@ -17,6 +17,47 @@ and false alarms.
 | New-period confirmation | **2025 NIEA: 3,490 rows / 494 stations; low-DO recall 15%** |
 | Independent-region / V3 confirmation | **Outstanding** |
 
+### In plain words
+
+Rivers can run short of oxygen, and these rare low-oxygen events matter most
+for fish and ecosystems. This project asks whether routine water-chemistry
+measurements can estimate dissolved oxygen at monitoring stations a model has
+never seen. The main finding is a trade-off: catching more low-oxygen events
+also produced more false alarms, so the "better" model is not simply better.
+
+## Author and contributions
+
+The idea for this project came from a team discussion at the SDG OpenHack
+hackathon in December 2025 (participation certificate; no award). I kept
+exploring it on my own and started building this repository at the end of
+September 2026, with substantial help from AI tools. I want to be precise about
+who did what.
+
+**My role**
+- Set the overall direction: using machine learning on public river-quality
+  data, with dissolved oxygen as the target.
+- Refined the research questions together with AI assistants, and decided which
+  directions to pursue (generalisation across stations, across time, and both).
+- Wrote the requirements, experiment plans and acceptance criteria that the AI
+  tools implemented, and coordinated the project across versions.
+- Ran the test suites myself in the terminal, opened the raw data and output
+  files, and reviewed the AI-written result summaries and figures.
+- Decided how the results are reported, including presenting the V3 result as
+  a trade-off and keeping the V4 negative result.
+
+**What AI tools did**
+- Codex Desktop generated most of the code, tests, experiment runs, figures and
+  documentation.
+- ChatGPT supported research discussion, experiment design and result analysis.
+  The station-grouped evaluation was proposed during these AI-assisted
+  discussions; I did not identify the leakage problem on my own.
+- Claude helped review and draft the disclosure files.
+
+I did not write the core model code myself. What I learned from this project is
+why evaluation design and honest reporting matter, and that I need stronger
+mathematical and programming foundations to do this kind of work independently.
+See [CONTRIBUTIONS.md](CONTRIBUTIONS.md) and [AI_DISCLOSURE.md](AI_DISCLOSURE.md).
+
 **New reproduction evidence:** the official raw CSV, rebuilt modelling table
 and cleaning audit now match all three frozen hashes. Refitting the historical
 Phase4 model reproduces its 31,341-row predictions within `1e-10` mg/L and
@@ -167,7 +208,7 @@ distributions; lower overall MAE does not establish better low-DO reliability.
 | Can the analysis be rerun? | [Reproducibility report](audits/REPRODUCIBILITY_REPORT.md) |
 | What is the complete research narrative? | [Portfolio manuscript](paper/WATERSENSE_AI_MANUSCRIPT.md) |
 | What was new in the extension? | [Analysis protocol](research_extension/ANALYSIS_PROTOCOL.md) |
-| What still requires human confirmation? | [Task-specific contribution checklist](admissions/OWNER_CONTRIBUTION_CONFIRMATION.md) |
+| What did the author personally contribute? | [Contributions](CONTRIBUTIONS.md) · [AI disclosure](AI_DISCLOSURE.md) |
 | Is this version ready for review? | [Local Draft PR preparation](audits/final_release/DRAFT_PR.md) |
 
 Evidence order matters: V3 is the primary frozen development result; V4 and the
@@ -217,7 +258,7 @@ records the new test run separately from the archived V4 manifest and failures.
 - Feature importance is predictive association, not causation.
 - No defensible operational false-negative/false-positive cost has been set.
 - The model is not validated for warnings, regulation, safety, or deployment.
-- Applicant-specific personal contribution requires owner confirmation.
+- Task-level personal contribution is self-reported only; see [CONTRIBUTIONS.md](CONTRIBUTIONS.md).
 - The 2025 target-missing selection and sparse event-station support limit
   population claims; post-hoc source-value diagnostics do not replace main results.
 
@@ -227,7 +268,8 @@ records the new test run separately from the archived V4 manifest and failures.
 paper/                 consolidated research manuscript
 audits/                evidence ledger, integrity, reproducibility, evaluation
 research_extension/    protocol, generated tables, report, artifact manifest
-admissions/             school-specific briefs and interview preparation
+CONTRIBUTIONS.md        self-reported contribution statement
+AI_DISCLOSURE.md        AI tools used and how
 figures/                verified portfolio visualizations
 src/ and scripts/       analysis and historical experiment code
 tests/                  automated boundary and metric checks
@@ -242,11 +284,9 @@ updated by V3, V4, or the portfolio extension.
 
 ## Transparency
 
-WaterSense AI is an educational research project. AI systems provided
-substantial assistance with implementation, testing, analysis, writing,
-visualization, and auditing. The repository does not present AI-generated work
-as unaided human work, and personal contribution language remains subject to
-owner verification.
+AI tools did substantial parts of the implementation, testing, analysis and
+writing; the section "Author and contributions" above describes my role.
+I take responsibility for the conclusions stated in this repository.
 
 Public environmental data retain their source terms:
 [data attribution and reuse boundaries](docs/DATA_REUSE_AND_RELEASE.md).

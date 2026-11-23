@@ -50,10 +50,10 @@ files match baseline c2ab7b4 bytes (the LFS model is checked by SHA-256).
 ## Remaining blockers
 
 Independent external validation requires authorized compatible non-overlapping
-data and the existing frozen evaluation gate. Applicant-specific contribution
-requires owner authentication. Neither can be supplied by artifact arithmetic.
+data and the existing frozen evaluation gate. The author's task-level contribution
+is self-reported and cannot be independently authenticated. Neither can be supplied by artifact arithmetic.
 
-## Owner confirmations
+## Author self-report items
 
 1. Identify personally performed and independently checked code, analysis and
    interpretation tasks before using first-person CV/interview language.

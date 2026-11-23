@@ -110,5 +110,5 @@ Beyond standard blocked validation, the sprint tests a concrete explanation for
 rare-event concentration (sampling volume), adds paired uncertainty to decision
 costs, and shows how temporal case mix complicates apparent progress. It does
 not introduce an algorithm or establish transportability. External confirmation,
-physical covariates, a real loss policy and authenticated applicant contribution
+physical covariates, a real loss policy and independently authenticated author contribution
 remain missing.
