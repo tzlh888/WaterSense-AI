@@ -19,14 +19,14 @@ test limitations rather than preserving the previous 85–88 band.
 
 Sampling controls, paired cost intervals and case-mix analysis strengthen
 statistical reasoning. They do not create external independence or authenticate
-the applicant. Reproducibility loses credit because source data are absent and
+the author's contribution. Reproducibility loses credit because source data are absent and
 the separate historical release suite has a failure and an error. Originality
 is a careful application/synthesis, not an algorithmic breakthrough.
 
 ## Highest-impact gaps and feasible response
 
 1. External population absent — BLOCKED pending compatible authorized data.
-2. Personal work unauthenticated — BLOCKED pending owner contribution record.
+2. Personal work unauthenticated — BLOCKED: self-reported by the author only (see CONTRIBUTIONS.md).
 3. Source integrations unavailable — BLOCKED pending exact lawful raw export.
 4. Null benchmark omits temporal correlation — addressed by restricted claims,
    clear null assumptions and minimum-count sensitivities; cannot infer a
@@ -47,11 +47,11 @@ can close gaps 1–3. The target is partly reached, not forced.
 | 2 Reproduction evidence loop | PARTIAL | Frozen metric/identity/hash checks and full logs complete; raw integrations and old release manifest unresolved. |
 | 3 Cluster uncertainty / costs / time | COMPLETE | 5000 paired whole-station draws, all model pairs, fixed costs, temporal composition table and figures. |
 | 4 Manuscript | COMPLETE | Methods, numerical intervals, sampling controls, true references and bounded increment integrated. |
-| 5 Admissions materials | COMPLETE | README and two school briefs/CV supplements updated; personal language retains owner gate. |
+| 5 Admissions materials | COMPLETE | README and two school briefs/CV supplements updated; personal language is marked as self-reported by the author. |
 | 6 Final review | COMPLETE | Failures and skips disclosed, 269 historical artifacts byte-checked, fixed rubric applied. |
 | Independent external validation | BLOCKED | No eligible independent dataset evaluated. |
-| Human contribution authentication | BLOCKED | Requires owner statement and defensible examples. |
+| Human contribution authentication | BLOCKED | Self-reported by the author; defensible examples required. |
 | Push / PR / merge / release | NOT STARTED | No authorization inferred. |
 
 See [REPRODUCTION_STATUS](REPRODUCTION_STATUS.md) for exact skipped-test impacts
-and the owner confirmation list.
+and the author self-report items.

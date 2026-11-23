@@ -3,7 +3,7 @@
 **Manuscript status:** research portfolio manuscript; not peer-reviewed,
 published or accepted; acquired 2025 same-programme temporal evidence is
 distinct from outstanding cross-region validation.
-**Author:** `[OWNER TO CONFIRM NAME AND CONTRIBUTION BEFORE SUBMISSION]`
+**Author:** Tang Zeluohe. Contribution and AI use: see CONTRIBUTIONS.md and AI_DISCLOSURE.md.
 
 ## Abstract
 
@@ -35,8 +35,8 @@ newly acquired 2025 records (3,490 rows, 494 stations) gives the historical
 Phase4 model MAE 0.6432 mg/L but recall only 0.15 (3/20 low-DO observations).
 Only nine stations contain low-DO events; precision 1.00 rests on three positive
 predictions at one station. Cross-region confirmation, independent validation
-of V3 weighting, real decision costs and owner-verified contribution remain
-outstanding. DO is missing in 2,590/6,080 source rows (42.60%), so these
+of V3 weighting, real decision costs and independent verification of the author's
+self-reported contribution remain outstanding. DO is missing in 2,590/6,080 source rows (42.60%), so these
 2025 estimates are conditional on observed targets, not the entire programme.
 
 ## 1. Introduction
@@ -488,7 +488,7 @@ prove that the model has improved over time and does not support forecasting.
 11. Cross-region validation and confirmation of V3 weighting remain absent;
     the 2025 same-programme test has just nine low-DO stations and one detected
     station; its complete-target selection excludes 42.60% of source rows.
-12. Applicant-specific personal contribution has not yet been authenticated.
+12. The author's task-level contribution is self-reported and has not been independently authenticated.
 13. Local freeze timestamps are not independent proof of the first inference;
     the 94 mg/L source value is unresolved and its omission is post hoc.
 
@@ -560,15 +560,6 @@ development artifacts does not create statistical independence.
 
 ## 15. AI Assistance and Contribution Disclosure
 
-AI systems provided substantial assistance with coding, testing, statistical
-checks, figure generation, prose drafting, repository auditing, and portfolio
-organization. No claim is made that the work was completed without AI.
+The idea for this project came from a team discussion at the SDG OpenHack hackathon in December 2025; the author, Tang Zeluohe, continued it alone and built this repository from the end of September 2026. AI tools generated most of the code, tests and documentation, and also produced the statistical analyses, figures and repository audits, from requirements the author described in natural language: Codex for code and experiments, ChatGPT for research discussion, and Claude for reviewing the disclosure files. The station-grouped evaluation was proposed during AI-assisted discussions. The author did not read all code line by line, did not write the core model code, does not claim to have originated any specific method, and does not claim to have independently reproduced the results. The author ran the test suites, opened the raw data and output files, and reviewed the AI-written summaries and figures. No claim is made that the work was completed without AI.
 
-`[OWNER CONFIRMATION REQUIRED: identify the research questions, design choices,
-code, analyses, interpretations, and revisions personally performed or
-independently verified by the applicant before using first-person authorship
-language.]`
-
-The scientific claims in this manuscript are limited to traceable repository
-artifacts. AI assistance does not substitute for owner review or external peer
-review.
+The scientific claims in this manuscript are limited to traceable repository artifacts. Task-level contributions are self-reported only; see CONTRIBUTIONS.md and AI_DISCLOSURE.md. AI assistance does not substitute for external peer review.

@@ -18,7 +18,7 @@ nonofficial simulations—not admissions predictions or university ratings.
 | Statistical rigor | 15 | 16 | Grouped nested CV, cluster bootstrap, denominators, sensitivity and bounded inference. |
 | Reproducibility | 13 | 14 | Frozen rows, hashes, tests, manifests and regeneration; exact raw recovery unavailable. |
 | Technical depth | 12 | 13 | Multiple model families, validation regimes, attribution and automated audits. |
-| Evidence of personal contribution | 4 | 10 | AI assistance is transparent but applicant-specific contribution remains unauthenticated. |
+| Evidence of personal contribution | 4 | 10 | AI assistance is transparent; the author's task-level contribution is self-reported and not independently authenticated. |
 | Communication quality | 9 | 10 | Consistent manuscript, README, figures and evidence map. |
 | Admissions relevance | 9 | 10 | Strong demonstration of scientific judgment at undergraduate level. |
 | **Total** | **85** | **100** | Very strong, with decisive evidence boundaries. |
@@ -32,7 +32,7 @@ nonofficial simulations—not admissions predictions or university ratings.
 | Statistical rigor | 15 | 16 | Dependence-aware validation and explicit limits are unusually strong for undergraduate work. |
 | Reproducibility | 13 | 14 | Exact artifact reconstruction and green suite; raw source gate remains external. |
 | Technical depth | 12 | 13 | Substantial implementation, model comparison and audit depth without unnecessary complexity. |
-| Evidence of personal contribution | 4 | 10 | The largest admissions risk; owner attestation is missing. |
+| Evidence of personal contribution | 4 | 10 | The largest admissions risk; the author's contribution is self-reported only. |
 | Communication quality | 9 | 10 | Mathematical reasoning is visible without inventing advanced derivations. |
 | Admissions relevance | 9 | 10 | Strong fit for applied mathematics, statistics and computer science. |
 | **Total** | **86** | **100** | Strong but dependent on a credible oral defense and contribution confirmation. |
@@ -55,8 +55,9 @@ nonofficial simulations—not admissions predictions or university ratings.
 
 1. **No independent external confirmation.** A frozen model needs a compatible,
    non-overlapping later-period or different-region dataset.
-2. **Applicant-specific contribution is unverified.** The owner must document
-   personally chosen questions, decisions, code, checks, and revisions.
+2. **The author's task-level contribution is self-reported.** The author's own
+   record of questions, decisions, code, checks, and revisions is in
+   CONTRIBUTIONS.md and is not independently verified.
 3. **Exact raw reconstruction is temporarily blocked.** The official endpoint
    failed, leaving three full-data tests skipped in the fresh clone.
 4. **Important physics is absent.** Temperature, flow/discharge, and catchment
@@ -67,5 +68,5 @@ nonofficial simulations—not admissions predictions or university ratings.
 Safe improvements for points 3–5 were implemented where evidence allowed:
 fixture-aware integration gates, a balanced-station time sensitivity, explicit
 cost crossings, professional figures, and a complete evidence ledger. Points 1
-and 2 require new external evidence or direct owner attestation and cannot be
+and 2 require new external evidence or the author's own statement and cannot be
 resolved autonomously without weakening research integrity.

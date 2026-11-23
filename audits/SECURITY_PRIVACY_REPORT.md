@@ -5,7 +5,7 @@
 Checks on 2026-11-03 found no private keys, common cloud access-key patterns,
 committed Streamlit secrets, new absolute user paths, or oversized files in the
 new portfolio directories. All new analysis inputs are already committed public
-research artifacts. No raw source data, credentials, personal applicant data,
+research artifacts. No raw source data, credentials, personal data about the author,
 or unpublished application text was added.
 
 The Git LFS joblib file retains its historical SHA-256. Loading joblib can

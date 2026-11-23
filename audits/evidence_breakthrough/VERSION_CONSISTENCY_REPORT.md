@@ -51,6 +51,6 @@ A draft PR for review is reasonable once the owner authorizes a push. Recommend
 reviewing and accepting the scope as recovery, compatibility and acquired
 2025 temporal evaluation. Do not represent it as cross-region validation or
 independent confirmation of V3 weighting.
-Main merge should follow owner review of personal attribution and acceptance of
+Main merge should follow the author's review of personal attribution and acceptance of
 the explicitly retained historical archive-test failure. No automatic push,
 PR creation, merge, deployment or publication occurred.

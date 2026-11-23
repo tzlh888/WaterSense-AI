@@ -33,6 +33,6 @@ one error. Raw/source validation and human attribution remain blocked.
 | Three simulated evaluations | COMPLETE | `audits/QUALITY_SCORECARDS.md` |
 | Full test suite | COMPLETE | 90 run; 87 passed; 3 data-availability skips; 0 failed. |
 | Raw/processed data reconstruction | BLOCKED | Official frozen export endpoint unavailable. |
-| Applicant contribution confirmation | BLOCKED | Requires owner attestation. |
+| Author contribution statement | BLOCKED | Self-reported by the author; see CONTRIBUTIONS.md. Not independently verifiable. |
 | Pull request | NOT STARTED | No remote push or PR authorization was inferred. |
 | Merge/release/deployment/submission | NOT STARTED | Explicitly prohibited without owner authorization. |

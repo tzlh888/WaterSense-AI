@@ -52,8 +52,8 @@ and cannot be interpreted as prospective robustness.
   additive W02 erratum; frozen code and candidate counts support `{1,2,4,8}`.
 - The outer V3 difference cannot be attributed solely to weighting because the
   model family and hyperparameters also change.
-- Applicant-specific contribution remains unverified. Every admissions document
-  marks personal language as awaiting owner confirmation.
+- The author's task-level contribution is self-reported (CONTRIBUTIONS.md) and
+  not independently verified.
 - No deployment, regulatory, safety, forecasting, publication, peer-review, or
   admissions-outcome claim is supported.
 
@@ -67,5 +67,5 @@ and cannot be interpreted as prospective robustness.
 | Raw/processed reconstruction | BLOCKED | Official endpoint unavailable. |
 | External validation | BLOCKED | No eligible compatible independent data evaluated. |
 | Weight-only causal attribution | PARTIAL | Matched inner evidence is exploratory. |
-| Applicant contribution attribution | BLOCKED | Owner attestation required. |
+| Author contribution attribution | BLOCKED | Self-reported by the author; not independently verifiable. |
 | Deployment readiness | NOT STARTED | Outside supported evidence and authorization. |

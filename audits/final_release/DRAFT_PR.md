@@ -23,7 +23,7 @@ timestamps and log hashes. It cannot independently establish inference start
 or exclude earlier unrecorded inference; no third-party preregistration claim
 is made. Historical V4 release assertions and protected artifacts remain
 unchanged. Code, manuscript, README, evidence ledger and school drafts disclose
-AI assistance and require applicant confirmation of personal contributions.
+AI assistance and mark personal contributions as self-reported by the author.
 
 Validation: current main suite 110 passed, zero skipped; unchanged V4 suite
 7 passed / 1 failed, reproduced on baseline c2ab7b4. The failure is the archived
@@ -46,7 +46,7 @@ environment and integrity records are in audits/final_release.
 
 **Ready for a Draft PR review after explicit owner authorization to create it.**
 Do not merge automatically. Merge should wait for independent human review,
-explicit acceptance of the documented legacy V4 failure, and the owner's
+explicit acceptance of the documented legacy V4 failure, and the author's
 contribution/privacy review. Cross-region validation and a reliable rare-event
 warning model remain unresolved research problems, not claims this PR closes.
 
